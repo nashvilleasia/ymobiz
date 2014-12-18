@@ -1,0 +1,71 @@
+    /*ymo-card-details*/
+    .ymo-super .ymo-card-details{
+        border-bottom: none;
+        padding-right: 0px;
+    }
+
+    .ymo-super-emission .ymo-card-details{
+        padding-right: 0px;
+        border-bottom: 1px solid #aaaaaa;
+    }
+
+
+    .ymo-super-emission .ymo-card-details .ymo-btn-logout{
+        float: right;
+    }
+
+    .ymo-super .ymo-card-details .ymo-btn-logout{
+        margin-bottom: 10px;
+        padding: 5px 17px;
+    }
+    /*ymo-card-details*/
+
+
+    /*ymo-card-list*/
+    .ymo-super .ymo-card-list .ymo-btn-light-pink {
+        font-size: 0.87em;
+        padding: 5px 7px;
+        margin-top: 0px;
+    }
+    /*ymo-card-list*/
+
+
+    /*ymo-card-form*/
+    .ymo-super .ymo-card-form{
+        margin-top: 0px;
+    }
+
+
+    .ymo-super .ymo-card-form h2{
+        font-family: 'microsoft_tai_leregular';
+    }
+    /*ymo-card-form*/
+
+
+    /*ymo-card-documents*/
+    .ymo-super .ymo-card-documents{
+        margin-top: 10px;
+    }
+
+
+    .ymo-super .ymo-card-documents ul{
+        padding-left: 15px;
+    }
+
+
+    .ymo-super .ymo-card-documents hr{
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .ymo-super .ymo-card-documents .ymo-see-more{
+        margin-left: 140px;
+    }
+    /*ymo-card-documents*/
+
+
+    /*ymo-members*/
+    .ymo-super .ymo-members .ymo-btn-light-pink{
+        padding: 5px 7px;
+    }
+    /*ymo-members*/

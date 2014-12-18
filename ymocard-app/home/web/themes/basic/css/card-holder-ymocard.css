@@ -1,0 +1,136 @@
+    /*page index*/
+    /*ymo-card-list*/
+    .ymo-card-list .ymo-btn-light-pink{
+        font-size: 0.87em;
+        padding: 5px 5px;
+        margin-top: 2px;
+    }
+    /*ymo-card-list*/
+    /*page index*/
+
+
+    /*page order*/
+    /*ymo-card-order*/
+    .ymo-card-order .ymo-input{
+        border-radius: 0px;
+    }
+
+
+    .ymo-card-order .ymo-card-form{
+        margin-top: 20px;
+    }
+
+
+    .ymo-card-order .ymo-card-form > h2{
+        font-family: 'microsoft_tai_leregular';
+    }
+
+
+    .ymo-card-order .ymo-card-form .ymo-registration{
+        width: 100%;
+        float: left;
+        padding: 10px 0px;
+    }
+
+
+    .ymo-card-order .ymo-card-form .ymo-btn-light-pink{
+        padding: 8px 20px;
+    }
+    /*ymo-card-order*/
+    /*page order*/
+
+
+    /* Extra small devices (phones, less than 768px) */
+    /* No media query since this is the default in Bootstrap */
+
+    /* Small devices (tablets, 768px and down)*/
+    @media (max-width: 767px) {
+        .container{
+            width: 100%;
+        }
+
+
+        .ymo-card-list h2{
+            width: 100%;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+
+        .ymo-card-list .ymo-btn-light-pink{
+            width: 100%;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+
+        .ymo-search select {
+            margin-bottom: 10px;
+        }
+
+
+        .ymo-group {
+            width: 100%;
+            float: left;
+        }
+
+
+        .ymo-card-form li {
+             padding-right: 36px;
+         }
+    }
+
+    /* Small devices (tablets, 768px and up)*/
+    @media (min-width: 768px) and (max-width: 991px) and (max-width: 1200px) {
+        .container{
+            width: 100%;
+        }
+
+
+        .ymo-card-list {
+            padding-bottom: 20px;
+        }
+
+
+        .ymo-card-list h2 {
+            float: left;
+        }
+
+
+        .ymo-card-list .ymo-btn-light-pink {
+            float: right;
+        }
+
+
+        .ymo-search select {
+             margin-bottom: 10px;
+         }
+
+
+        .ymo-group {
+            width: 100%;
+            float: left;
+        }
+    }
+
+    /* Medium devices (desktops, 992px and up)*/
+    @media (min-width: 992px) {
+        .container{
+            width: 100%;
+            max-width: 992px;
+            padding-left: 0px;
+        }
+
+
+    }
+
+    /* Large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1200px) {
+        .container{
+            width: 100%;
+            max-width: 1200px;
+            padding-right: 0px;
+        }
+
+
+    }

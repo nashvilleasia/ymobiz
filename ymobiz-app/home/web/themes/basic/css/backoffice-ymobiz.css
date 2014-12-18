@@ -1,0 +1,1169 @@
+/*HEADER BACKOFFICE*/
+    .ymo-menuymobiz{
+        height: 27px;
+        float: left;
+        padding: 5px 0 0 33px;
+        margin-right: 15px;
+        background: url(../img/icons/global_off.png) no-repeat;
+        cursor: pointer;
+    }
+
+
+    .ymo-menuymobiz:hover{
+        background: url(../img/icons/global_on.png) no-repeat;
+        text-decoration: none;
+        color: #038dd5;
+    }
+
+
+    .ymo-menu-user{
+        height: 27px;
+        float: left;
+        padding: 5px 0 0 30px;
+        background: url(../img/icons/crm_off.png) no-repeat;
+        cursor: pointer;
+    }
+
+
+    .ymo-menu-user:hover{
+        background: url(../img/icons/crm_on.png) no-repeat;
+        text-decoration: none;
+        color: #038dd5;
+    }
+    
+    
+    /* content */
+    .ymo-backoffice .ymo-icon-statistics{
+        top: 5px;
+        position: relative;
+    }
+
+
+    .ymo-backoffice .ymo-icon-client{
+        top: 8px;
+        position: relative;
+    }
+
+
+    .ymo-backoffice  .ymo-icon-contact{
+    	top: 6px;
+        position: relative;
+    }
+    
+
+
+    .ymo-backoffice .ymo-aside{
+        padding: 0 10px 10px 10px;
+    }
+    
+
+
+    .ymo-backoffice .ymo-column-left,
+    .ymo-backoffice .ymo-column-center,
+    .ymo-backoffice .ymo-column-right{
+        margin-top: 20px;
+        margin-bottom: 0px;
+        outline: 1px solid #f00;
+    }
+
+
+
+    .ymo-backoffice .ymo-column-left h4{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        margin: 0px 0 15px 0;
+        padding-left: 10px;
+    }
+
+
+    .ymo-backoffice .ymo-statistics-left {
+        width: 147px;
+        margin-bottom: 0px;
+    }
+    
+    .ymo-backoffice .ymo-statistics-right:last-child{
+        margin-bottom: 0px;
+    }
+    
+    
+    .ymo-backoffice .ymo-statistics-total p{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+        float: left;
+        padding: 15px 10px 0px 0px;
+    }
+
+    .ymo-backoffice .ymo-statistics-total h4{
+        font-size: 1.50em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0f94d9;
+        float: left;
+    }
+    
+    
+     /*ymobiz-user */
+    .ymo-backoffice .ymo-column-center h3{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        margin: 0px 0 20px 0;
+        padding-left: 10px;
+    }
+
+
+	/*ymobiz-messages */
+    .ymo-messages .ymo-aside-left{
+    	margin-top: 37px;
+    }
+
+
+    .ymo-messages .checkbox-group{
+        float: left;
+        margin: 0px;
+        padding-right: 5px;
+    }
+
+
+    .ymo-messages .ymo-table-list p{
+    	width: 192px;
+		padding-top: 0px;
+		margin: 3px 5px 0px 0;
+    }
+
+
+    .ymo-messages .ymo-table-list tbody > tr > td .ymo-time{
+        font-size: 0.75em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+        padding-top: 7px;
+        float: right;
+        margin-bottom: 0px;
+    }
+    
+    
+	.ymo-messages .ymo-sidebar{
+		background: transparent;
+		min-height: 406px;
+		padding: 10px;
+		border: none;
+	}
+    
+    
+	.ymo-messages .ymo-estimated hr{
+		margin: 10px 0;
+	}
+
+
+    .ymo-messages .ymo-menu-left{
+        margin: 10px 10px 0px 0;
+    }
+    
+    
+    /*user-sidebar*/
+	 .ymo-user-log .ymo-icon-client,
+	 .ymo-user-log .ymo-icon-company{
+        top: 4px;
+    }
+
+
+    .ymo-user-log .ymo-list-show{
+        width: 100%;
+        left: 0px;
+        display: none;
+    }
+
+
+    .ymo-user-log .ymo-table-list tbody > tr{
+        width: 100%;
+        display: table;
+        padding-right: 0px;
+    }
+
+
+    .ymo-user-log .ymo-table-list tbody > tr > td {
+        width: 100%;
+        padding: 8px;
+    }
+
+
+    .ymo-user-log .ymo-table-list .arrow-down,
+    .ymo-user-log .ymo-table-list .arrow-up{
+        float: right;
+		top: 9px;
+		position: relative;
+		cursor: pointer;
+    }
+
+
+    .ymo-user-log .ymo-list-show tr:hover{
+        background: none;
+    }
+
+
+    .ymo-user-log .ymo-table-list .ymo-user-details{
+        padding-left: 30px;
+        margin-bottom: 5px;
+    }
+
+
+    .ymo-user-log .ymo-table-list .ymo-user-details p{
+        color: #038dd5;
+    }
+
+
+    .ymo-user-log .ymo-table-list tbody > tr > td span{
+        width: auto;
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        float: left;
+        padding: 5px 5px 0 0;
+        margin-bottom: 0px;
+    }
+    
+    
+    .ymo-user-log .ymo-table-list .ymo-view{
+        margin-top: 0px;
+    }
+
+
+    .ymo-user-log .ymo-list-show .ymo-user-company{
+        margin: 8px 0px;
+    }
+    
+    
+    /*user-log*/
+    .ymo-user-log .ymo-menu-left{
+		width: 200px;
+		margin-right: 10px;
+	}
+    
+    
+    .ymo-user-log .ymo-menu-right{
+		width: 375px;
+	}
+
+
+    .ymo-user-log select{
+		width: 150px;
+        height: 26px;
+		padding: 0px 4px;
+    }
+    
+    
+    .ymo-user-log .ymo-icon-contact{
+        top: 2px;
+        position: relative;
+    }
+    
+    
+    /* .ymo-user-log .ymo-table-footer .ymo-btn-pink,
+    .ymo-new-messages .ymo-table-footer .ymo-btn-pink{
+        float: right;
+    }
+
+
+    .ymo-new-messages .ymo-table-footer ul {
+        margin-right: 0px;
+    } */
+
+
+    .ymo-table-user{
+        float: left;
+        margin: 0px;
+    }
+
+
+    .ymo-table-user tbody > tr{
+        border-bottom: 1px solid #aaaaaa;
+    }
+
+
+    .ymo-table-user tbody > tr:last-child{
+        border-bottom: none;
+    }
+
+
+    .ymo-table-user tbody > tr:hover{
+        background: #e2ecf4;
+    }
+
+
+    .ymo-table-user tbody > tr > td{
+        height: 40px;
+    }
+
+
+    .ymo-table-user .ymo-arrow{
+        width: 17px;
+        height: 18px;
+        float: left;
+        margin: 5px 12px 0 0;
+    }
+
+
+    .ymo-table-user .ymo-image-user{
+        width: 26px;
+        height: 26px;
+        float: left;
+        margin-right: 2px;
+    }
+
+
+    .ymo-table-user span{
+        width: 70px;
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        float: left;
+        text-align: center;
+        margin-right: 35px;
+        padding-top: 6px;
+    }
+
+
+    .ymo-table-user .ymo-description{
+        width: 325px;
+        float: left;
+        margin-right: 15px;
+    }
+
+
+    .ymo-table-user p{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        float: left;
+        padding-top: 5px;
+        margin-bottom: 0px;
+    }
+
+
+    .ymo-table-user strong{
+        color: #d42596;
+        font-weight: normal;
+    }
+
+
+    .ymo-table-user .ymo-global-icon{
+        width: 17px;
+        height: 17px;
+        float: left;
+        margin-top: 5px;
+        margin-right: 8px;
+    }
+
+
+	/*user-statistics*/
+    .ymo-column-statistics{
+        width: 100%;
+        padding: 10px 0 10px 10px;
+        float: left;
+        margin-bottom: 10px;
+    }
+
+
+    .ymo-column-statistics:last-child{
+        margin-bottom: 0px;
+    }
+    
+    
+    .ymo-column-statistics .ymo-statistics-left {
+    	width: 135px;
+		margin: 0 8px 0px 0;
+	}
+	
+	
+	.ymo-column-statistics .ymo-statistics{
+		width: 135px;
+		margin: 0 8px 0px 0;
+		padding: 7px 5px 6px 5px;
+		float: left;
+		outline: 1px solid #aaaaaa;
+	}
+
+
+    .ymo-column-statistics .ymo-statistics p{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+        text-align: center;
+    }
+
+
+    .ymo-column-statistics .ymo-statistics h4{
+        font-size: 1.50em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0f94d9;
+        text-align: center;
+    }
+
+
+    .ymo-charttime{
+        width: 192px;
+        height: 102px;
+        float: left;
+    }
+
+
+    .ymo-timeweekly{
+        width: 527px;
+        height: 99px;
+        margin-left: 10px;
+    }
+    
+    
+
+
+    .ymo-worldmap{
+        width: 498px;
+        height: 279px;
+        float: right;
+    }
+
+
+    .ymo-center-column{
+        margin-top: 25px;
+    }
+
+
+    .ymo-backoffice .ymo-center-column .ymo-timeweekly{
+        margin-left: 0px;
+    }
+
+
+    .ymo-backoffice .ymo-center-column .ymo-timeweekly{
+        margin-left: 0px;
+    }
+
+
+    .ymo-backoffice .ymo-center-column h4{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        margin: 0px 0 15px 0;
+    }
+
+
+    .ymo-chart-pie{
+        width: 215px;
+        height: 104px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+   /*  .ymo-messages a{
+        float: right;
+        margin-right: 16px;
+    }
+     */
+
+    /* .ymo-messages .ymo-right-list{
+    	float: right;
+    }
+    
+
+    .ymo-messages .ymo-right-list li{
+    	float: right;
+    }
+
+
+    .ymo-messages .ymo-general{
+        border: 1px solid #aaaaaa;
+        background: #ffffff;
+		width: 610px;
+		height: 521px;
+		float: right;
+		padding: 10px 5px 10px 10px;
+		margin-left: 16px;
+		margin-bottom: 10px;
+    }
+
+
+    .ymo-messages .ymo-title-mail img{
+        float: left;
+        margin-right: 10px;
+    }
+
+
+    .ymo-messages .ymo-title-mail h4{
+        font-size: 1.12em;
+        font-family:'microsoft_tai_leregular';
+        color: #787878;
+        float: left;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+
+
+    .ymo-messages .ymo-title-mail span {
+        font-size: 0.75em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+        padding-top: 8px;
+        float: right;
+        margin-bottom: 0px;
+    }
+
+
+    .ymo-messages .ymo-text-mail p{
+        font-size: 0.87em;
+        font-family:'microsoft_tai_leregular';
+        color: #aaaaaa;
+        float: left;
+        margin: 15px 0 0px 0;
+    }
+    
+
+
+    .ymo-messages .ymo-campaigns-list p{
+        font-size: 0.87em;
+        font-family:'microsoft_tai_leregular';
+        color: #aaaaaa;
+        text-align: center;
+        float: left;
+        margin: 15px 0 0px 0;
+    }
+
+
+    .ymo-new-messages .ymo-icon-email{
+        margin-top: 3px;
+    }
+
+
+    .ymo-new-messages .ymo-icon-save {
+        margin-top: 4px;
+    }
+
+
+    .ymo-new-messages .ymo-icon-attachment{
+        margin-left: 14px;
+        top: 2px;
+        position: relative;
+    }
+    
+     */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+/*content
+    .ymo-backoffice .ymo-right-list{
+    	float: right;
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+    
+    
+    .ymo-backoffice .ymo-right-list li{
+    	float: right;
+    }*//* 
+
+
+    .ymo-backoffice .ymo-icon-statistics{
+        top: 8px;
+        position: relative;
+        text-decoration: none;
+    }
+
+
+    .ymo-backoffice .ymo-icon-client{
+        top: 8px;
+    }
+
+
+    .ymo-backoffice  .ymo-icon-contact{
+        margin-top: 12px;
+    } 
+
+
+    .ymo-backoffice .ymo-body-center{
+        padding-top: 0px;
+    }
+
+
+    .ymo-backoffice .ymo-table-business {
+        height: 424px;
+    }
+
+
+    .ymo-backoffice .ymo-business-background {
+        min-height: 423px;
+        padding: 0px 10px 10px 10px;
+    }*/
+
+
+    /* .ymo-backoffice .ymo-column-left,
+    .ymo-backoffice .ymo-column-center,
+    .ymo-backoffice .ymo-column-right{
+        margin-top: 20px;
+    }
+
+
+
+    .ymo-backoffice .ymo-column-left h4{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        margin: 0px 0 15px 0;
+        padding-left: 10px;
+    }
+
+
+    .ymo-backoffice .ymo-box-statistics {
+        width: 142px;
+        margin: 0 10px 10px 0;
+        padding: 20px 5px;
+        float: left;
+        outline: 1px solid #aaaaaa;
+    }
+
+
+    .ymo-backoffice .ymo-box-statistics-right{
+        width: 148px;
+        margin-bottom: 10px;
+        padding: 20px 5px;
+        float: left;
+        outline: 1px solid #aaaaaa;
+    }
+
+    .ymo-backoffice .ymo-box-statistics p,
+    .ymo-backoffice .ymo-box-statistics-right p{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+        text-align: center;
+    }
+
+    .ymo-backoffice .ymo-box-statistics h4,
+    .ymo-backoffice .ymo-box-statistics-right h4{
+        font-size: 1.50em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0f94d9;
+        text-align: center;
+    } */
+
+    /* .ymo-backoffice .ymo-statistics-total p{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+        float: left;
+        padding: 15px 10px 0px 0px;
+    }
+
+    .ymo-backoffice .ymo-statistics-total h4{
+        font-size: 1.50em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0f94d9;
+        float: left;
+    } *//* 
+
+
+    .ymo-messages .ymo-table-footer ul {
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+
+    .ymo-messages{
+    }
+
+
+    .ymo-messages .ymo-table-list{
+    	margin-top: 37px;
+        border: 1px solid #aaaaaa;
+        background: #ffffff;
+    }
+
+
+    .ymo-messages .ymo-table-list tbody > tr {
+        padding-right: 0px;
+        border-bottom: 1px solid #aaaaaa;
+    }
+
+
+    .ymo-messages .ymo-table-list tbody > tr:hover{
+        background: #e1ebf4;
+    }
+
+
+    .ymo-messages .ymo-table-list tbody > tr:last-child{
+        border-bottom: none;
+    }
+
+
+    .ymo-messages .ymo-table-list .checkbox {
+        float: left;
+        margin: 0px;
+        padding-right: 5px;
+    }
+
+
+    .ymo-messages .ymo-table-list p{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        float: left;
+        width: 187px;
+		padding-top: 4px;
+		margin-bottom: 0px;
+    }
+
+
+    .ymo-messages .ymo-table-list tbody > tr > td span {
+        font-size: 0.75em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+        padding-top: 8px;
+        float: right;
+        margin-bottom: 0px;
+    }
+
+
+    .ymo-messages a{
+        float: right;
+        margin-right: 16px;
+    }
+    
+
+    .ymo-messages .ymo-right-list{
+    	float: right;
+    }
+    
+
+    .ymo-messages .ymo-right-list li{
+    	float: right;
+    }
+
+
+    .ymo-messages .ymo-general{
+        border: 1px solid #aaaaaa;
+        background: #ffffff;
+		width: 610px;
+		height: 521px;
+		float: right;
+		padding: 10px 5px 10px 10px;
+		margin-left: 16px;
+		margin-bottom: 10px;
+    }
+
+
+    .ymo-messages .ymo-title-mail img{
+        float: left;
+        margin-right: 10px;
+    }
+
+
+    .ymo-messages .ymo-title-mail h4{
+        font-size: 1.12em;
+        font-family:'microsoft_tai_leregular';
+        color: #787878;
+        float: left;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+
+
+    .ymo-messages .ymo-title-mail span {
+        font-size: 0.75em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+        padding-top: 8px;
+        float: right;
+        margin-bottom: 0px;
+    }
+
+
+    .ymo-messages .ymo-text-mail p{
+        font-size: 0.87em;
+        font-family:'microsoft_tai_leregular';
+        color: #aaaaaa;
+        float: left;
+        margin: 15px 0 0px 0;
+    }
+    
+
+
+    .ymo-messages .ymo-campaigns-list p{
+        font-size: 0.87em;
+        font-family:'microsoft_tai_leregular';
+        color: #aaaaaa;
+        text-align: center;
+        float: left;
+        margin: 15px 0 0px 0;
+    }
+
+
+    .ymo-new-messages .ymo-icon-email{
+        margin-top: 3px;
+    }
+
+
+    .ymo-new-messages .ymo-icon-save {
+        margin-top: 4px;
+    }
+
+
+    .ymo-new-messages .ymo-icon-attachment{
+        margin-left: 14px;
+        top: 2px;
+        position: relative;
+    } */
+/* 
+
+    .ymo-user-log .ymo-left-marketing{
+        top: 6px;
+    }
+
+
+    .ymo-user-log .ymo-icon-company{
+        top: 4px;
+    }
+
+
+    .ymo-user-log .ymo-list-show{
+        width: 100%;
+        left: 0px;
+    }
+
+
+    .ymo-user-log .ymo-table-list tbody > tr{
+        width: 100%;
+        display: table;
+        padding-right: 0px;
+    }
+
+
+    .ymo-user-log .ymo-table-list tbody > tr > td {
+        width: 100%;
+        padding: 8px;
+    }
+
+
+    .ymo-user-log .ymo-list-show tr:hover{
+        background: none;
+    }
+
+
+    .ymo-user-log .ymo-table-list .ymo-user-details{
+        padding-left: 30px;
+        margin-bottom: 5px;
+    }
+
+
+    .ymo-user-log .ymo-table-list .ymo-user-details p{
+        color: #038dd5;
+    }
+
+
+    .ymo-user-log .ymo-table-list tbody > tr > td span{
+        width: auto;
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        float: left;
+        padding: 5px 5px 0 0;
+        margin-bottom: 0px;
+    }
+
+
+    .ymo-user-log .ymo-table-list .ymo-icon-dropdown{
+        width: 8px;
+        height: 6px;
+        float: right;
+        margin: 10px 5px 0 0;
+    }
+
+
+    .ymo-user-log .ymo-list-show .ymo-user-company{
+        margin: 8px 0px;
+    }
+
+
+    .ymo-icon-log{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        height: 17px;
+        float: left;
+        padding: 2px 0 0 20px;
+        margin-right: 20px;
+        position: relative;
+        top: 8px;
+        background: url(../img/icons/log_off.png) no-repeat;
+        cursor: pointer;
+    }
+
+
+    .ymo-icon-log:hover{
+        background: url(../img/icons/log_on.png) no-repeat;
+        color: #038dd5;
+        text-decoration: none;
+    }
+
+
+    .ymo-user-log .ymo-icon-contact{
+        top: 4px;
+        position: relative;
+    }
+
+
+    .ymo-user-log .ymo-table-list a{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d42596;
+        float: right;
+        padding: 3px 10px 0 0;
+    }
+
+
+    .ymo-user-log select{
+        height: 30px;
+    } */
+
+
+    /*.ymo-user-log .ymo-table-footer ul {
+        margin-right: 0px;
+    }*/
+/* 
+    .ymo-user-log .ymo-table-footer .ymo-btn-pink,
+    .ymo-new-messages .ymo-table-footer .ymo-btn-pink{
+        float: right;
+    }
+
+
+    .ymo-new-messages .ymo-table-footer ul {
+        margin-right: 0px;
+    }
+
+
+    .ymo-table-user{
+        float: left;
+        margin: 0px;
+    }
+
+
+    .ymo-table-user tbody > tr{
+        border-bottom: 1px solid #aaaaaa;
+    }
+
+
+    .ymo-table-user tbody > tr:last-child{
+        border-bottom: none;
+    }
+
+
+    .ymo-table-user tbody > tr:hover{
+        background: #e2ecf4;
+    }
+
+
+    .ymo-table-user tbody > tr > td{
+        height: 40px;
+    }
+
+
+    .ymo-table-user .ymo-arrow{
+        width: 17px;
+        height: 18px;
+        float: left;
+        margin: 5px 12px 0 0;
+    }
+
+
+    .ymo-table-user .ymo-image-user{
+        width: 26px;
+        height: 26px;
+        float: left;
+        margin-right: 2px;
+    }
+
+
+    .ymo-table-user span{
+        width: 70px;
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        float: left;
+        text-align: center;
+        margin-right: 35px;
+        padding-top: 6px;
+    }
+
+
+    .ymo-table-user .ymo-description{
+        width: 325px;
+        float: left;
+        margin-right: 15px;
+    }
+
+
+    .ymo-table-user p{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        float: left;
+        padding-top: 5px;
+        margin-bottom: 0px;
+    }
+
+
+    .ymo-table-user strong{
+        color: #d42596;
+        font-weight: normal;
+    }
+
+
+    .ymo-table-user .ymo-global-icon{
+        width: 17px;
+        height: 17px;
+        float: left;
+        margin-top: 5px;
+        margin-right: 8px;
+    }
+
+
+    .ymo-column-statistics{
+        width: 570px;
+        float: left;
+        margin-bottom: 10px;
+    }
+
+
+    .ymo-column-statistics:last-child{
+        margin-bottom: 0px;
+    } */
+
+
+    /*.ymo-user-statistics .ymo-box-statistics {
+        width: 130px;
+        margin: 0 10px 10px 0;
+        padding: 20px 5px;
+        float: left;
+        outline: 1px solid #aaaaaa;
+    }*/
+
+    /* .ymo-user-statistics .ymo-box-statistics{
+        width: 23.6%;
+        margin: 0 10px 0px 0px;
+        padding: 20px 5px;
+        float: left;
+        display: block;
+        outline: 1px solid #aaaaaa;
+    }
+
+    .ymo-user-statistics .ymo-box-statistics:last-child{
+        margin-right: 0px;
+    }
+
+    .ymo-user-statistics .ymo-box-statistics p{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+
+    .ymo-user-statistics .ymo-box-statistics h4{
+        font-size: 1.50em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0f94d9;
+        text-align: center;
+    }
+
+
+    .ymo-charttime{
+        width: 192px;
+        height: 102px;
+        margin-left: 30px;
+    }
+
+
+    .ymo-timeweekly{
+        width: 527px;
+        height: 99px;
+        margin-left: 10px;
+    }
+
+
+    .ymo-worldmap{
+        width: 498px;
+        height: 279px;
+        float: right;
+    }
+
+
+    .ymo-center-column{
+        margin-top: 25px;
+    }
+
+
+    .ymo-backoffice .ymo-center-column .ymo-timeweekly{
+        margin-left: 0px;
+    }
+
+
+    .ymo-backoffice .ymo-center-column .ymo-timeweekly{
+        margin-left: 0px;
+    }
+
+
+    .ymo-backoffice .ymo-center-column h4{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        margin: 0px 0 15px 0;
+    }
+
+
+    .ymo-chart-pie{
+        width: 215px;
+        height: 104px;
+    } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

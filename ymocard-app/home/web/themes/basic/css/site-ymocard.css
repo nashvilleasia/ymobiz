@@ -1,0 +1,625 @@
+
+
+
+    /*body*/
+    .ymo-body{
+        margin-top: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    /*ymo-image*/
+    .ymo-image{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    .ymo-image .ymo-banner{
+        width: 824px;
+        height: 463px;
+        position: relative;
+        background: url("../img/image.png") no-repeat;
+    }
+
+
+    .ymo-image .ymo-image-girl{
+        float: left;
+        position: relative;
+        z-index: 50;
+        left: 40px;
+    }
+
+
+    .ymo-image .ymo-image-video{
+        position: relative;
+        z-index: 100;
+        width: 340px;
+        right: -340px;
+        top: 90px;
+        height: 240px;
+    }
+    /*ymo-image*/
+
+
+    /*ymo-info-icons*/
+    .ymo-info-icons{
+        float: left;
+        margin-top: 50px;
+    }
+
+
+    .ymo-info-icons ul{
+    }
+
+
+    .ymo-info-icons li{
+        list-style: none;
+        margin-right: 39px;
+    }
+
+
+    .ymo-info-icons li:last-child{
+        margin-right: 0px;
+    }
+
+
+    .ymo-info-icons .ymo-icon p{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_lebold';
+        color: #787878;
+        text-align: center;
+        padding-top: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    /*ymo-info-icons*/
+
+
+    /*ymo-header-bar*/
+    .ymo-header-bar{
+        height: 139px;
+        margin-top: -70px;
+        position: relative;
+        z-index: 10;
+        background: #8ed7fc; /* Old browsers */
+        background: -moz-linear-gradient(top,  #8ed7fc 0%, #79cffc 1%, #78cffc 2%, #77cefc 26%, #71cbfa 39%, #60c1f4 51%, #219fe0 79%, #1799dc 86%, #0e94d9 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8ed7fc), color-stop(1%,#79cffc), color-stop(2%,#78cffc), color-stop(26%,#77cefc), color-stop(39%,#71cbfa), color-stop(51%,#60c1f4), color-stop(79%,#219fe0), color-stop(86%,#1799dc), color-stop(100%,#0e94d9)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #8ed7fc 0%,#79cffc 1%,#78cffc 2%,#77cefc 26%,#71cbfa 39%,#60c1f4 51%,#219fe0 79%,#1799dc 86%,#0e94d9 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #8ed7fc 0%,#79cffc 1%,#78cffc 2%,#77cefc 26%,#71cbfa 39%,#60c1f4 51%,#219fe0 79%,#1799dc 86%,#0e94d9 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #8ed7fc 0%,#79cffc 1%,#78cffc 2%,#77cefc 26%,#71cbfa 39%,#60c1f4 51%,#219fe0 79%,#1799dc 86%,#0e94d9 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #8ed7fc 0%,#79cffc 1%,#78cffc 2%,#77cefc 26%,#71cbfa 39%,#60c1f4 51%,#219fe0 79%,#1799dc 86%,#0e94d9 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ed7fc', endColorstr='#0e94d9',GradientType=0 ); /* IE6-9 */
+    }
+
+
+    .ymo-header-bar .ymo-header-bar-image{
+        width: 970px;
+        height: 210px;
+        background: url("../img/header-bar.png") no-repeat;
+        background-position: center;
+        position: relative;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: auto;
+        float: inherit;
+    }
+
+
+    .ymo-header-bar .ymo-header-bar-image h1{
+        font-size: 3.4em;
+        font-family: 'microsoft_tai_lebold';
+        color: #ffffff;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+
+    .ymo-header-bar .ymo-header-bar-image h2{
+        font-size: 2.0em;
+        font-family: 'microsoft_tai_leregular';
+        color: #ffffff;
+        text-align: center;
+        margin-top: 0px;
+    }
+    /*ymo-header-bar*/
+
+
+    /*ymo-cards*/
+    .ymo-cards{
+        margin-top: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    .ymo-cards .ymo-image-cards{
+        text-align: right;
+        margin-top: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    .ymo-cards .ymo-info{
+        padding-right: 5px
+    }
+
+
+    .ymo-cards .ymo-info h4{
+        font-size: 2.8em;
+        font-family: 'microsoft_tai_lebold';
+        color: #0b8fd4;
+    }
+
+
+    .ymo-cards .ymo-info h4 span{
+        font-size: 0.3em;
+        top: -20px;
+        position: relative;
+    }
+
+
+    .ymo-cards .ymo-info h3{
+        font-size: 1.5em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+    }
+
+
+    .ymo-cards .ymo-info .ymo-link:hover{
+        text-decoration: underline;
+    }
+
+
+    .ymo-cards .ymo-info a{
+        font-size: 1.2em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d73e9e;
+    }
+
+
+    .ymo-cards .ymo-info a:hover{
+        text-decoration: none;
+    }
+
+
+    .ymo-cards .ymo-info .ymo-text2{
+        font-size: 1.7em;
+        font-family: 'microsoft_tai_lebold';
+        color: #0b8fd4;
+    }
+
+    .ymo-cards .ymo-info .ymo-btn-home{
+        width: 285px;
+        height: 90px;
+        background: url(../img/btn-seta.png) no-repeat;
+        font-size: 2.0em;
+        font-family: 'microsoft_tai_lebold';
+        color: #ffffff;
+        line-height: 1.0em;
+        padding-top: 13px;
+        padding-left: 20px;
+        padding-right: 0px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .ymo-cards .ymo-info .ymo-btn-home:hover{
+        width: 285px;
+        height: 90px;
+        background: url(../img/btn-seta-hover.png) no-repeat;
+    }
+    /*ymo-cards,
+        body*/
+
+
+    /*page learn more*/
+    .ymo-learn h2{
+        font-size: 2.25em;
+        font-family: 'microsoft_tai_lebold';
+        color: #0b8fd4;
+        text-align: justify;
+    }
+
+
+    .ymo-learn .ymo-text{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+        text-align: justify;
+    }
+
+
+    .ymo-learn strong{
+        color: #787878;
+        font-weight: normal;
+    }
+
+
+    .ymo-learn-cards ul{
+        margin-top: 40px;
+    }
+
+
+    .ymo-learn-cards li{
+        list-style: none;
+        height: 51px;
+        margin-top: 15px;
+    }
+
+
+    .ymo-learn-cards li img{
+        width: 46px;
+        float: left;
+    }
+
+
+    .ymo-learn-cards li p{
+        font-size: 0.75em;
+        font-family: 'microsoft_tai_lebold';
+        color: #787878;
+        padding-top: 15px;
+        margin-left: 55px;
+    }
+
+
+    .ymo-info2 .ymo-text{
+        margin-left: 40px;
+    }
+
+
+    .ymo-info2 .ymo-text h3{
+        font-size: 1.7em;
+        font-family: 'microsoft_tai_lebold';
+        color: #0b8fd4;
+        margin-top: 40px;
+    }
+
+    .ymo-info2 .ymo-btn-card{
+        width: 285px;
+        height: 90px;
+        background: url(../img/btn-seta.png) no-repeat;
+        font-size: 2.4em;
+        font-family: 'microsoft_tai_lebold';
+        color: #ffffff;
+        line-height: 1.0em;
+        padding-top: 13px;
+        padding-left: 20px;
+        padding-right: 0px;
+        margin-top: 30px;
+        margin-left: 0px;
+        cursor: pointer;
+    }
+
+    .ymo-info2 a:hover{
+        text-decoration: none;
+    }
+
+    .ymo-info2 .ymo-btn-card:hover{
+        width: 285px;
+        height: 90px;
+        background: url(../img/btn-seta-hover.png) no-repeat;
+    }
+    /*page learn more*/
+
+
+
+    /*page order*/
+    .ymo-order > h2{
+        font-family: 'microsoft_tai_lebold';
+        text-align: justify;
+    }
+
+
+    .ymo-order h2 span{
+        font-size: 0.4em;
+    }
+
+
+    .ymo-order > p{
+        margin-top: 10px;
+        color: #aaaaaa;
+        text-align: justify;
+    }
+
+
+    .ymo-order > p strong{
+        color: #0b8fd4;
+        font-weight: normal;
+    }
+
+
+    .ymo-order > p span{
+        font-size: 0.7em;
+        color: #ff0000;
+    }
+    /*pages order*/
+    /*pages order card*/
+
+
+    /* Extra small devices (phones, less than 768px) */
+    /* No media query since this is the default in Bootstrap */
+
+    /* Small devices (tablets, 768px and down)*/
+     @media (max-width: 767px) {
+         .container{
+             width: 100%;
+         }
+
+
+         .ymo-body .ymo-banner{
+             width: 380px;
+             height: 590px;
+             position: relative;
+             margin-bottom: 100px;
+             background: url("../img/image3.png") no-repeat;
+         }
+
+         .ymo-body .ymo-image .ymo-image-video{
+	         position: relative;
+	         z-index: 100;
+	         width: 340px;
+	         right: 6px;
+             top: 322px;
+             height: 240px;
+         }
+
+         .ymo-header-bar .ymo-header-bar-image{
+             width: auto;
+             background: none;
+             z-index: 10;
+         }
+
+         .ymo-header-bar .ymo-header-bar-image h1{
+             font-size: 2.4em;
+             margin-top: 21px;
+             padding: 0px 10px;
+         }
+
+         .ymo-header-bar .ymo-header-bar-image h2{
+             font-size: 1.2em;
+         }
+
+         .ymo-info-icons {
+             width: 100%;
+             margin: 0 auto;
+         }
+
+         .ymo-info-icons li {
+             margin-right: 0px;
+         }
+
+         .ymo-image-cards {
+             margin: 0 auto;
+         }
+
+
+         .ymo-image-cards img{
+             margin: 0 auto;
+         }
+
+
+         .ymo-body .ymo-info {
+             float: left;
+             text-align: center;
+         }
+
+
+         .ymo-cards .ymo-info .ymo-btn-home,
+         .ymo-info2 .ymo-btn-card{
+             background: -moz-linear-gradient(top,  rgba(207,57,152,0.99) 0%, rgba(207,50,149,0.99) 19%, rgba(209,19,140,1) 64%, rgba(210,2,133,1) 98%, rgba(210,1,133,0.97) 100%); /* FF3.6+ */
+             background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(207,57,152,0.99)), color-stop(19%,rgba(207,50,149,0.99)), color-stop(64%,rgba(209,19,140,1)), color-stop(98%,rgba(210,2,133,1)), color-stop(100%,rgba(210,1,133,0.97))); /* Chrome,Safari4+ */
+             background: -webkit-linear-gradient(top,  rgba(207,57,152,0.99) 0%,rgba(207,50,149,0.99) 19%,rgba(209,19,140,1) 64%,rgba(210,2,133,1) 98%,rgba(210,1,133,0.97) 100%); /* Chrome10+,Safari5.1+ */
+             background: -o-linear-gradient(top,  rgba(207,57,152,0.99) 0%,rgba(207,50,149,0.99) 19%,rgba(209,19,140,1) 64%,rgba(210,2,133,1) 98%,rgba(210,1,133,0.97) 100%); /* Opera 11.10+ */
+             background: -ms-linear-gradient(top,  rgba(207,57,152,0.99) 0%,rgba(207,50,149,0.99) 19%,rgba(209,19,140,1) 64%,rgba(210,2,133,1) 98%,rgba(210,1,133,0.97) 100%); /* IE10+ */
+             background: linear-gradient(to bottom,  rgba(207,57,152,0.99) 0%,rgba(207,50,149,0.99) 19%,rgba(209,19,140,1) 64%,rgba(210,2,133,1) 98%,rgba(210,1,133,0.97) 100%); /* W3C */
+             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fccf3998', endColorstr='#f7d20185',GradientType=0 ); /* IE6-9 */
+             margin: 0 auto;
+             text-align: center;
+             padding-left: 0px;
+             width: 260px;
+         }
+
+
+         .ymo-cards .ymo-info .ymo-btn-home:hover,
+         .ymo-info2 .ymo-btn-card:hover{
+             width: 260px;
+             background: -moz-linear-gradient(top,  rgba(210,1,133,0.97) 0%, rgba(210,2,133,1) 2%, rgba(209,19,140,1) 36%, rgba(207,50,149,0.99) 81%, rgba(207,57,152,0.99) 100%); /* FF3.6+ */
+             background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(210,1,133,0.97)), color-stop(2%,rgba(210,2,133,1)), color-stop(36%,rgba(209,19,140,1)), color-stop(81%,rgba(207,50,149,0.99)), color-stop(100%,rgba(207,57,152,0.99))); /* Chrome,Safari4+ */
+             background: -webkit-linear-gradient(top,  rgba(210,1,133,0.97) 0%,rgba(210,2,133,1) 2%,rgba(209,19,140,1) 36%,rgba(207,50,149,0.99) 81%,rgba(207,57,152,0.99) 100%); /* Chrome10+,Safari5.1+ */
+             background: -o-linear-gradient(top,  rgba(210,1,133,0.97) 0%,rgba(210,2,133,1) 2%,rgba(209,19,140,1) 36%,rgba(207,50,149,0.99) 81%,rgba(207,57,152,0.99) 100%); /* Opera 11.10+ */
+             background: -ms-linear-gradient(top,  rgba(210,1,133,0.97) 0%,rgba(210,2,133,1) 2%,rgba(209,19,140,1) 36%,rgba(207,50,149,0.99) 81%,rgba(207,57,152,0.99) 100%); /* IE10+ */
+             background: linear-gradient(to bottom,  rgba(210,1,133,0.97) 0%,rgba(210,2,133,1) 2%,rgba(209,19,140,1) 36%,rgba(207,50,149,0.99) 81%,rgba(207,57,152,0.99) 100%); /* W3C */
+             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7d20185', endColorstr='#fccf3998',GradientType=0 ); /* IE6-9 */
+         }
+
+
+         .ymo-info2 .ymo-text {
+             text-align: center;
+         }
+
+
+         .ymo-group {
+             width: 100%;
+             float: left;
+         }
+
+
+         .ymo-important .badge {
+             margin-top: 14px;
+         }
+
+
+         .ymo-important .ymo-text {
+             width: 353px;
+             height: 54px;
+             margin-top: 0px;
+             padding-top: 15px;
+         }
+
+
+         .ymo-important .ymo-text img {
+             float: left;
+             margin-left: -25px;
+             margin-top: 4px;
+         }
+
+         .ymo-card-form .ymo-btn-dark-pink {
+             margin-bottom: 30px;
+             width: 100%;
+             float: left;
+         }
+
+
+         .ymo-learn-cards{
+             float: left;
+             width: 100%;
+         }
+
+
+         .ymo-bank-transfer .ymo-title p {
+             width: 86%;
+             float: left;
+         }
+
+
+         .ymo-credit-card .badge {
+             bottom: 0px;
+         }
+     }
+
+    /* Small devices (tablets, 768px and up)*/
+    @media (min-width: 768px) and (max-width: 992px) and (max-width: 1200px) {
+        .container{
+            width: 100%;
+        }
+
+
+        .ymo-image .ymo-banner {
+            width: 552px;
+            height: 638px;
+            position: relative;
+            margin-bottom: 80px;
+            background: url("../img/image2.png") no-repeat;
+			background-position: 85px 17px;
+        }
+
+
+        .ymo-image .ymo-image-video {
+	        position: relative;
+	        z-index: 100;
+	        width: 340px;
+	        right: -79px;
+            top: 339px;
+            height: 240px;
+        }
+
+        .ymo-header-bar .ymo-header-bar-image {
+            width: 100%;
+            background: none;
+            position: relative;
+        }
+
+
+        .ymo-header-bar .ymo-header-bar-image h1 {
+            font-size: 3.0em;
+        }
+
+
+        .ymo-info-icons {
+            margin-top: 0px;
+        }
+
+
+        .ymo-info-icons li {
+            margin-right: 30px;
+        }
+
+
+        .ymo-group {
+            width: 100%;
+            float: left;
+        }
+
+        .ymo-card-form .ymo-btn-dark-pink {
+            margin-bottom: 30px;
+            width: 30%;
+            margin-right: 20px;
+            float: left;
+        }
+
+
+        .ymo-important .badge {
+            margin-top: 10px;
+            float: left;
+        }
+
+
+        .ymo-important .ymo-text {
+            width: 94%;
+            height: auto;
+            padding: 12px;
+            margin: 5px 0 10px 42px;
+        }
+
+
+        .ymo-important .ymo-text img {
+            display: none;
+        }
+
+
+        .ymo-important p{
+            margin-bottom: 0px;
+        }
+
+
+        .ymo-learn-cards{
+            float: left;
+        }
+
+
+        .ymo-bank-transfer .ymo-title p {
+            float: left;
+        }
+
+
+        .ymo-important .badge {
+            bottom: 0px;
+        }
+
+    }
+
+    /* Medium devices (desktops, 992px and up)*/
+    @media (min-width: 992px) {
+        .container{
+           width: 100%;
+           max-width: 992px;
+        }
+
+
+        .ymo-info2 .ymo-text h3 {
+            font-size: 2.2em;
+            margin-top: 29px;
+            margin-bottom: 0px;
+        }
+    }
+
+    /* Large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1200px) {
+        .container{
+            width: 100%;
+            max-width: 1200px;
+        }
+
+
+        .ymo-info2 .ymo-text h3 {
+            font-size: 2.4em;
+            margin-top: 23px;
+            margin-bottom: 0px;
+        }
+
+    }

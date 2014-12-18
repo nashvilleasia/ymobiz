@@ -1,0 +1,41 @@
+    /*ymo-card-list*/
+    .ymo-partner-seller .ymo-card-list .ymo-btn-light-pink{
+        padding: 5px 13px;
+        font-size: 0.87em;
+        margin-left: 14px;
+    }
+    /*ymo-card-list*/
+
+
+    /*ymo-card-details*/
+    .ymo-partner-seller .ymo-btn-light-pink{
+        padding: 8px 20px;
+        float: left;
+        font-family: 'microsoft_tai_leregular';
+    }
+    /*ymo-card-details*/
+
+
+    /*ymo-card*/
+    .ymo-partner-seller .ymo-card{
+        margin-top: 50px;
+        padding-left: 50px;
+    }
+
+
+    .ymo-partner-seller .ymo-card-form > h2 {
+        font-family: 'microsoft_tai_leregular';
+    }
+
+
+    .ymo-partner-seller .ymo-card-form{
+        margin-top: 0px;
+        padding-left: 50px;
+    }
+
+
+    .ymo-partner-seller .checkbox {
+        margin-top: 5px;
+        padding-left: 0px;
+    }
+    /*ymo-card*/

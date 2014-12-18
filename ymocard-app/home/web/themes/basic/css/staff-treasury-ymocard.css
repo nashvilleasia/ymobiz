@@ -1,0 +1,15 @@
+    /*ymo-card-details*/
+    .ymo-staff-treasury .ymo-card-details{
+        padding-right: 0px;
+    }
+
+
+    .ymo-staff-treasury .ymo-card-details:first-child{
+        border-bottom: none;
+    }
+
+
+    .ymo-staff-treasury .ymo-card-details .ymo-btn-logout{
+        float: right;
+    }
+    /*ymo-card-details*/

@@ -1,0 +1,23 @@
+    /*ymo-card-form*/
+    .ymo-partner .ymo-card-form{
+        padding-left: 50px;
+    }
+
+
+    .ymo-partner .ymo-card-form > h2{
+        font-family: 'microsoft_tai_leregular';
+    }
+
+
+    .ymo-partner .ymo-card-form .ymo-btn-light-pink{
+        padding: 8px 20px;
+        margin-top: 10px;
+    }
+    /*ymo-card-form*/
+
+
+    /*ymo-card-account*/
+    .ymo-partner .ymo-card-account {
+        margin-top: 0px;
+    }
+    /*ymo-card-account*/

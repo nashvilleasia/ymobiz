@@ -1,0 +1,808 @@
+/*HEADER BUSINESS*/
+	.ymo-menu-operation{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        height: 27px;
+        float: left;
+        padding: 5px 15px 0 30px;
+		margin-left: 15px;
+        background: url(../img/icons/operation_off.png) no-repeat;
+        cursor: pointer;
+    }
+
+
+	.ymo-menu-operation:hover{
+        background: url(../img/icons/operation_on.png) no-repeat;
+		text-decoration: none;
+		color: #038dd5;
+    }
+    
+    
+    .ymo-menu-finance{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        height: 27px;
+        float: left;
+        padding: 5px 15px 0 30px;
+		margin-left: 10px;
+        background: url(../img/icons/finance_off.png) no-repeat;
+        cursor: pointer;
+    }
+
+
+    .ymo-menu-finance:hover{
+        background: url(../img/icons/finance_on.png) no-repeat;
+		text-decoration: none;
+		color: #038dd5;
+    }
+    
+    
+    .ymo-menu-reports{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        height: 27px;
+        float: left;
+        padding: 5px 15px 0 30px;
+		margin-left: 10px;
+        background: url(../img/icons/reports_off.png) no-repeat;
+        cursor: pointer;
+    }
+
+
+    .ymo-menu-reports:hover{
+        background: url(../img/icons/reports_on.png) no-repeat;
+		text-decoration: none;
+		color: #038dd5;
+    }
+    
+    
+    /*content*/
+    .ymo-menu-center .ymo-center-left{
+    	width: 180px;
+    }
+    
+    
+    .ymo-footer-center .ymo-center-left{
+    	width: 200px;
+    }
+
+
+    .ymo-footer-center .ymo-icon-plus,
+    .ymo-footer-right .ymo-icon-plus{
+    	margin-top: 4px;
+    }
+    
+    
+    /*operation-invoices*/
+    .ymo-operation-invoices .ymo-table-account .ymo-operation-date,
+    .ymo-operation-invoices .ymo-table-account .ymo-operation-category,
+    .ymo-operation-invoices .ymo-table-account .ymo-operation-category{
+        width: 9%;
+        text-align: center;
+        padding-top: 12px;
+    }
+    
+    
+    
+	/*invoices-sidebar*/
+	.ymo-invoices-sidebar .ymo-table{
+		padding-top: 10px;
+	}
+	
+	
+	.ymo-invoices-sidebar .ymo-menu-edit li {
+		padding: 0px 30px;
+	}
+
+	
+	.ymo-invoices-sidebar hr{
+		width: 94%;
+		margin: 10px;
+	}
+
+
+    .ymo-invoices-sidebar .ymo-table-list {
+        border-top: 1px solid #aaaaaa;
+    }
+
+
+	/*invoices-articles*/
+    .ymo-invoices-sidebar .ymo-table-bloc{
+        width: 100%;
+        margin: 0px;
+    }
+
+
+    .ymo-invoices-sidebar .ymo-table-bloc tbody > tr > td{
+        margin-bottom: 0px;
+        padding: 0px 10px 0px 0px;
+    }
+
+
+    .ymo-invoices-sidebar .ymo-table-bloc img{
+        width: 52px;
+        height: 52px;
+        float: left;
+        margin: -1px 8px -1px -1px;
+        border: 1px solid #aaaaaa;
+    }
+
+
+    .ymo-invoices-sidebar .ymo-table-bloc h5{
+        width: 25%;
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #038dd5;
+        float: left;
+        margin: 0px;
+        padding: 15px 10px 5px 0;
+    }
+
+
+    .ymo-invoices-sidebar .ymo-table-bloc .checkbox-group{
+        float: left;
+        margin-top: 10px;
+    }
+
+
+    .ymo-invoices-sidebar .ymo-table-bloc h6{
+        width: 15%;
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        float: left;
+        margin: 0px;
+        padding: 15px 10px 0 0;
+    }
+
+
+    .ymo-invoices-sidebar .ymo-table-bloc .ymo-invoices-qty{
+        width: 28%;
+        float: right;
+        padding-top: 6px;
+    }
+
+
+    .ymo-invoices-sidebar .ymo-table-bloc .ymo-invoices-qty label{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        float: left;
+        padding-top: 7px;
+    }
+
+
+    .ymo-invoices-sidebar .ymo-table-bloc .ymo-invoices-qty input{
+        text-align: right;
+    }
+
+
+	/*invoices-options*/
+    .ymo-invoices-options{
+        padding: 0 10px 10px 10px;
+    }
+
+
+    .ymo-invoices-options label{
+         font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+        padding-left: 10px;
+        font-weight: normal;
+     }
+
+
+    .ymo-invoices-options .ymo-input-left,
+    .ymo-invoices-options .ymo-input-right{
+         width: 149px;
+     }
+
+
+    .ymo-invoices-options .ymo-icon-date{
+         background: url(../img/icons/date.png) no-repeat;
+         width: 18px;
+         height: 20px;
+         position: absolute;
+         right: 10px;
+         top: 30px;
+         background-color: transparent;
+         border: none;
+     }
+
+
+	/*invoices-table*/
+	.ymo-invoice-table .ymo-menu-left {
+		width: 200px;
+		margin-right: 10px;
+	}
+	
+	
+	.ymo-invoice-table .ymo-menu-right {
+		width: 375px;
+	}
+	
+
+    .ymo-invoice-table select{
+        height: 26px;
+        padding: 0px 8px;
+    }
+	
+
+    .ymo-invoice-table .ymo-aside{
+        padding: 10px;
+    }
+	
+
+    .ymo-invoice-table .ymo-blue-gradient{
+        float: right;
+        margin-left: 10px;
+		padding: 3px 30px;
+    }
+    
+    
+    /*operation-articles*/
+    .ymo-operation-articles .ymo-menu-edit li {
+		padding: 0px 18px;
+	}
+	
+	
+	.ymo-operation-articles hr{
+		margin: 10px 0px;
+	}
+	
+	
+	.ymo-operation-articles .ymo-blue-gradient{
+		position: relative;
+		width: 95px;
+		float: right;
+	}
+	
+	
+	.ymo-operation-articles .ymo-footer-left .ymo-search {
+		float: left;
+	}
+	
+
+    .ymo-table-bloc thead > tr > th{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+        font-weight: normal;
+        border-bottom: none;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+
+    .ymo-table-bloc .ymo-operation-image{
+         width: 10%;
+         text-align: left;
+    }
+
+
+    .ymo-table-bloc .ymo-operation-name{
+        width: 40%;
+        text-align: left;
+        padding-left: 0px;
+    }
+
+
+    .ymo-table-bloc .ymo-operation-status{
+        width: 13%;
+        text-align: center;
+    }
+
+
+    .ymo-table-bloc .ymo-operation-qty{
+        width: 10%;
+        text-align: center;
+    }
+
+
+    .ymo-table-bloc tbody .ymo-operation-price{
+        width: 12%;
+        text-align: right;
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        padding-right: 5px;
+    }
+
+
+    .ymo-table-bloc tbody > tr:hover{
+        background: #e1ebf4;
+    }
+
+
+    .ymo-table-bloc tbody > tr > td{
+        padding: 0px;
+    }
+
+
+    .ymo-table-bloc .ymo-operation-image img{
+        width: 52px;
+        height: 52px;
+        outline: 1px solid #b0b0b0;
+    }
+
+
+    .ymo-table-bloc .ymo-operation-name h5{
+        font-size: 1.00em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0d92d7;
+        margin: 0px;
+    }
+
+
+    .ymo-table-bloc .ymo-operation-name p,
+    .ymo-table-bloc tbody .ymo-operation-qty{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        margin: 0px;
+    }
+
+
+   .ymo-table-bloc .ymo-status-play img{
+        width: 15px;
+        height: 21px;
+        margin-right: 5px;
+    }
+    
+    
+    .ymo-table-bloc .ymo-status-pause img{
+        width: 18px;
+        height: 21px;
+    }
+
+
+	/*articles-image*/
+    .ymo-image-uploaded{
+        width: 136px;
+        height: 136px;
+        border: 1px solid #aaaaaa;
+        cursor: pointer;
+    }
+
+
+    .ymo-image-uploaded p{
+       font-size: 0.87em;
+       font-family: 'microsoft_tai_leregular';
+       color: #aaaaaa;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+
+    .ymo-article-image .ymo-blue-gradient{
+        width: 41.6%;
+		padding: 5px;
+    }
+
+
+	/*articles-promotion*/
+    .ymo-article-promotion .ymo-status {
+        position: static;
+    }
+
+
+	/*articles-preview*/
+    .ymo-article-preview img{
+        width: 90px;
+        height: 90px;
+        float: left;
+        margin-right: 6px;
+        border: 1px solid #aaaaaa;
+    }
+    
+
+    .ymo-article-preview  h4{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        float: left;
+        margin: 0px;
+        padding: 2px 10px 0 0;
+    }
+
+
+    .ymo-article-preview  span{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #038dd5;
+        margin-bottom: 5px;
+    }
+
+
+    .ymo-article-preview  p{
+        width: 100%;
+        font-size: 0.75em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        margin: 0px;
+    }
+    
+    
+    /*operation-ymocash*/
+    .ymo-operation-ymocash .ymo-operation-company{
+        width: 24%;
+    }
+    
+    
+    .ymo-operation-ymocash .ymo-operation-date{
+        padding-top: 13px; 
+    }
+
+
+    .ymo-balance{
+        float: right;
+        text-align: right;
+        position: relative;
+        bottom: -30px;
+    }
+
+
+    .ymo-balance img{
+        width: 18px;
+        height: 19px;
+        text-align: right;
+        margin-right: 5px;
+    }
+
+
+    .ymo-balance span{
+        font-size: 1.06em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        padding-right: 10px;
+    }
+
+
+	/*finance-receivables*/
+    .ymo-finance thead > tr > th{
+        float: left;
+        border: none;
+    }
+
+
+    .ymo-finance thead > tr > th select{
+        height: 30px;
+        padding: 4px 5px;
+    }
+
+
+    .ymo-finance thead > tr .ymo-finance-account{
+        width: 18%;
+        margin-left: 173px;
+    }
+
+
+    .ymo-finance thead > tr .ymo-finance-name,
+    .ymo-finance thead > tr .ymo-finance-ref{
+        width: 18%;
+        margin-left: 10px;
+    }
+
+
+    .ymo-finance thead > tr .ymo-finance-value{
+        width: 14%;
+        margin-left: 20px;
+    }
+
+
+    .ymo-finance thead > tr .ymo-finance-status{
+        width: 7%;
+        margin-left: 10px;
+    }
+
+
+    .ymo-finance thead > tr .ymo-finance-description{
+        width: 30%;
+    }
+
+
+    .ymo-finance thead > tr .ymo-finance-category{
+        width: 18%;
+        margin-left: 180px;
+    }
+
+
+    .ymo-finance thead > tr .ymo-finance-type{
+        width: 18%;
+        float: right;
+    }
+
+
+    .ymo-finance thead > tr th select{
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        font-weight: normal;
+    }
+
+
+    .ymo-finance thead > tr th input{
+        font-weight: normal;
+    }
+
+
+    .ymo-finance thead > tr,
+    .ymo-finance tbody > tr{
+    	width: 100%;
+    	display: table;
+        border-bottom: 1px solid #aaaaaa;
+    }
+
+
+    .ymo-finance tbody > tr:hover {
+        background: #e1ebf4;
+    }
+
+
+    .ymo-finance > tbody > tr > td{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+    }
+
+
+    .ymo-finance .ymo-finance-id{
+        width: 8%;
+    }
+
+
+    .ymo-finance .ymo-finance-date{
+        width: 10%;
+        text-align: center;
+    }
+
+
+    .ymo-finance .ymo-finance-account,
+    .ymo-finance .ymo-finance-name{
+        width: 20%;
+        text-align: center;
+    }
+
+
+    .ymo-finance .ymo-finance-ref{
+        width: 15%;
+        text-align: center;
+    }
+
+
+    .ymo-finance .ymo-finance-value{
+        width: 25%;
+        text-align: center;
+    }
+
+
+    .ymo-finance .ymo-finance-status{
+        width: 2%;
+        font-weight: bold;
+        color: #038dd5;
+        text-align: center;
+    }
+
+
+    .ymo-finance .ymo-id-description{
+        width: 4%;
+        padding-right: 0px;
+    }
+
+
+    .ymo-finance .ymo-finance-description{
+        width: 40%;
+    }
+
+
+    .ymo-finance .ymo-finance-category{
+        width: 30%;
+        text-align: center;
+    }
+
+
+
+    .ymo-finance .ymo-finance-type{
+        width: 30%;
+        text-align: right;
+    }
+
+
+	/*report-balance-sheet*/
+    .ymo-table-reports{
+        width: 98%;
+        margin: 10px 10px 5px 10px;
+    }    
+
+
+    .ymo-table-reports thead{
+        width: 100%;
+        display: table;
+    }
+
+
+    .ymo-table-reports thead > tr > th{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #038dd5;
+        font-weight: normal;
+        text-align: center;
+        border: 1px solid #aaaaaa;
+    }
+
+
+    .ymo-table-reports thead > tr > th:first-child{
+        text-align: center;
+        border: none;
+    }
+
+
+    .ymo-table-reports thead > tr > .ymo-reports-year,
+    .ymo-table-reports tbody > tr > .ymo-reports-value,
+    .ymo-table-reports tfoot > tr > .ymo-reports-value{
+        width: 15%;
+    }
+
+
+    .ymo-table-reports thead > tr > th .ymo-reports-description,
+    .ymo-table-reports tbody > tr > th .ymo-reports-description,
+    .ymo-table-reports tfoot > tr > th .ymo-reports-description{
+        width: 30%;
+    }
+
+
+    .ymo-table-reports tbody{
+        width: 100%;
+        display: table;
+        position: relative;
+        top: -1px;
+    }
+
+
+    .ymo-table-reports tbody > tr > td{
+        text-align: right;
+        border: 1px solid #aaaaaa;
+    }
+
+
+    .ymo-table-reports tbody > tr > .ymo-reports-description{
+        text-align: center;
+        border: none;
+    }
+
+
+    .ymo-table-reports tbody .ymo-reports-description ul,
+    .ymo-table-reports tbody .ymo-reports-value ul{
+        margin-bottom: 0px;
+    }
+
+
+    .ymo-table-reports tbody .ymo-reports-description li,
+    .ymo-table-reports tbody .ymo-reports-value li{
+        padding: 2px 0px;
+    }
+
+
+    .ymo-table-reports tbody > tr > td h4{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+    }
+
+
+    .ymo-table-reports tbody > tr > td li p{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+        margin-bottom: 0px;
+    }
+
+
+    .ymo-table-reports tbody .ymo-reports-value{
+        padding-right: 15px;
+    }
+
+
+    .ymo-table-reports tbody .ymo-reports-value ul {
+        margin-top: 35px;
+    }
+
+
+    .ymo-table-reports tfoot{
+        width: 100%;
+        display: table;
+        border: 1px solid #aaaaaa;
+        background: #e2ecf4;
+        position: relative;
+        top: -2px;
+    }
+
+
+    .ymo-table-reports tfoot > tr > td{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        padding: 2px 10px;
+        text-align: center;
+    }
+
+
+    .ymo-table-reports tfoot .ymo-reports-pink{
+        color: #d02e95;
+    }
+
+
+    .ymo-reports .ymo-right-list {
+        float:right;
+        margin-right: 0px;
+    }
+
+
+    .ymo-reports .ymo-right-list li{
+    	float:right;
+    }
+
+    .ymo-reports .ymo-icon-save {
+        margin-right: 0px;
+    }
+
+
+	/*report-profit-loss*/
+    .ymo-profit-loss .ymo-table-reports .ymo-reports-description {
+        text-align: left;
+    }
+
+
+    .ymo-profit-loss .ymo-table-reports .ymo-reports-value ul{
+         margin-top: 0px;
+    }
+
+
+    .ymo-profit-loss .ymo-table-reports .ymo-reports-description li p{
+        color: #787878;
+    }
+
+
+    .ymo-profit-loss .ymo-table-reports .ymo-reports-description li span{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+        float: right;
+        margin-top: 2px;
+        padding-left: 5px;
+    }
+
+
+    .ymo-profit-loss .ymo-table-reports tfoot .ymo-reports-value{
+        border-left: 1px solid #aaaaaa;
+        text-align: right;
+        padding-right: 15px;
+    }
+
+
+    .ymo-profit-loss .ymo-right-list {
+       float:right;
+        margin-right: 0px;
+    }
+
+
+    .ymo-profit-loss .ymo-right-list li{
+    	float:right;
+    }
+
+
+	/*report-cash-flow*/
+    .ymo-cash-flow img{
+        width: 97%;
+        height: 305px;
+        margin: 43px 12px;
+    }
+    
+    
+@media (min-width: 991px) and (max-width: 1080px)  {
+    .ymo-business-group{
+        width: 98.3%;
+    }
+}

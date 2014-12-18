@@ -1,0 +1,39 @@
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+    RewriteEngine On
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    #rules from backoffice application
+    RewriteRule ^backoffice(/.*)?$ backoffice/web/$1 [L]
+    RewriteCond %{REQUEST_URI} ^/(backoffice)
+    RewriteRule ^backoffice/assets/(.*)$ backoffice/web/assets/$1 [L]
+    RewriteRule ^backoffice/css/(.*)$ backoffice/web/css/$1 [L]
+
+    RewriteCond %{REQUEST_URI} !^/backoffice/web/(assets|css)/
+    RewriteCond %{REQUEST_URI} ^/(backoffice)
+    RewriteRule ^.*$ backoffice/web/index.php [L]
+
+    #rules from api application
+    RewriteRule ^api(/.*)?$ api/web/$1 [L]
+    RewriteCond %{REQUEST_URI} ^/(api)
+    RewriteRule ^api/assets/(.*)$ api/web/assets/$1 [L]
+    RewriteRule ^api/css/(.*)$ api/web/css/$1 [L]
+
+    RewriteCond %{REQUEST_URI} !^/api/web/(assets|css)/
+    RewriteCond %{REQUEST_URI} ^/(api)
+    RewriteRule ^.*$ api/web/index.php [L]
+
+    #rules from home application
+    RewriteCond %{REQUEST_URI} ^/(assets|css)
+    RewriteRule ^assets/(.*)$ home/web/assets/$1 [L]
+    RewriteRule ^css/(.*)$ home/web/css/$1 [L]
+
+    #rules from application principal
+    RewriteCond %{REQUEST_URI} !^/(backoffice|home)/web/(assets|css)/
+    RewriteCond %{REQUEST_URI} !index.php
+    RewriteCond %{REQUEST_FILENAME} !-f [OR]
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^.*$ home/web/index.php
+
+</IfModule>

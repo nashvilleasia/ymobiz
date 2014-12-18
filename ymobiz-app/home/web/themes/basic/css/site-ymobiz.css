@@ -1,0 +1,680 @@
+/*header*/
+	.ymo-header-home{
+		background: url('../img/bg-header.jpg') no-repeat;
+		width: 100%;
+		height: 100px;
+		float: left;
+		position: fixed;
+		background-position-y: -40px;
+		z-index: 10;
+	}
+
+
+	.ymo-nav{
+	    float: right;
+	    margin-bottom: 0px;
+	}
+	
+	
+	.ymo-nav li{
+	    float: right;
+	    margin: 8px 0 0 20px;
+	}
+	
+	
+	.ymo-nav li a{
+	    font-size: 1.12em;
+	    font-family: 'microsoft_tai_leregular';
+	    color: #038dd5;
+	    float: right;
+	}
+	
+	
+	.ymo-nav li h4{
+	    font-size: 1.12em;
+	    font-family: 'microsoft_tai_leregular';
+	    color: #aaaaaa;
+	    margin: 2px 0 0px 0;
+	    text-align: right;
+	}
+	
+	
+	.ymo-header-home h1{
+	    font-size: 2.37em;
+	    font-family: 'microsoft_tai_lebold';
+	    color: #038dd5;
+	    margin: 0px;
+	    float: right;
+	}
+	
+	
+	.ymo-header-home hr{
+		margin: 10px 0;
+	}
+
+/*content*/
+	.ymo-body-home{
+		width: 940px;
+		margin: 40px auto;
+		outline: 1px solid #f0f;
+	}
+	
+	.ymo-content{
+	    margin: 30px 0 10px 0;
+	}
+	
+	
+	.ymo-headline{
+	    margin: 160px 0;
+	}
+	
+	
+	.ymo-headline .ymo-headline-ymobiz{
+	    width: 740px;
+	    height: 201px;
+	    margin: 0 auto;
+	}
+	
+	
+	.ymo-headline .ymo-input-register{
+	    margin: 40px auto 0px auto;
+	}
+	
+	
+	.input-group.ymo-input-register input {
+		width: 230px;
+		padding: 10px;
+	}
+	
+	
+	.ymo-headline .ymo-btn-pink{
+		width: 150px;
+		font-size: 1.12em;
+		font-family: 'microsoft_tai_lebold';
+		padding: 11px 0;
+	}
+	
+	
+	.ymo-arrow-ymobiz{
+	    float: left;
+	}
+	
+	
+	.ymo-arrow-ymobiz img{
+	    width: 49px;
+	    height: 45px;
+	    margin: 100px auto 100px auto;
+	}
+	
+	
+	.ymo-video-ymobiz{
+	    width: 940px;
+	    height: 552px;
+	    float:left;
+	    margin: 150px auto;
+	}
+	
+	
+	.ymo-modules-home{
+	    float:left;
+	    margin: 150px auto 150px auto;
+	}
+	
+	
+	.ymo-modules-home ul{
+	    margin: 40px auto 0px auto;
+	    float: none;
+	    display: -webkit-box;
+	}
+	
+	
+	.ymo-modules-home li{
+	    margin: 0px 63px;
+	    cursor: pointer;
+	}
+	
+	
+	.ymo-modules-home li.ymo-marketing{
+	    width: 134px;
+	    height: 187px;
+	    display: block;
+	    background: url(../img/marketing_hover.png) no-repeat;
+	    cursor: pointer;
+	}
+	
+	
+	.ymo-modules-home li.ymo-marketing.services-active {
+	    background: url(../img/marketing_hover.png) no-repeat;
+	}
+	
+	
+	.ymo-modules-home li.ymo-business{
+	    width: 134px;
+	    height: 187px;
+	    display: block;
+	    background: url(../img/business_hover.png) no-repeat;
+	    cursor: pointer;
+	}
+	
+	
+	.ymo-modules-home li.ymo-business.services-active{
+	    background: url(../img/business_hover.png) no-repeat;
+	}
+	
+	
+	.ymo-modules-home li.ymo-network{
+	    width: 134px;
+	    height: 187px;
+	    display: block;
+	    background: url(../img/network_hover.png) no-repeat;
+	    cursor: pointer;
+	}
+	
+	
+	.ymo-modules-home li.ymo-network.services-active{
+	    background: url(../img/network_hover.png) no-repeat;
+	}
+	
+	
+	.ymo-modules-home img{
+	    margin: 0 auto;
+	}
+	
+	
+	.ymo-modules-home h3{
+	    font-size: 1.8em;
+	    font-family: 'microsoft_tai_leregular';
+	    color: #787878;
+	    margin: 0 0 10px 0;
+	}
+	
+	
+	.ymo-modules-home strong{
+	    font-family: 'microsoft_tai_lebold';
+	    color: #787878;
+	}
+	
+	
+	.ymo-service{
+	}
+	
+	
+	.ymo-service-details{
+	    margin: 50px 0 10px 0;
+	}
+	
+	
+	.ymo-text-box{
+		float: left;
+	    margin: 90px 0;
+	}
+	
+	
+	/*.ymo-service-details h2{
+	    font-size: 3.00em;
+	    font-family: 'microsoft_tai_lebold';
+	    color: #038dd5;
+	    margin: 0px 0 30px 0;
+	    text-align: center;
+	}*/
+	
+	
+	.ymo-title-network,
+	.ymo-title-marketing,
+	.ymo-title-business,
+	.ymo-title-products{
+	    float: left;
+	}
+	
+	
+	.ymo-title-network img{
+	    width: 440px;
+	    height: 34px;
+	    margin: 0 auto 50px auto;
+	}
+	
+	
+	.ymo-title-marketing img{
+	    width: 481px;
+	    height: 34px;
+	    margin: 0 auto 50px auto;
+	}
+	
+	
+	.ymo-title-business img{
+	    width: 424px;
+	    height: 34px;
+	    margin: 0 auto 50px auto;
+	}
+	
+	
+	.ymo-title-products img{
+	    width: 452px;
+	    height: 34px;
+	    margin: 50px auto;
+	}
+	
+	
+	.ymo-service-background{
+	    background: rgba(255,255,255,.6);
+	    padding: 20px;
+	    margin-bottom: 40px;
+	}
+	
+	
+	.ymo-service-background p{
+	    width: 47%;
+	    float: left;
+	    font-size: 1.00em;
+	    font-family: 'microsoft_tai_leregular';
+	    color: #787878;
+	    text-align: justify;
+	    margin: 0 20px 0px 0;
+	}
+	
+	
+	.ymo-service-background ul{
+	    width: 47%;
+	    float: right;
+	    display: block;
+	    margin: 0px;
+	}
+	
+	
+	.ymo-service-background li{
+	    margin: 0 0px 12px 0px;
+	    font-size: 1.00em;
+	    font-family: 'microsoft_tai_leregular';
+	    color: #787878;
+	}
+	
+	
+	.ymo-type-product{
+	    margin: 30px auto;
+	}
+	
+	
+	.ymo-type-product h2{
+	    font-size: 3.00em;
+	    font-family: 'microsoft_tai_lebold';
+	    color: #038dd5;
+	    margin: 60px 0 30px 0;
+	    text-align: center;
+	}
+	
+	
+	.ymo-type-product ul{
+	    width: 100%;
+	    float: left;
+	    margin: 0px;
+	}
+	
+	
+	.ymo-type-product li{
+	    margin: 0 0 25px 0;
+	    padding: 0px;
+	    cursor: pointer;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymobank{
+	    width: 221px;
+	    height: 42px;
+	    background: url(../img/logo/ymobank.png) no-repeat;
+	    margin-right: 24px;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymobank:hover{
+	    background: url(../img/logo/ymobank-hover.png) no-repeat;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymoapp{
+	    width: 192px;
+	    height: 35px;
+	    background: url(../img/logo/ymoapp.png) no-repeat;
+	    margin-right: 24px;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymoapp:hover{
+	    background: url(../img/logo/ymoapp-hover.png) no-repeat;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymocard{
+	    width: 221px;
+	    height: 41px;
+	    background: url(../img/logo/ymocard.png) no-repeat;
+	    margin-right: 24px;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymocard:hover{
+	    background: url(../img/logo/ymocard-hover.png) no-repeat;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymocash{
+	    width: 221px;
+	    height: 42px;
+	    background: url(../img/logo/ymocash.png) no-repeat;;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymocash:hover{
+	    background: url(../img/logo/ymocash-hover.png) no-repeat;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymocloud{
+	    width: 230px;
+	    height: 41px;
+	    background: url(../img/logo/ymocloud.png) no-repeat;
+	    margin-right: 26px;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymocloud:hover{
+	    background: url(../img/logo/ymocloud-hover.png) no-repeat;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymotrack{
+	    width: 272px;
+	    height: 44px;
+	    background: url(../img/logo/ymotrack.png) no-repeat;
+	    top: -5px;
+	    position: relative;
+	    margin-right: 26px;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymotrack:hover{
+	    background: url(../img/logo/ymotrack-hover.png) no-repeat;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymoinsurance{
+	    width: 375px;
+	    height: 38px;
+	    background: url(../img/logo/ymoinsurance.png) no-repeat;
+	    top: -5px;
+	    position: relative;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymoinsurance:hover{
+	    background: url(../img/logo/ymoinsurance-hover.png) no-repeat;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymohealth{
+	    width: 267px;
+	    height: 43px;
+	    background: url(../img/logo/ymohealth.png) no-repeat;
+	    margin-right: 15px;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymohealth:hover{
+	    background: url(../img/logo/ymohealth-hover.png) no-repeat;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymolink{
+	    width: 186px;
+	    height: 44px;
+	    background: url(../img/logo/ymolink.png) no-repeat;
+	    margin-right: 15px;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymolink:hover{
+	    background: url(../img/logo/ymolink-hover.png) no-repeat;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymopay{
+	    width: 197px;
+	    height: 36px;
+	    background: url(../img/logo/ymopay.png) no-repeat;
+	    margin-right: 15px;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymopay:hover{
+	    background: url(../img/logo/ymopay-hover.png) no-repeat;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymopoint{
+	    width: 231px;
+	    height: 41px;
+	    background: url(../img/logo/ymopoint.png) no-repeat;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymopoint:hover{
+	    background: url(../img/logo/ymopoint-hover.png) no-repeat;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymophone{
+	    width: 275px;
+	    height: 45px;
+	    background: url(../img/logo/ymophone.png) no-repeat;
+	    margin-right: 29px;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymophone:hover{
+	    background: url(../img/logo/ymophone-hover.png) no-repeat;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymoproject{
+	    width: 325px;
+	    height: 44px;
+	    background: url(../img/logo/ymoproject.png) no-repeat;
+	    margin-right: 29px;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymoproject:hover{
+	    background: url(../img/logo/ymoproject-hover.png) no-repeat;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymostore{
+	    width: 274px;
+	    height: 45px;
+	    background: url(../img/logo/ymostore.png) no-repeat;
+	    top: -5px;
+	    position: relative;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymostore:hover{
+	    background: url(../img/logo/ymostore-hover.png) no-repeat;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymodollar{
+	    width: 245px;
+	    height: 42px;
+	    background: url(../img/logo/ymodollar.png) no-repeat;
+	    margin-right: 43px;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymodollar:hover{
+	    background: url(../img/logo/ymodollar-hover.png) no-repeat;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymotoken{
+	    width: 277px;
+	    height: 45px;
+	    background: url(../img/logo/ymotoken.png) no-repeat;
+	    margin-right: 43px;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymotoken:hover{
+	    background: url(../img/logo/ymotoken-hover.png) no-repeat;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymofinance{
+	    width: 322px;
+	    height: 48px;
+	    background: url(../img/logo/ymofinance.png) no-repeat;
+	}
+	
+	
+	.ymo-type-product li.ymo-ymofinance:hover{
+	    background: url(../img/logo/ymofinance-hover.png) no-repeat;
+	}
+	
+	
+	.ymo-footline{
+	    float: left;
+	    margin-top: 40px;
+	    /* outline: 1px solid #000; */
+	}
+
+
+/* .ymo-footline img.ymo-footline-ymobiz{
+    width: 592px;
+    height: 32px;
+    float: left;
+}
+
+
+.ymo-footline .ymo-input-register{
+    float: right;
+}
+
+
+.ymo-footline .ymo-input-register .form-control{
+     padding: 6px 5px;
+} */
+
+
+	.ymo-footline .ymo-btn-pink{
+	    width: 200px;
+		font-size: 1.87em;
+		font-family: 'microsoft_tai_lebold';
+		padding: 10px;
+		float: none;
+	    display:block;
+		line-height: 24px;
+		white-space: pre-wrap;
+	    margin: 0 auto;
+	}
+	
+	
+	.ymo-footer{
+		width: 940px;
+	    margin: 60px 0 20px 0;
+	}
+	
+	
+	.ymo-footer .ymo-column-left{
+	    width: 252px;
+	    margin-right: 10px;
+	    float: left;
+	}
+	
+	
+	.ymo-footer .ymo-logo-footer{
+	    width: 125px;
+	    border-right: 1px solid #aaaaaa;
+	    float: left;
+	    margin: 6px 5px 0 0;
+	}
+	
+	
+	.ymo-footer .ymo-logo-footer img{
+	    width: 117px;
+	    height: 30px;
+	}
+	
+	
+	.ymo-copyright-ymobiz{
+	    width: 122px;
+	    margin-top: 6px;
+	}
+	
+	
+	.ymo-copyright-ymobiz p{
+	    font-size: 0.75em;
+	    font-family: 'microsoft_tai_leregular';
+	    color: #787878;
+	    margin-bottom: 0px;
+	}
+	
+	
+	.ymo-footer .ymo-column-center{
+	    width: 365px;
+	    margin-right: 10px;
+	    float: left;
+	}
+	
+	
+	.ymo-footer .ymo-footer-menu{
+	    width: 265px;
+	    float: left;
+	    text-align: center;
+	    margin: 8px 10px 0px 0;
+	}
+	
+	
+	.ymo-footer .ymo-footer-menu li{
+	    padding-left: 2px;
+	    padding-right: 2px;
+	}
+	
+	
+	.ymo-footer .ymo-footer-menu li a{
+	    font-size: 0.75em;
+	    font-family: 'microsoft_tai_leregular';
+	    color: #787878;
+	}
+	
+	
+	.ymo-footer .ymo-footer-menu span{
+	    color: #787878;
+	}
+	
+	
+	.ymo-footer .ymo-social{
+	    width: 90px;
+	    float: left;
+	    margin: 8px 0 0px 0;
+	}
+	
+	
+	.ymo-footer .ymo-column-center .ymo-social li{
+	    padding-left: 1px;
+	    padding-right: 1px;
+	}
+	
+	
+	.ymo-footer .ymo-column-right{
+	    width: 303px;
+	    float: left;
+	}
+	
+	
+	.ymo-footer .ymo-input{
+	    border-radius: 0px;
+	    border: 1px solid #aaaaaa;
+	}
+	
+	
+	.ymo-footer .ymo-blue-gradient{
+	    padding: 7px 5px;
+	}

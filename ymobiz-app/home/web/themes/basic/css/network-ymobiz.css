@@ -1,0 +1,1789 @@
+/*HEADER NETWORK*/				
+	.ymo-menu-activity{
+		height: 27px;
+		float: left;
+		padding: 3px 15px 0 35px;
+		margin-left: 15px; 
+		background: url(../img/icons/activity_off.png) no-repeat;
+		cursor: pointer;
+	}
+	
+	
+	.ymo-menu-activity:hover{
+		background: url(../img/icons/activity_on.png) no-repeat;
+		text-decoration: none;
+		color: #038dd5;
+	}
+	
+	
+	.ymo-menu-estory{
+		height: 27px;
+		float: left;
+		padding: 5px 15px 0 30px;
+		margin-left: 10px; 
+		background: url(../img/icons/e_store_off.png) no-repeat;
+		cursor: pointer;
+	}
+	
+	
+	.ymo-menu-estory:hover{
+		background: url(../img/icons/e_store_on.png) no-repeat;
+		text-decoration: none;
+		color: #038dd5;
+	}
+	
+	
+	.ymo-menu-profile{
+		height: 27px;
+		float: left;
+		padding: 5px 15px 0 30px;
+		margin-left: 10px; 
+		background: url(../img/icons/profile_off.png) no-repeat;
+		cursor: pointer;
+	}
+	
+	
+	.ymo-menu-profile:hover{
+		background: url(../img/icons/profile_on.png) no-repeat;
+		text-decoration: none;
+		color: #038dd5;
+	}
+
+
+/*CONTENT LEFT*/
+    .ymo-left{
+        margin-right:31px;
+        margin-bottom: 30px;
+        outline: 1px solid #f00;
+    }
+
+
+	/*ymo-mypost*/
+    .ymo-mypost{
+        margin-bottom: 20px;
+    }
+
+
+    .ymo-mypost img{
+        width: 26px;
+        float: left;
+        margin-right: 10px;
+    }
+
+
+    .ymo-mypost h4{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0e93d9;
+        float: left;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+
+	/*ymo-arrow-box-up*/
+    .ymo-arrow-box-up {
+        position: relative;
+        background: #fff;
+        margin-top: 40px;
+        border: 1px solid #aaa;
+    }
+
+
+    .ymo-arrow-box-up:after, .ymo-arrow-box-up:before {
+        bottom: 100%;
+        left: 30px;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+
+    .ymo-arrow-box-up:after {
+        border-color: rgba(194, 225, 245, 0);
+        border-bottom-color: #fff;
+        border-width: 9px;
+        margin-left: -27px;
+    }
+
+
+    .ymo-arrow-box-up:before {
+        border-color: rgba(136, 183, 213, 0);
+        border-bottom-color: #aaa;
+        border-width: 10px;
+        margin-left: -28px;
+    }
+
+
+	/*ymo-view-post*/
+    .ymo-view-post a{
+        font-size: 1.00em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        text-decoration: none;
+    }
+
+
+    .ymo-view-post a:hover{
+        color: #038dd5;
+        text-decoration: none;
+    }
+
+
+    .ymo-view-post .ymo-sub-menu{
+        width: 160px;
+        left: 15px;
+		padding: 10px;
+        text-decoration: none;
+    }
+
+
+    .ymo-view-post .ymo-sub-menu li{
+        width: 100%;
+		float: left;
+		margin-bottom: 8px;
+        outline: 1px solid #f00;
+    }
+
+
+    .ymo-view-post .ymo-sub-menu li:last-child{
+		margin-bottom: 0px;
+    }
+
+
+    .ymo-view-post .ymo-sub-menu li a{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        float: left;
+        padding: 0px;
+        white-space: normal;
+    }
+
+
+    .ymo-view-post .ymo-sub-menu li a:hover{
+        color: #038dd5;
+        text-decoration: underline;
+    }
+
+
+	/*ymo-attachment*/
+    .ymo-mypost .ymo-attachment{
+        margin: 8px 5px 0 0;
+        float: right;
+    }
+    
+    .ymo-mypost .ymo-attachment p{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d42596;
+		margin: 3px 0 0px 0;
+    }
+    
+    
+    .ymo-mypost .ymo-attachment img{
+        width: 16px;
+        float: left;
+    }
+
+
+    .ymo-mypost .ymo-attachment:hover,
+    .ymo-mypost .ymo-attachment p:hover{
+        color: #d42596;
+        text-decoration: underline;
+    }
+
+
+	/*ymo-btn-pink*/
+    .ymo-mypost .ymo-btn-pink{
+        float: right;
+    }
+
+/*ymo-post*/
+    .ymo-post{
+        float: left;
+        margin-bottom: 0px;
+    }
+
+
+    .ymo-post li{
+        list-style: none;
+        float: left;
+        margin-bottom: 40px;
+    }
+
+
+    .ymo-post li:last-child{
+        margin-bottom: 0px;
+    }
+
+
+    .ymo-post hr{
+        float: left;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+
+	/*ymo-post-title*/
+    .ymo-post-title{
+        float: left;
+        border-bottom: 1px solid #acacac;
+    }
+
+
+    .ymo-post-title img{
+        width: 24px;
+        float: left;
+    }
+
+
+    .ymo-post-title h4{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        margin: 4px 0 0 10px;
+        float: left;
+    }
+
+
+    .ymo-post-title p{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        text-align: right;
+        float: right;
+        margin: 3px 0 0 0;
+		width: 115px;
+    }
+
+
+
+
+/*header > ymo-menu-activity
+.ymo-header-network  .ymo-menu li a.ymo-menu-activity{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        height: 27px;
+        float: left;
+        padding-left: 35px;
+        padding-top: 3px;
+        position: relative;
+        top: 0px;
+        margin: 0px;
+        background: url(../img/icons/activity_off.png) no-repeat;
+        cursor: pointer;
+    }
+
+
+.ymo-header-network  .ymo-menu li a.ymo-menu-activity:hover{
+        text-decoration: none;
+        background: url(../img/icons/activity_on.png) no-repeat;
+    }
+*/
+
+/*header > ymo-menu-estory
+.ymo-header-network .ymo-menu li a.ymo-menu-estory{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        height: 26px;
+        float: left;
+        padding-left: 35px;
+        padding-top: 3px;
+        position: relative;
+        top: 0px;
+        background: url(../img/icons/e_store_off.png) no-repeat;
+        cursor: pointer;
+    }
+
+
+.ymo-header-network  .ymo-menu li a.ymo-menu-estory:hover{
+        text-decoration: none;
+        background: url(../img/icons/e_store_on.png) no-repeat;
+    }
+*/
+
+/*header > ymo-menu-profile
+.ymo-header-network .ymo-menu li a.ymo-menu-profile{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        height: 27px;
+        float: left;
+        padding-left: 35px;
+        padding-top: 3px;
+        position: relative;
+        top: 2px;
+        background: url(../img/icons/profile_off.png) no-repeat;
+        cursor: pointer;
+    }
+
+
+.ymo-header-network .ymo-menu li a.ymo-menu-profile:hover{
+        text-decoration: none;
+        background: url(../img/icons/profile_on.png) no-repeat;
+    }*/
+
+/*ymo-menu > ymo-sub-menu, ymo-menu-notifications, ymo-menu-account
+    .ymo-sub-menu{
+        width: 140px;
+        left: 168px;
+    }
+
+
+    .ymo-sub-menu h6{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        float: right;
+        padding-right: 15px;
+        position: relative;
+        top: 5px;
+    }
+
+
+    .ymo-sub-menu hr{
+        width: 90%;
+        margin: 10px;
+    }
+
+
+    .ymo-sub-menu li{
+        width: 100%;
+        height: auto;
+        margin-bottom: 8px;
+        float: left;
+        list-style: none;
+        margin-left: 0px;
+        padding: 5px 10px;
+        white-space: normal;
+    }
+
+
+    .ymo-sub-menu li a{
+        padding: 0px;
+        float: left;
+        line-height: 14px;
+        position: static;
+        white-space: normal;
+    }
+
+
+    .ymo-sub-menu .ymo-sub-menu-marketing{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        height: 21px;
+        float: left;
+        padding-left: 35px;
+        margin: 0px 10px 0 0;
+        background: url(../img/icons/marketing.png) no-repeat;
+        cursor: pointer;
+    }
+
+
+    .ymo-sub-menu .ymo-sub-menu-marketing:hover{
+        background: url(../img/icons/marketing_on.png) no-repeat;
+    }
+
+
+    .ymo-sub-menu .ymo-sub-menu-business{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        height: 21px;
+        float: left;
+        padding-left: 35px;
+        margin: 0px 10px 0 0;
+        background: url(../img/icons/business_icon.png) no-repeat;
+        cursor: pointer;
+    }
+
+
+    .ymo-sub-menu .ymo-sub-menu-business:hover{
+        background: url(../img/icons/business_icon_on.png) no-repeat;
+    }
+
+
+    .ymo-sub-menu .ymo-sub-menu-home{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        height: 21px;
+        float: left;
+        padding: 3px 0 0 35px;
+        background: url(../img/icons/home_off.png) no-repeat;
+        background-position-x: 5px;
+        cursor: pointer;
+    }
+
+
+    .ymo-sub-menu .ymo-sub-menu-home:hover{
+        background: url(../img/icons/home_on.png) no-repeat;
+        background-position-x: 5px;
+    }
+
+
+    .ymo-sub-menu .ymo-sub-menu-network{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        height: 21px;
+        float: left;
+        padding-left: 35px;
+        margin: 0px 10px 0 0;
+        background: url(../img/icons/network_icon.png) no-repeat;
+        background-position-x: 6px;
+        cursor: pointer;
+    }
+
+
+    .ymo-sub-menu .ymo-sub-menu-network:hover{
+        background: url(../img/icons/network_icon_on.png) no-repeat;
+        background-position-x: 6px;
+    }
+*/
+
+
+
+/*ymo-post-text*/
+    .ymo-post-text{
+        float: left;
+        margin-top: 10px;
+    }
+
+
+    .ymo-post-text p{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        float: left;
+        margin: 0 0 0 24px;
+    }
+
+
+    .ymo-post-text p a{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #30a7e4;
+    }
+
+
+/*ymo-post-news*/
+    .ymo-post-news{
+        width: 602px;
+        border: 1px solid #acacac;
+        float: left;
+        margin: 10px 0 0 24px;
+        padding: 10px;
+    }
+
+
+    .ymo-post-news img{
+        width: 102px;
+        margin-right: 15px;
+        float: left;
+    }
+
+
+    .ymo-post-news h4{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #028dd5;
+        margin-top: 0px;
+        float: left;
+    }
+
+
+    .ymo-post-news p{
+        width: 463px;
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        line-height: 16px;
+        margin-left: 0px;
+        float: left;
+    }
+
+
+/*ymo-post-image*/
+    .ymo-post-image img{
+        width: 602px;
+        margin-left: 24px;
+        margin-top: 10px;
+        float: left;
+        border: 1px solid #aaaaaa;
+    }
+
+
+/*ymo-post-video*/
+    .ymo-post-video{
+        width: 100%;
+        float: left;
+    }
+
+
+    .ymo-post-video img{
+        width: 602px;
+        margin-left: 24px;
+        margin-top: 10px;
+        float: left;
+        border: 1px solid #aaaaaa;
+    }
+
+
+/*ymo-post-social*/
+.ymo-post-social{
+    float: left;
+}
+
+
+.ymo-post-social li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.ymo-post-social li img{
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right: 5px;
+}
+
+
+/*ymo-post-links*/
+    .ymo-post-links{
+        float: right;
+    }
+
+
+    .ymo-post-links li{
+        list-style: none;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+        margin-right: 8px;
+    }
+
+
+    .ymo-post-links li:last-child,
+    .ymo-post-links li a:last-child{
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+
+
+    .ymo-post-links li img{
+        width: 23px;
+        float: left;
+        margin-right: 5px;
+    }
+
+
+    .ymo-post-links li a{
+        font-size: 0.87em;
+        float: left;
+        font-family: 'microsoft_tai_leregular';
+        color: #d42596;
+        margin-bottom: 0px;
+        padding: 3px 5px 0 0;
+    }
+
+
+    .ymo-post-links li a span{
+        color: #787878;
+    }
+
+
+    .ymo-post-links li a:hover{
+        text-decoration: underline;
+    }
+
+
+/*ymo-commments*/
+    .ymo-comments{
+        margin-top: 30px;
+    }
+
+
+    .ymo-comments .ymo-post-text{
+        margin-bottom: 20px;
+    }
+
+
+    .ymo-comments .ymo-post-text p{
+        padding-left: 10px;
+    }
+
+
+    .ymo-comments li .ymo-post-links{
+        margin-top: 0px;
+    }
+
+/*content > ymo-right*/
+    .ymo-right{
+        width: 30%;
+        margin-bottom: 30px;
+    }
+
+
+/*ymo-search*/
+    .ymo-search input[name=magnifier] {
+        background: url(../img/icons/magnifier.png) no-repeat;
+        width: 18px;
+        height: 20px;
+        position: absolute;
+        right: 8px;
+        top: 4px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .ymo-search-fade{
+        margin-bottom: 20px;
+    }
+
+
+    .ymo-search-fade .ymo-search-options {
+        margin-top: 6px;
+    }
+
+
+    .ymo-search-fade .ymo-search-options a{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #028dd5;
+        padding-right: 5px;
+        padding-top: 10px;
+    }
+
+
+    .ymo-search-fade input[name=search]{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        border: 1px solid #aaaaaa;
+        border-radius: 0px;
+        padding-left: 5px;
+        padding-right: 30px;
+        -webkit-box-shadow: none;
+        box-shadow: inset none;
+        -webkit-transition: none;
+        transition: none;
+        float: left;
+    }
+
+
+    .ymo-adv-search{
+        margin-bottom: 30px;
+    }
+
+
+    .ymo-adv-search select{
+        margin-bottom: 10px;
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+    }
+
+
+    .ymo-search input[name=submit]{
+        width: 18px;
+        height: 20px;
+        float: left;
+        position: relative;
+        margin: 5px 0 0 -25px;
+        z-index: 10;
+    }
+
+
+/*ymo-statistics*/
+    .ymo-statistics{
+        margin-bottom: 30px;
+    }
+
+
+    .ymo-statistics thead > tr >th{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+        padding: 8px 5px 0px 5px;
+        font-weight: normal;
+        text-align: center;
+    }
+
+
+    .ymo-statistics tbody{
+        border-bottom: 1px solid #aaaaaa;
+    }
+
+
+    .ymo-statistics tbody > tr >td{
+        font-size: 1.50em;
+        font-family: 'microsoft_tai_leregular';
+        color: #028dd5;
+        padding-top: 5px;
+        padding-bottom: 0px;
+        text-align: center;
+        font-weight: normal;
+    }
+
+
+/*ymo-list-right*/
+    .ymo-list-right{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+
+    .ymo-list-right li{
+        list-style: none;
+        margin-bottom: 20px;
+    }
+
+
+    .ymo-list-right li h4{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #028dd5;
+        text-align: right;
+     }
+
+
+    .ymo-list-right li img{
+        width: 283px;
+        float: left;
+        margin-bottom: 10px;
+        border: 1px solid #aaaaaa;
+    }
+
+
+    .ymo-list-right li p{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        margin-bottom: 0px;
+    }
+
+
+/*ymo-footer-network
+    .ymo-footer-network{
+        padding-top: 10px;
+        border-top: 1px solid #aaaaaa;
+        margin: 50px 0 20px 0
+    }
+
+
+    .ymo-column-left .ymo-logo{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 5px;
+    }
+
+
+    .ymo-column-left .ymo-logo img{
+        padding-left: 0px;
+        padding-right: 3px;
+        border-right: 1px solid #919191;
+        cursor: pointer;
+    }
+
+
+    .ymo-column-left .ymo-copyright{
+        padding-left: 10px;
+        padding-right: 0px;
+        font-size: 0.68em;
+        font-family: 'microsoft_tai_leregular';
+        color: #777777;
+        margin-top: 8px;
+    }
+
+     .ymo-column-right .ymo-menu-footer{
+        float: left;
+        margin-top: 8px;
+        margin-bottom: 0px;
+    }
+
+
+    .ymo-column-right .ymo-menu-footer li{
+        margin-left: 0px;
+    }
+
+
+    .ymo-column-right .ymo-menu-footer li a{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        top: 0px;
+        border-right: 1px solid #787878;
+        padding-right: 12px;
+        float: left;
+    }
+
+
+    .ymo-column-right .ymo-menu-footer .ymo-sub-menu{
+        width: 100px;
+        height: auto;
+        left: 4px;
+    }
+
+
+    .ymo-column-right .ymo-menu-footer .ymo-sub-menu li a{
+        border: none;
+    }
+
+
+    .ymo-social{
+        float: left;
+        margin-top: 8px;
+        margin-bottom: 0px;
+        padding-right: 0px;
+    }
+
+
+    .ymo-social p{
+        font-size: 0.75em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        float: left;
+        margin: 2px 10px 0 10px;
+    }
+
+
+    .ymo-social li{
+        margin-right: -10px;
+        text-align: right;
+    }
+
+
+    .ymo-social li img{
+        margin-top: -7px;
+        margin-right: 5px;
+    }*/
+
+
+/*Page e-story ymo-slider*/
+    .ymo-slider{
+        padding-bottom: 20px;
+        margin-bottom: 50px;
+        border-bottom: 1px solid #aaaaaa;
+    }
+
+
+    .ymo-slider img{
+         width: 140px;
+         margin: 0 auto;
+     }
+
+
+    .ymo-slider h4{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #028dd5;
+        text-align: center;
+    }
+
+
+/*Page e-story ymo-store*/
+    .ymo-store .ymo-post{
+    }
+
+
+    .ymo-store .ymo-post li{
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+
+    .ymo-store .ymo-post-news{
+        width: 626px;
+        margin-top: 0px;
+        border: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .ymo-store .ymo-post-news h4{
+        color: #787878;
+        line-height: 22px;
+        padding-right: 10px;
+    }
+
+
+    .ymo-post-news del{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d10b89;
+        padding-right: 10px;
+        float: left;
+    }
+
+
+    .ymo-post-news span{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #028dd5;
+        padding-right: 5px;
+        float: left;
+    }
+
+
+    .ymo-post-news a{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d10b89;
+        padding: 1px 0 0 5px;
+        float: left;
+    }
+
+
+    .ymo-post-news h6{
+        font-size: 0.75em;
+        font-family: 'microsoft_tai_leregular';
+        color: #028dd5;
+        margin-top: 5px;
+        float: left;
+    }
+
+
+    .ymo-store .ymo-post-news p{
+        width: 505px;
+    }
+    
+    
+    .ymo-select-color{
+    }
+    
+    
+    .ymo-select-color ul{
+    	margin: 0 0 0px 0px;
+    }
+    
+    
+    
+    .ymo-select-color label{
+    	width: 100%;
+    	margin-bottom: 10px;
+    }
+    
+    
+    .ymo-post .ymo-select-color li{
+    	margin: 0 10px 0px 0;
+    }
+    
+    
+    .ymo-select-color li a{
+    	width: 20px;
+    	height: 20px;
+    	border: 1px solid #aaaaaa;
+    	margin: 0px;
+    	cursor: pointer;
+    }
+    
+    
+    .ymo-select-color li .ymo-color-blue{
+    	background: #091d61;
+    }
+    
+    
+    .ymo-select-color li .ymo-color-yellow{
+    	background: #FFE403;
+    }
+    
+    
+    .ymo-select-color li .ymo-color-black{
+    	background: #000000;
+    }
+    
+    
+    .ymo-select-color li .ymo-color-pink{
+    	background: #D02993;
+    }
+    
+
+    .ymo-store .ymo-post-links li{
+        float: left;
+        margin-bottom: 0px;
+    }
+
+
+    .ymo-store .ymo-post-links{
+        float: left;
+        padding-left: 5px;
+    }
+
+
+    .ymo-store .ymo-add-cart{
+        float: right;
+        margin-top: -6px;
+    }
+
+
+    .ymo-store .ymo-add-cart select,
+    .ymo-store .ymo-add-cart a{
+        height: 32px;
+        padding-top: 4px;
+    }
+
+
+/*Page e-story ymo-pagination*/
+    /* .ymo-pagination{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+
+    .ymo-pagination li a{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+    }
+
+
+    .ymo-pagination li a:hover,
+    .ymo-pagination li.active a{
+        color: #d10b89;
+    } */
+
+
+/*Page e-story ymo-cart*/
+    .ymo-cart{
+        width: 30%;
+        margin-bottom: 10px;
+    }
+
+
+    .ymo-cart p{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #028dd5;
+        height: 26px;
+        float: left;
+        padding-left: 30px;
+        padding-top: 5px;
+        margin-right: 12px;
+        position: relative;
+        top: 5px;
+        background: url(../img/icons/e_store_on.png) no-repeat;
+    }
+
+
+    .ymo-cart .ymo-form-cart{
+        width: 164px;
+        float: left;
+        margin-bottom: 40px;
+    }
+
+
+    .ymo-cart .ymo-form-cart input{
+        width: 80px;
+    }
+
+
+    .ymo-cart .ymo-btn-pink{
+        background: #d02993;
+        width: 80px;
+        height: 34px;
+        padding: 8px 15px;
+        float: right;
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #ffffff;
+    }
+
+
+/*Page profile ymo-image-profile*/
+    .ymo-image-profile{
+        width: 160px;
+        height: 160px;
+        margin: 18px 20px;
+        border: 5px solid rgba(255, 255, 255, 0.3);
+        border-radius: 3px;
+    }
+
+
+    .ymo-image-profile img{
+        width: 150px;
+        height: 150px;
+    }
+
+
+/*Page profile ymo-info*/
+    .ymo-info{
+        margin-bottom: 20px;
+        border-bottom: 1px solid #aaaaaa;
+    }
+
+
+/*Page profile ymo-info-title*/
+    .ymo-info-title h3{
+        font-size: 1.43em;
+        font-family: 'microsoft_tai_leregular';
+        color: #038dd5;
+        margin-top: 10px;
+        float: left;
+    }
+
+
+    .ymo-info-title img{
+        width: 22px;
+        height: 22px;
+        float: left;
+        margin: 8px 0 0 10px;
+    }
+
+
+/*Page profile ymo-info-menu*/
+    .ymo-info-menu{
+        width: 180px;
+        float: left;
+        margin: 8px 10px 0 23px;
+    }
+
+
+    .ymo-info-menu p{
+        font-size: 0.75em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        float: left;
+        margin: 5px 5px 0px 0;
+    }
+
+
+    .ymo-info-menu li{
+        list-style: none;
+        float: left;
+        position: relative;
+        border-right: 1px solid #aaaaaa;
+        padding: 0 10px;
+    }
+
+
+    .ymo-info-menu li a{
+        font-size: 0.75em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+    }
+
+
+    .ymo-info-menu li.active a{
+        color: #038dd5;
+    }
+
+
+    .ymo-info-menu li:last-child{
+        border-right: none;
+        padding: 0 10px;
+    }
+
+
+    .ymo-info-menu li a:hover{
+        color: #038dd5;
+        text-decoration: none;
+    }
+
+
+/*Page profile ymo-info-general*/
+    .ymo-info-general{
+        margin-bottom: 20px;
+        border-bottom: 1px solid #aaaaaa;
+    }
+
+
+    .ymo-info-general li{
+         list-style: none
+     }
+
+
+    .ymo-list{
+        width: 100%;
+        margin-bottom: 15px;
+        padding-right: 10px;
+    }
+
+
+    .ymo-list p{
+        font-size: 0.75em;
+        font-family: 'microsoft_tai_leregular';
+        color: #038dd5;
+        float: left;
+        margin-right: 5px;
+        margin-bottom: 0px;
+        white-space: normal;
+     }
+
+
+    .ymo-list span{
+        color: #787878;
+        padding-left: 5px;
+    }
+
+
+    .ymo-following{
+         width: 100%;
+     }
+
+
+    .ymo-following p{
+        width: 100%;
+        font-size: 0.75em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        text-align: center;
+        margin-right: 5px;
+        margin-bottom: 0px;
+        white-space: normal;
+    }
+
+
+    .ymo-following span{
+        width: 100%;
+        font-size: 3.75em;
+        font-family: 'microsoft_tai_leregular';
+        color: #038dd5;
+        text-align: center;
+        display: block;
+    }
+
+
+/*Page profile-header ymo-btn*/
+    .ymo-btn{
+        width: 100px;
+        float: right;
+    }
+
+
+    .ymo-btn .ymo-btn-pink{
+        width: 100px;
+    }
+
+
+    .ymo-btn .caret{
+        color: #ffffff;
+    }
+
+
+    .ymo-btn .ymo-btn-menu{
+        width: 120px;
+        left: -19px;
+        border: 1px solid #aaaaaa;
+        margin-top: 0px;
+    }
+
+
+    .ymo-btn .ymo-btn-menu li{
+        width: 100%;
+        float: left;
+    }
+
+
+    .ymo-btn .ymo-btn-menu li a{
+        width: 100%;
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        float: left;
+        padding: 3px 10px;
+        white-space: normal;
+    }
+
+
+    .ymo-btn .ymo-btn-menu li a:hover{
+        color: #038dd5;
+    }
+
+
+/*Page profile-e-store ymo-list-category*/
+    .ymo-list-category{
+        margin-bottom: 10px;
+    }
+
+
+    .ymo-list-category ul{
+        float: left;
+        height: 130px;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+
+    .ymo-list-category h5{
+        font-size: 1.00em;
+        font-family: 'microsoft_tai_leregular';
+        color: #038dd5;
+        margin-left: 10px;
+    }
+
+
+    .ymo-list-category p{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        margin-left: 10px;
+    }
+
+
+    .ymo-list-category li{
+        width: 90%;
+        float: left;
+    }
+
+
+    .ymo-list-category li a{
+        width: 100%;
+        float: left;
+        padding: 5px 0px 5px 10px;
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+    }
+
+
+    .ymo-list-category li a:hover{
+        color: #ffffff;
+        text-decoration: none;
+        background: rgb(129,212,254); /* Old browsers */
+        background: -moz-linear-gradient(top,  rgba(129,212,254,1) 0%, rgba(129,212,254,1) 2%, rgba(124,206,253,1) 7%, rgba(123,207,254,1) 9%, rgba(119,208,252,1) 10%, rgba(120,209,253,1) 13%, rgba(117,205,251,1) 14%, rgba(115,203,251,1) 19%, rgba(108,200,249,1) 20%, rgba(106,198,247,1) 26%, rgba(100,196,246,1) 27%, rgba(100,196,246,1) 30%, rgba(96,193,244,1) 31%, rgba(97,193,244,1) 33%, rgba(90,190,242,1) 34%, rgba(86,187,241,1) 40%, rgba(80,186,238,1) 41%, rgba(81,185,240,1) 42%, rgba(73,182,238,1) 43%, rgba(75,182,238,1) 45%, rgba(70,179,236,1) 47%, rgba(66,176,235,1) 52%, rgba(60,173,231,1) 53%, rgba(56,170,232,1) 59%, rgba(49,167,229,1) 60%, rgba(49,167,229,1) 63%, rgba(43,165,228,1) 64%, rgba(43,165,228,1) 66%, rgba(38,162,224,1) 67%, rgba(31,156,222,1) 76%, rgba(25,154,220,1) 77%, rgba(20,152,217,1) 83%, rgba(16,149,218,1) 84%, rgba(14,147,214,1) 89%, rgba(14,147,216,1) 90%, rgba(9,146,218,1) 91%, rgba(4,142,214,1) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(129,212,254,1)), color-stop(2%,rgba(129,212,254,1)), color-stop(7%,rgba(124,206,253,1)), color-stop(9%,rgba(123,207,254,1)), color-stop(10%,rgba(119,208,252,1)), color-stop(13%,rgba(120,209,253,1)), color-stop(14%,rgba(117,205,251,1)), color-stop(19%,rgba(115,203,251,1)), color-stop(20%,rgba(108,200,249,1)), color-stop(26%,rgba(106,198,247,1)), color-stop(27%,rgba(100,196,246,1)), color-stop(30%,rgba(100,196,246,1)), color-stop(31%,rgba(96,193,244,1)), color-stop(33%,rgba(97,193,244,1)), color-stop(34%,rgba(90,190,242,1)), color-stop(40%,rgba(86,187,241,1)), color-stop(41%,rgba(80,186,238,1)), color-stop(42%,rgba(81,185,240,1)), color-stop(43%,rgba(73,182,238,1)), color-stop(45%,rgba(75,182,238,1)), color-stop(47%,rgba(70,179,236,1)), color-stop(52%,rgba(66,176,235,1)), color-stop(53%,rgba(60,173,231,1)), color-stop(59%,rgba(56,170,232,1)), color-stop(60%,rgba(49,167,229,1)), color-stop(63%,rgba(49,167,229,1)), color-stop(64%,rgba(43,165,228,1)), color-stop(66%,rgba(43,165,228,1)), color-stop(67%,rgba(38,162,224,1)), color-stop(76%,rgba(31,156,222,1)), color-stop(77%,rgba(25,154,220,1)), color-stop(83%,rgba(20,152,217,1)), color-stop(84%,rgba(16,149,218,1)), color-stop(89%,rgba(14,147,214,1)), color-stop(90%,rgba(14,147,216,1)), color-stop(91%,rgba(9,146,218,1)), color-stop(100%,rgba(4,142,214,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  rgba(129,212,254,1) 0%,rgba(129,212,254,1) 2%,rgba(124,206,253,1) 7%,rgba(123,207,254,1) 9%,rgba(119,208,252,1) 10%,rgba(120,209,253,1) 13%,rgba(117,205,251,1) 14%,rgba(115,203,251,1) 19%,rgba(108,200,249,1) 20%,rgba(106,198,247,1) 26%,rgba(100,196,246,1) 27%,rgba(100,196,246,1) 30%,rgba(96,193,244,1) 31%,rgba(97,193,244,1) 33%,rgba(90,190,242,1) 34%,rgba(86,187,241,1) 40%,rgba(80,186,238,1) 41%,rgba(81,185,240,1) 42%,rgba(73,182,238,1) 43%,rgba(75,182,238,1) 45%,rgba(70,179,236,1) 47%,rgba(66,176,235,1) 52%,rgba(60,173,231,1) 53%,rgba(56,170,232,1) 59%,rgba(49,167,229,1) 60%,rgba(49,167,229,1) 63%,rgba(43,165,228,1) 64%,rgba(43,165,228,1) 66%,rgba(38,162,224,1) 67%,rgba(31,156,222,1) 76%,rgba(25,154,220,1) 77%,rgba(20,152,217,1) 83%,rgba(16,149,218,1) 84%,rgba(14,147,214,1) 89%,rgba(14,147,216,1) 90%,rgba(9,146,218,1) 91%,rgba(4,142,214,1) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  rgba(129,212,254,1) 0%,rgba(129,212,254,1) 2%,rgba(124,206,253,1) 7%,rgba(123,207,254,1) 9%,rgba(119,208,252,1) 10%,rgba(120,209,253,1) 13%,rgba(117,205,251,1) 14%,rgba(115,203,251,1) 19%,rgba(108,200,249,1) 20%,rgba(106,198,247,1) 26%,rgba(100,196,246,1) 27%,rgba(100,196,246,1) 30%,rgba(96,193,244,1) 31%,rgba(97,193,244,1) 33%,rgba(90,190,242,1) 34%,rgba(86,187,241,1) 40%,rgba(80,186,238,1) 41%,rgba(81,185,240,1) 42%,rgba(73,182,238,1) 43%,rgba(75,182,238,1) 45%,rgba(70,179,236,1) 47%,rgba(66,176,235,1) 52%,rgba(60,173,231,1) 53%,rgba(56,170,232,1) 59%,rgba(49,167,229,1) 60%,rgba(49,167,229,1) 63%,rgba(43,165,228,1) 64%,rgba(43,165,228,1) 66%,rgba(38,162,224,1) 67%,rgba(31,156,222,1) 76%,rgba(25,154,220,1) 77%,rgba(20,152,217,1) 83%,rgba(16,149,218,1) 84%,rgba(14,147,214,1) 89%,rgba(14,147,216,1) 90%,rgba(9,146,218,1) 91%,rgba(4,142,214,1) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  rgba(129,212,254,1) 0%,rgba(129,212,254,1) 2%,rgba(124,206,253,1) 7%,rgba(123,207,254,1) 9%,rgba(119,208,252,1) 10%,rgba(120,209,253,1) 13%,rgba(117,205,251,1) 14%,rgba(115,203,251,1) 19%,rgba(108,200,249,1) 20%,rgba(106,198,247,1) 26%,rgba(100,196,246,1) 27%,rgba(100,196,246,1) 30%,rgba(96,193,244,1) 31%,rgba(97,193,244,1) 33%,rgba(90,190,242,1) 34%,rgba(86,187,241,1) 40%,rgba(80,186,238,1) 41%,rgba(81,185,240,1) 42%,rgba(73,182,238,1) 43%,rgba(75,182,238,1) 45%,rgba(70,179,236,1) 47%,rgba(66,176,235,1) 52%,rgba(60,173,231,1) 53%,rgba(56,170,232,1) 59%,rgba(49,167,229,1) 60%,rgba(49,167,229,1) 63%,rgba(43,165,228,1) 64%,rgba(43,165,228,1) 66%,rgba(38,162,224,1) 67%,rgba(31,156,222,1) 76%,rgba(25,154,220,1) 77%,rgba(20,152,217,1) 83%,rgba(16,149,218,1) 84%,rgba(14,147,214,1) 89%,rgba(14,147,216,1) 90%,rgba(9,146,218,1) 91%,rgba(4,142,214,1) 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  rgba(129,212,254,1) 0%,rgba(129,212,254,1) 2%,rgba(124,206,253,1) 7%,rgba(123,207,254,1) 9%,rgba(119,208,252,1) 10%,rgba(120,209,253,1) 13%,rgba(117,205,251,1) 14%,rgba(115,203,251,1) 19%,rgba(108,200,249,1) 20%,rgba(106,198,247,1) 26%,rgba(100,196,246,1) 27%,rgba(100,196,246,1) 30%,rgba(96,193,244,1) 31%,rgba(97,193,244,1) 33%,rgba(90,190,242,1) 34%,rgba(86,187,241,1) 40%,rgba(80,186,238,1) 41%,rgba(81,185,240,1) 42%,rgba(73,182,238,1) 43%,rgba(75,182,238,1) 45%,rgba(70,179,236,1) 47%,rgba(66,176,235,1) 52%,rgba(60,173,231,1) 53%,rgba(56,170,232,1) 59%,rgba(49,167,229,1) 60%,rgba(49,167,229,1) 63%,rgba(43,165,228,1) 64%,rgba(43,165,228,1) 66%,rgba(38,162,224,1) 67%,rgba(31,156,222,1) 76%,rgba(25,154,220,1) 77%,rgba(20,152,217,1) 83%,rgba(16,149,218,1) 84%,rgba(14,147,214,1) 89%,rgba(14,147,216,1) 90%,rgba(9,146,218,1) 91%,rgba(4,142,214,1) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81d4fe', endColorstr='#048ed6',GradientType=0 ); /* IE6-9 */
+
+    }
+
+
+    .ymo-list-category hr{
+        margin: 10px 0px;
+    }
+
+
+/*Page profile-my-profile ymo-post-profile*/
+    .ymo-post-profile li{
+        width: 100%;
+        list-style: none;
+        margin-bottom: 30px;
+        border: none;
+    }
+
+
+    .ymo-post-profile .ymo-post-title h4{
+        border: none;
+    }
+
+
+    .ymo-post-profile .ymo-post-title h4{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #038dd5;
+        margin: 0px;
+    }
+
+
+    .ymo-post-profile .ymo-post-text p {
+        margin: 0px;
+    }
+
+
+    .ymo-post-profile .ymo-post-video img {
+        width: 626px;
+        margin: 10px 0 0 0;
+    }
+
+
+    .ymo-post-profile .ymo-post-text h5{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+    }
+
+
+    .ymo-post-profile .ymo-post-text h6{
+        font-size: 0.75em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+    }
+
+
+    .ymo-post-profile .ymo-post-text img {
+        width: 626px;
+        margin: 10px 0 0 0;
+        border: 1px solid #aaaaaa;
+    }
+
+
+/*Page profile-my-profile ymo-staff-member*/
+    .ymo-staff-member{
+        margin-top: 40px;
+    }
+
+
+    .ymo-staff-member .ymo-staff-member-left{
+        width: 290px;
+    }
+
+
+    .ymo-staff-member .ymo-staff-member-right{
+        width: 290px;
+        float: right;
+    }
+
+
+    .ymo-staff-member a img{
+        width: 94px;
+        float: left;
+        margin-right: 10px;
+        border: 1px solid #aaaaaa;
+    }
+
+
+    .ymo-staff-member a h4{
+        width: 186px;
+        float: left;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #038dd5;
+    }
+
+
+    .ymo-staff-member a span{
+        width: 186px;
+        float: left;
+        color: #787878;
+    }
+
+
+    .ymo-staff-member .ymo-icon-communicate{
+        width: 24px;
+        float: left;
+        margin-top: 30px;
+        border: none;
+    }
+
+
+    .ymo-staff-member .ymo-icon-chat{
+        width: 24px;
+        float: right;
+        margin-top: 30px;
+        margin-right: 0px;
+        border: none;
+    }
+
+
+    .ymo-staff-member .ymo-icon-mail{
+        width: 24px;
+        float: right;
+        margin-top: 30px;
+        border: none;
+    }
+
+
+    .ymo-staff-member hr{
+        margin-top: -1px;
+        margin-bottom: 0px;
+    }
+
+
+/*Page admin-profile-header ymo-edit*/
+    .ymo-info-title .ymo-edit{
+        position: relative;
+        top: 10px;
+        width: 20px;
+        margin-left: 10px;
+    }
+
+
+    .ymo-edit img{
+        width: 18px;
+        margin-bottom: 5px;
+    }
+
+
+/*Page admin-profile ymo-edit-left*/
+    .ymo-edit-left{
+        width: 20px;
+        margin-left: 38px;
+        margin-top: 3px;
+    }
+
+
+    .ymo-edit-left img{
+        width: 18px;
+    }
+
+
+    .ymo-edit-left ul{
+        width: 60px;
+        left: -64px;
+        top: -36px;
+        border: 1px solid #aaaaaa;
+        margin-top: 0px;
+    }
+
+
+    .ymo-edit-left li{
+        margin-bottom: 0px;
+        float: right;
+    }
+
+
+    .ymo-edit-left li a{
+        font-size: 0.75em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        padding: 3px 10px;
+    }
+
+
+    .ymo-edit-left li a:hover{
+        color: #038dd5;
+    }
+
+
+    .ymo-mypost .ymo-btn-blue:last-child{
+        float: right;
+    }
+
+     .ymo-post .ymo-mypost .ymo-attachment{
+         color: #038dd5;
+     }
+
+
+/*Page admin-profile-my-estore ymo-edit-right*/
+    .ymo-post .ymo-edit-right{
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+
+    .ymo-post .ymo-edit-right img{
+        width: 18px;
+    }
+
+    .ymo-edit ul,
+    .ymo-post .ymo-edit-right ul{
+        left: 25px;
+        top: -36px;
+    }
+
+    .ymo-edit li,
+    .ymo-post .ymo-edit-right li{
+        margin-bottom: 0px;
+    }
+
+    .ymo-edit li a,
+    .ymo-post .ymo-edit-right li a{
+        font-size: 0.75em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        padding: 3px 10px;
+    }
+
+    .ymo-edit li a:hover,
+    .ymo-post .ymo-edit-right li a:hover{
+        color: #038dd5;
+    }
+
+
+/*Page edition-profile-header ymo-wallpaper-edit*/
+    .ymo-wallpaper-edit a{
+        background: #ffffff;
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #038dd5;
+        float: right;
+        margin: 5px 5px 0 0;
+        padding: 5px 10px;
+    }
+
+
+    .ymo-wallpaper-edit img{
+        width: 18px;
+        height: 19px;
+    }
+
+
+
+/*Page edition-profile-header ymo-form-header*/
+    .ymo-form-header{
+        background: #ffffff;
+        border: none;
+        border-radius: 0px;
+        cursor: pointer;
+    }
+
+
+    .ymo-form-header a{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #038dd5;
+        float: right;
+        margin: 5px 8px 0 0;
+    }
+
+
+    .ymo-form-header img{
+        width: 18px;
+        height: 19px;
+    }
+
+
+/*Page edition-profile-header ymo-label*/
+    .ymo-list-form{
+        width: 100%;
+        float: left;
+        margin-bottom: 10px;
+    }
+
+
+    .ymo-list-form label{
+        width: auto;
+        font-size: 0.75em;
+        font-family: 'microsoft_tai_leregular';
+        color: #038dd5;
+        float: left;
+        margin-top: 6px;
+    }
+
+
+    .ymo-list-form input{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+    }
+
+
+    .ymo-input{
+        padding-left: 5px;
+        padding-right: 8px;
+    }
+
+
+/*Page edition-profile-my-profile ymo-form-profile*/
+    .ymo-form-profile{
+        width: 100%;
+        margin-bottom: 0px;
+        float: left;
+    }
+
+
+    .ymo-form-profile li{
+        width: 100%;
+        list-style: none;
+        float: left;
+        margin-bottom: 30px;
+    }
+
+
+    .ymo-form-profile li h4{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #038dd5;
+        margin-top: 0px;
+    }
+
+
+    .ymo-form-profile textarea,
+    .ymo-form-profile input{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        padding: 3px 5px;
+        margin-bottom: 10px;
+    }
+
+
+/*Page edition-profile-my-profile ymo-form-album*/
+    .ymo-form-album{
+        width: 100%;
+        height: 400px;
+        background: #ffffff;
+        border: 1px solid #aaaaaa;
+        margin-top: 20px;
+    }
+
+
+    .ymo-form-album p{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        text-align: center;
+        margin-top: 150px;
+    }
+
+
+    .ymo-upload{
+        font-size: 1.12em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        position: relative;
+        left: 158px;
+    }
+
+
+/*Page edition-profile-my-profile ymo-staff-form*/
+    .ymo-staff-form{
+         width: 94px;
+         height: 107px;
+         float: left;
+         background: #ffffff;
+         border: 1px solid #aaaaaa;
+         cursor: pointer;
+     }
+
+
+    .ymo-staff-form p{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        text-align: center;
+        margin-top: 35px;
+        padding: 0px 5px;
+    }
+
+
+    .ymo-staff-member-left input,
+    .ymo-staff-member-right input{
+        margin-left: 6px;
+        margin-bottom: 5px;
+        width: 190px;
+        height: 23px;
+        float: left;
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+    }
+
+
+    .ymo-staff-member-left .input-sm:last-child,
+    .ymo-staff-member-right .input-sm:last-child{
+        margin-bottom: 0px;
+    }
+
+
+    .ymo-add-member a{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+    }
+
+
+    .ymo-buttons{
+        width: 210px;
+        float: right;
+    }
+
+
+
+

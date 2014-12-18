@@ -1,0 +1,1523 @@
+/*.ymo-Panel{
+	*//*outline: 1px solid #ccc;*//*
+}*/
+
+
+.popup-header{
+    font-size: 1.5em;
+    font-family: 'microsoft_tai_leregular';
+    color: #0f94d9;
+    border: none;
+}
+
+
+.popup-padding{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.ymo-popup{
+    border-radius: 0px;
+    padding: 8px;
+}
+
+
+.popup-btn-left{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.popup-btn-right{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.popup-btn-right-left{
+    padding: 0px 15px 0px 0px;
+}
+
+
+.popup-footer button{
+    font-size: 0.8em;
+    font-family: 'microsoft_tai_leregular';
+    color: #ffffff;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: inset none;
+    -webkit-transition: none;
+    transition: none;
+    background: #54bbf5; /* Old browsers */
+    background: -moz-linear-gradient(top, #54bbf5 0%, #51baf4 8%, #47b4ed 20%, #3fb3ee 36%, #34afeb 48%, #2faae6 60%, #2ca3e5 68%, #1b9be4 88%, #189be3 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#54bbf5), color-stop(8%,#51baf4), color-stop(20%,#47b4ed), color-stop(36%,#3fb3ee), color-stop(48%,#34afeb), color-stop(60%,#2faae6), color-stop(68%,#2ca3e5), color-stop(88%,#1b9be4), color-stop(100%,#189be3)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #54bbf5 0%,#51baf4 8%,#47b4ed 20%,#3fb3ee 36%,#34afeb 48%,#2faae6 60%,#2ca3e5 68%,#1b9be4 88%,#189be3 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #54bbf5 0%,#51baf4 8%,#47b4ed 20%,#3fb3ee 36%,#34afeb 48%,#2faae6 60%,#2ca3e5 68%,#1b9be4 88%,#189be3 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #54bbf5 0%,#51baf4 8%,#47b4ed 20%,#3fb3ee 36%,#34afeb 48%,#2faae6 60%,#2ca3e5 68%,#1b9be4 88%,#189be3 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #54bbf5 0%,#51baf4 8%,#47b4ed 20%,#3fb3ee 36%,#34afeb 48%,#2faae6 60%,#2ca3e5 68%,#1b9be4 88%,#189be3 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54bbf5', endColorstr='#189be3',GradientType=0 ); /* IE6-9 */
+}
+
+
+.popup-footer button:hover{
+    cursor: pointer;
+    background: #1097d9; /* Old browsers */
+    background: -moz-linear-gradient(top, #1097d9 0%, #1095d6 12%, #24a0e0 32%, #35a8e7 56%, #3aacea 68%, #4bb4eb 88%, #4eb8ec 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1097d9), color-stop(12%,#1095d6), color-stop(32%,#24a0e0), color-stop(56%,#35a8e7), color-stop(68%,#3aacea), color-stop(88%,#4bb4eb), color-stop(100%,#4eb8ec)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #1097d9 0%,#1095d6 12%,#24a0e0 32%,#35a8e7 56%,#3aacea 68%,#4bb4eb 88%,#4eb8ec 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #1097d9 0%,#1095d6 12%,#24a0e0 32%,#35a8e7 56%,#3aacea 68%,#4bb4eb 88%,#4eb8ec 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #1097d9 0%,#1095d6 12%,#24a0e0 32%,#35a8e7 56%,#3aacea 68%,#4bb4eb 88%,#4eb8ec 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #1097d9 0%,#1095d6 12%,#24a0e0 32%,#35a8e7 56%,#3aacea 68%,#4bb4eb 88%,#4eb8ec 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1097d9', endColorstr='#4eb8ec',GradientType=0 ); /* IE6-9 */
+}
+
+
+.popup-footer button:focus{
+    border: none;
+    outline: none;
+}
+
+
+/*
+ Start dialog
+ */
+	.popup-dialog .popup-header{
+		text-align: center;
+	}
+
+
+	.popup-dialog .popup-body{
+		margin: 0px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.popup-dialog .popup-text{
+		text-align: center;
+		font-size: 0.7em;
+		font-family: 'microsoft_tai_leregular';
+		color: #d20a89;
+	}
+	
+	
+	.popup-dialog .popup-footer{
+		border: none;
+		margin: 0px;
+		padding: 10px;
+	}
+/*
+End dialog
+ */
+
+
+    /*
+     Start login
+     */
+    .popup-login .popup-header{
+        text-align: center;
+    }
+
+
+    .popup-login .popup-body{
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    .popup-login .popup-text{
+        text-align: center;
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d20a89;
+    }
+
+
+    .popup-login .ymo-input{
+        margin: 0 auto;
+        margin-top: 20px;
+        border-radius: 0px;
+        /*
+        -webkit-box-shadow: none;
+        box-shadow: inset none;
+        -webkit-transition: none;
+        transition: none;*/
+    }
+
+
+    .popup-login .popup-footer{
+        border: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    /*
+     End login
+     */
+
+
+     /*
+     Start password recovery
+     */
+    .popup-password .popup-header{
+        text-align: center;
+    }
+
+
+    .popup-password .popup-body{
+        margin: 0px;
+        padding-top: 10px;
+    }
+
+
+    .popup-password .popup-text{
+        text-align: center;
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d20a89;
+    }
+
+
+    .popup-password .ymo-radio input[type=radio].css-checkbox {
+        display:none;
+    }
+
+
+    .popup-password .ymo-radio input[type=radio].css-checkbox + label.css-label {
+        padding-left:26px;
+        height:21px;
+        display:inline-block;
+        line-height:21px;
+        background-repeat:no-repeat;
+        background-position: 0 0;
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        vertical-align:middle;
+        cursor:pointer;
+        padding-right: 20px;
+    }
+
+
+    .popup-password .ymo-radio input[type=radio].css-checkbox:checked + label.css-label {
+        background-position: 0 -21px;
+    }
+
+
+    .popup-password .ymo-radio label.css-label {
+        background-image:url(../img/radio.png);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+
+    .popup-password .input-group{
+        margin-top: 15px;
+    }
+
+
+    .popup-password .ymo-input{
+        border-radius: 0px;
+        /*
+        -webkit-box-shadow: none;
+        box-shadow: inset none;
+        -webkit-transition: none;
+        transition: none;*/
+    }
+
+    .popup-password .input-group-btn button{
+        color: #ffffff;
+        padding: 7px 15px;
+        margin-right: 41px;
+        font-weight: normal;
+        border: none;
+        border-radius: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: inset none;
+        -webkit-transition: none;
+        transition: none;
+        background: #54bbf5; /* Old browsers */
+        background: -moz-linear-gradient(top, #54bbf5 0%, #51baf4 8%, #47b4ed 20%, #3fb3ee 36%, #34afeb 48%, #2faae6 60%, #2ca3e5 68%, #1b9be4 88%, #189be3 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#54bbf5), color-stop(8%,#51baf4), color-stop(20%,#47b4ed), color-stop(36%,#3fb3ee), color-stop(48%,#34afeb), color-stop(60%,#2faae6), color-stop(68%,#2ca3e5), color-stop(88%,#1b9be4), color-stop(100%,#189be3)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #54bbf5 0%,#51baf4 8%,#47b4ed 20%,#3fb3ee 36%,#34afeb 48%,#2faae6 60%,#2ca3e5 68%,#1b9be4 88%,#189be3 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #54bbf5 0%,#51baf4 8%,#47b4ed 20%,#3fb3ee 36%,#34afeb 48%,#2faae6 60%,#2ca3e5 68%,#1b9be4 88%,#189be3 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #54bbf5 0%,#51baf4 8%,#47b4ed 20%,#3fb3ee 36%,#34afeb 48%,#2faae6 60%,#2ca3e5 68%,#1b9be4 88%,#189be3 100%); /* IE10+ */
+        background: linear-gradient(to bottom, #54bbf5 0%,#51baf4 8%,#47b4ed 20%,#3fb3ee 36%,#34afeb 48%,#2faae6 60%,#2ca3e5 68%,#1b9be4 88%,#189be3 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54bbf5', endColorstr='#189be3',GradientType=0 ); /* IE6-9 */
+    }
+
+
+    .popup-password .input-group-btn button:hover{
+        cursor: pointer;
+        background: #1097d9; /* Old browsers */
+        background: -moz-linear-gradient(top, #1097d9 0%, #1095d6 12%, #24a0e0 32%, #35a8e7 56%, #3aacea 68%, #4bb4eb 88%, #4eb8ec 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1097d9), color-stop(12%,#1095d6), color-stop(32%,#24a0e0), color-stop(56%,#35a8e7), color-stop(68%,#3aacea), color-stop(88%,#4bb4eb), color-stop(100%,#4eb8ec)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #1097d9 0%,#1095d6 12%,#24a0e0 32%,#35a8e7 56%,#3aacea 68%,#4bb4eb 88%,#4eb8ec 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #1097d9 0%,#1095d6 12%,#24a0e0 32%,#35a8e7 56%,#3aacea 68%,#4bb4eb 88%,#4eb8ec 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #1097d9 0%,#1095d6 12%,#24a0e0 32%,#35a8e7 56%,#3aacea 68%,#4bb4eb 88%,#4eb8ec 100%); /* IE10+ */
+        background: linear-gradient(to bottom, #1097d9 0%,#1095d6 12%,#24a0e0 32%,#35a8e7 56%,#3aacea 68%,#4bb4eb 88%,#4eb8ec 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1097d9', endColorstr='#4eb8ec',GradientType=0 ); /* IE6-9 */
+    }
+
+
+    .popup-password .input-group-btn button:focus{
+        border: none;
+        outline: none;
+    }
+    /*
+     End password recovery
+     */
+
+
+    /*
+    Start payment method
+    */
+    .popup-payment .popup-header{
+        text-align: center;
+    }
+
+
+    .popup-payment .popup-body{
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    .popup-payment .popup-text{
+        text-align: center;
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d20a89;
+    }
+
+
+    .popup-payment .ymo-radio{
+        margin-top: 0px;
+    }
+
+
+    .popup-payment .ymo-radio input[type=radio].css-checkbox {
+        display:none;
+    }
+
+
+    .popup-payment .ymo-radio input[type=radio].css-checkbox + label.css-label {
+        padding-left:26px;
+        height:21px;
+        display:inline-block;
+        line-height:21px;
+        background-repeat:no-repeat;
+        background-position: 0 0;
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        vertical-align:middle;
+        cursor:pointer;
+        padding-right: 20px;
+    }
+
+
+    .popup-payment .ymo-radio input[type=radio].css-checkbox:checked + label.css-label {
+        background-position: 0 -21px;
+    }
+
+
+    .popup-payment .ymo-radio label.css-label {
+        background-image:url(../img/radio.png);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+
+    .popup-payment .popup-footer{
+        border: none;
+        margin: 0px;
+        padding: 10px;
+    }
+
+
+    .popup-payment .paypal-btn{
+        margin-left: 60px;
+    }
+    /*
+     End paypal method
+     */
+
+
+    /*
+    Start video
+    */
+    .popup-video .popup-header{
+        text-align: center;
+    }
+
+
+    .popup-video .popup-body{
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /*
+     End video
+     */
+
+
+    /*
+    Start register account
+    */
+    .popup-register .popup-body{
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    .popup-register .popup-form{
+        padding: 0px;
+    }
+
+
+    .popup-register .popup-group{
+        padding: 0px;
+    }
+
+
+    .popup-register .popup-group label{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: normal;
+    }
+
+
+    .popup-register .popup-group label span{
+        color: #d73e9e;
+    }
+
+
+    .popup-register .popup-input{
+        border: 1px solid #aaaaaa;
+        border-radius: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: inset none;
+        -webkit-transition: none;
+        transition: none;
+    }
+
+
+    .popup-register .popup-gender{
+        margin-top: 25px;
+    }
+
+
+    .popup-register .popup-gender input[type=radio].css-checkbox {
+        display:none;
+    }
+
+
+    .popup-register .popup-gender input[type=radio].css-checkbox + label.css-label {
+        padding-left:26px;
+        height:21px;
+        display:inline-block;
+        line-height:21px;
+        background-repeat:no-repeat;
+        background-position: 0 0;
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        vertical-align:middle;
+        cursor:pointer;
+        padding-right: 20px;
+    }
+
+
+    .popup-register .popup-gender input[type=radio].css-checkbox:checked + label.css-label {
+        background-position: 0 -21px;
+    }
+
+
+    .popup-register .popup-gender label.css-label {
+        background-image:url(../img/radio.png);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+
+    .popup-register .popup-email{
+        margin-top: 6px;
+    }
+
+
+    .popup-register .popup-text{
+        padding: 0px;
+        margin-bottom: 1px;
+    }
+
+
+    .popup-register select{
+        border: 1px solid #aaaaaa;
+        border-radius: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: inset none;
+        -webkit-transition: none;
+        transition: none;
+        margin-top: 2px;
+    }
+
+
+    .popup-register .popup-required{
+        padding: 0px;
+        margin-bottom: 0px;
+        text-align: right;
+    }
+
+
+    .popup-register .popup-required label{
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d73e9e;
+        font-weight: normal;
+    }
+
+
+    .popup-register .popup-checkbox{
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-bottom: 10px;
+    }
+
+
+    .popup-register .input-group{
+        margin-top: 2px;
+    }
+
+
+    .popup-register input[type=checkbox].css-checkbox {
+        display:none;
+    }
+
+
+    .popup-register input[type=checkbox].css-checkbox + label.css-label {
+        padding-left:24px;
+        height:19px;
+        display:inline-block;
+        line-height:19px;
+        margin-bottom: 3px;
+        margin-left: -20px;
+        background-repeat:no-repeat;
+        background-position: 0 0;
+        vertical-align:middle;
+        cursor:pointer;
+    }
+
+
+    .popup-register input[type=checkbox].css-checkbox:checked + label.css-label {
+        background-position: 0 -19px;
+    }
+
+
+    .popup-register label.css-label {
+        background-image: url(../img/checkbox.png);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+
+    .popup-register .checkbox{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .popup-register .checkbox label{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+    }
+
+
+    .popup-register .checkbox label a{
+        font-size: 0.8em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0f94d9;
+        text-decoration: underline;
+    }
+
+
+    .popup-register .popup-news{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+
+    .popup-register .popup-news label{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0f94d9;
+        padding-right: 8px;
+        padding-left: 24px;
+    }
+
+
+    .popup-register .popup-news input[type=radio].css-checkbox {
+        display:none;
+    }
+
+
+    .popup-register .popup-news input[type=radio].css-checkbox + label.css-label {
+        padding-left:26px;
+        height:21px;
+        display:inline-block;
+        line-height:21px;
+        background-repeat:no-repeat;
+        background-position: 0 0;
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        vertical-align:middle;
+        cursor:pointer;
+    }
+
+
+    .popup-register .popup-news input[type=radio].css-checkbox:checked + label.css-label {
+        background-position: 0 -21px;
+    }
+
+
+    .popup-register .popup-news label.css-label {
+        background-image:url(../img/radio.png);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+
+    .popup-register .popup-footer{
+        border-top: 1px solid #aaaaaa;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px 0px;
+    }
+    /*
+     End register account
+     */
+
+
+    /*
+    Start refer
+    */
+    .popup-refer .popup-body{
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    .popup-refer .popup-form{
+        padding: 0px;
+    }
+
+
+    .popup-refer .popup-group{
+        padding: 0px;
+    }
+
+
+    .popup-refer .popup-input{
+        border: 1px solid #aaaaaa;
+        border-radius: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: inset none;
+        -webkit-transition: none;
+        transition: none;
+    }
+
+
+    .popup-refer .popup-text{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d73e9e;
+        padding: 0px;
+    }
+
+
+    .popup-refer .popup-social{
+        padding-top: 10px;
+        padding-bottom: 5px;
+        margin-bottom: 0px;
+    }
+
+
+    .popup-refer .popup-footer{
+        border-top: 1px solid #aaaaaa;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px 0px;
+    }
+    /*
+     End refer
+     */
+
+
+    /*
+    Start register company
+    */
+    .popup-company .popup-body{
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    .popup-company .popup-form{
+        padding: 0px;
+    }
+
+
+    .popup-company .popup-group{
+        padding: 0px;
+    }
+
+
+    .popup-company .popup-group label{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: normal;
+    }
+
+
+    .popup-company .popup-group label span{
+        color: #d73e9e;
+    }
+
+
+    .popup-company .popup-input{
+        border: 1px solid #aaaaaa;
+        border-radius: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: inset none;
+        -webkit-transition: none;
+        transition: none;
+    }
+
+
+    .popup-company .popup-text{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d73e9e;
+        padding: 0px;
+    }
+
+
+    .popup-company select{
+        border: 1px solid #aaaaaa;
+        border-radius: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: inset none;
+        -webkit-transition: none;
+        transition: none;
+    }
+
+
+    .popup-company .popup-required{
+        padding: 0px;
+        margin-bottom: 0px;
+        text-align: right;
+    }
+
+
+    .popup-company .popup-required label{
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d73e9e;
+        font-weight: normal;
+    }
+
+
+    .popup-company .popup-footer{
+        border-top: 1px solid #aaaaaa;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px 0px;
+    }
+
+
+    .popup-company .popup-footer .popup-btn-left{
+        float: left;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .popup-company .popup-footer .popup-btn-right{
+        float: right;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .popup-company .popup-footer .popup-btn-right-left{
+        padding: 0px 15px 0px 0px;
+    }
+    /*
+    End register company
+    */
+
+
+    /*
+    Start contact
+    */
+    .popup-contact .popup-body{
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    .popup-contact .popup-form{
+        padding: 0px;
+    }
+
+
+    .popup-contact .popup-group{
+        padding: 0px;
+    }
+
+
+    .popup-contact .popup-group label{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: normal;
+    }
+
+
+    .popup-contact .popup-group label span{
+        color: #d73e9e;
+    }
+
+
+    .popup-contact .popup-input{
+        border-radius: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: inset none;
+        -webkit-transition: none;
+        transition: none;
+    }
+
+
+    .popup-contact textarea{
+        width: 100%;
+        height: 174px;
+        padding: 3px 5px 0px 5px;
+        border: 1px solid #aaaaaa;
+        border-radius: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: inset none;
+        -webkit-transition: none;
+        margin:0px;
+        resize: none;
+    }
+
+
+    .popup-contact .popup-text{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        padding-top: 5px;
+        margin-bottom: 5px;
+    }
+
+
+    .popup-contact .popup-text span{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0f94d9;
+        padding: 0px;
+    }
+
+
+    .popup-contact .popup-required{
+        padding: 0px;
+        margin-top: 50px;
+        text-align: right;
+    }
+
+
+    .popup-contact .popup-required label{
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d73e9e;
+        font-weight: normal;
+    }
+
+
+    .popup-contact .popup-footer{
+        border-top: 1px solid #aaaaaa;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px 0px;
+    }
+    /*
+    End contact
+    */
+
+
+    /*
+     Start terms
+     */
+    .popup-terms .popup-body{
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-right: 7px;
+    }
+
+
+    .popup-terms .popup-text{
+        height: 260px;
+        text-align: left;
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        overflow-x: auto;
+    }
+    /*
+    End terms
+     */
+
+
+    /*
+     Start faqs
+     */
+    .popup-faqs .popup-body{
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-right: 7px;
+    }
+
+
+    .popup-faqs .popup-list{
+        height: 250px;
+        text-align: left;
+        padding: 0px;
+        overflow-x: auto;
+    }
+
+
+    .popup-faqs .popup-list .popup-faqs-list{
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    .popup-faqs .popup-list .popup-faqs-list li{
+        list-style: none;
+    }
+
+
+    .popup-faqs .popup-list .popup-faqs-list span{
+        color: #0f94d9;
+    }
+
+
+    .popup-faqs .popup-list .popup-faqs-list a{
+        list-style: none;
+        padding-left: 15px;
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+    }
+
+
+    .popup-faqs .popup-list hr{
+        background-color: #b2b2b2;
+        width: auto;
+        height: 1px;
+        border: none;
+        margin: 20px;
+    }
+
+
+    .popup-faqs .popup-list .popup-text{
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    .popup-faqs .popup-list .popup-text li{
+        list-style: none;
+    }
+
+
+    .popup-faqs .popup-list .popup-text span{
+        color: #0f94d9;
+    }
+
+
+    .popup-faqs .popup-list .popup-text{
+        list-style: none;
+        padding-left: 15px;
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+    }
+    /*
+    End faqs
+     */
+
+
+
+    /*
+    Start order
+    */
+    .popup-order .popup-body{
+        height: 250px;
+        margin-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        overflow: auto;
+    }
+
+
+    .popup-order .popup-nopadding{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    .popup-order .popup-text{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+        padding: 0px;
+    }
+
+
+    .popup-order .popup-text strong{
+        color: #777777;
+        font-weight: normal;
+    }
+
+
+    .popup-order .popup-text span{
+        color: #d73e9e;
+        font-weight: bold;
+    }
+
+
+    .popup-order .popup-table{
+        margin-top: 10px;
+    }
+
+
+    .popup-order table.popup-table > tbody > tr.table-item{
+        border: 1px solid #aaaaaa;
+    }
+
+
+    .popup-order table.popup-table > tbody > tr.table-item > td{
+        padding-bottom: 8px;
+        padding-top: 8px;
+    }
+
+
+    .popup-order .table-body{
+        border: 1px solid #aaaaaa;
+    }
+
+
+    .popup-order table.popup-table > tbody > tr > td,
+    .popup-order table.popup-table > thead > tr > th {
+        border: none;
+    }
+
+
+    .popup-order .title-table{
+        border: 0;
+        padding: 10px;
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+        font-weight: normal;
+    }
+
+
+    .popup-order .table-body td{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+    }
+
+
+    .popup-order .table-body td span{
+        color: #d73e9e;
+        font-weight: bold;
+    }
+
+
+    .popup-order .table-body td strong{
+        color: #787878;
+        font-weight: normal;
+    }
+
+
+    .popup-order .table-body .table-qty .form-control {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        font-size: 1em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        line-height: normal;
+        background-color: #ffffff;
+        background-image: none;
+        border: none;
+        border-radius: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-transition: none;
+        transition: none;
+    }
+
+
+    .popup-order .popup-footer{
+        border-top: 1px solid #aaaaaa;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px 0px;
+    }
+    /*
+    End order
+    */
+
+
+
+    /*
+    Start pricing
+    */
+    .popup-pricing .popup-body{
+        height: 305px;
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        overflow: auto;
+        margin-right: 5px;
+    }
+
+    .popup-pricing .popup-padding{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    .popup-pricing .popup-text{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d73e9e;
+        padding-top: 5px;
+        margin-bottom: 5px;
+    }
+
+
+    .popup-pricing .popup-radio{
+        margin-top: 5px;
+    }
+
+
+    .popup-pricing .popup-radio .radio-inline .radio-name{
+        position: relative;
+        top: -3px;
+        display:inline-block;
+        line-height:21px;
+        font-size: 0.8em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0f94d9;
+        font-weight: bold;
+        cursor:pointer;
+    }
+
+
+    .popup-pricing .popup-table{
+        margin-top: 0px;
+    }
+
+
+    .popup-pricing .title-table{
+        font-size: 1.0em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0f94d9;
+        padding-left: 7px;
+    }
+
+
+    .popup-pricing .title-table > th{
+        padding-left: 0px;
+    }
+
+
+    .popup-pricing .table-body{
+        border: none;
+    }
+
+
+    .popup-pricing table.popup-table > tbody > tr.table-item > td{
+        font-size: 0.8em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-bottom: 1px solid #aaaaaa;
+        border-top: 1px solid #aaaaaa;
+    }
+
+
+    .popup-pricing table.popup-table > tbody > tr > td,
+    .popup-pricing table.popup-table > thead > tr > th {
+        border: none;
+    }
+
+
+    .popup-pricing .popup-footer{
+        border-top: none;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px 0px;
+    }
+
+
+    .popup-pricing .popup-footer .popup-btn{
+        float: left;
+    }
+    /*
+    End pricing
+    */
+
+
+    /*
+     Start help
+     */
+    .popup-help{
+        width: 100%;
+        position: relative;
+        display: block;
+        line-height: normal;
+    }
+
+
+    .popup-help .popup-body{
+        height: 545px;
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    .popup-help .popup-padding{
+        padding-left: 0px;
+        padding-right: 15px;
+    }
+
+
+    .popup-help .popup-text{
+        font-size: 1.5em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0f94d9;
+        margin-top: 8px;
+        margin-bottom: 5px;
+    }
+
+
+    .popup-help .popup-text h4{
+        margin: 0px;
+    }
+
+
+    .popup-help .popup-text-faqs{
+        text-align: right;
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d31c92;
+        padding-top: 5px;
+        margin-top: 8px;
+    }
+
+
+    .popup-help .popup-video{
+        height: 440px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        padding-right: 15px;
+    }
+
+
+    .popup-help .popup-video-thumb{
+        margin-top: 7px;
+    }
+
+
+    .popup-help .popup-list{
+        text-align: left;
+        border: 1px solid #aaaaaa;
+        float: left;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+
+    .popup-help .popup-list li{
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 0.1em;
+        margin-bottom: 0px;
+        border-bottom: 1px solid #aaaaaa;
+        float: left;
+    }
+
+
+
+    .popup-help .popup-list li:last-child{
+        border: none;
+    }
+
+
+
+    .popup-help .popup-list li .popup-list-title{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0f94d9;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .popup-help .popup-list li .popup-list-title strong{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        font-weight: normal;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+
+    .popup-help .popup-list li .popup-list-text{
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        margin: 0px;
+        padding-top: 5px;
+        padding-bottom: 0.17em;
+        padding-left: 5px;
+        padding-right: 0px;
+        line-height: 1.42857143;
+    }
+
+
+    .popup-help .popup-video-player{
+        border: 1px solid #aaaaaa;
+        float: left;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+
+    .popup-help .popup-title-player{
+        font-size: 1.5em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0f94d9;
+        margin-top: 10px;
+    }
+
+
+    .popup-help .popup-title-player strong{
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        font-weight: normal;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+
+    .popup-help .popup-text-player{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        margin: 0px;
+        padding-top: 15px;
+        padding-left: 5px;
+        padding-right: 0px;
+        text-align: left;
+    }
+
+
+
+    .popup-help .popup-text-player hr{
+        margin: -5px 5px 10px 5px;
+    }
+
+
+
+    .popup-help .popup-video-player{
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+
+    .popup-help .popup-video-player iframe{
+        margin-top: 10px;
+    }
+
+
+    .popup-help .popup-help-form{
+        margin-top: 0px;
+    }
+
+
+    .popup-help .popup-help-form select{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        border: none;
+        border-radius: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: inset none;
+        -webkit-transition: none;
+        transition: none;
+    }
+
+
+    .popup-help .popup-help-form input[name=search-help]{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        border: 1px solid #aaaaaa;
+        border-radius: 0px;
+        padding-left: 5px;
+        padding-right: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: inset none;
+        -webkit-transition: none;
+        transition: none;
+        float: left;
+    }
+
+
+    .popup-help .popup-help-form input[name=submit]{
+        width: 18px;
+        height: 20px;
+        float: left;
+        position: relative;
+        margin: 5px 0 0 -25px;
+        z-index: 10;
+    }
+
+
+    .popup-help .popup-footer{
+        border: none;
+        margin: 0px;
+        padding: 10px;
+    }
+    /*
+    End help
+     */
+
+
+    /*
+     Start login modal
+     */
+    .popup-login-modal .popup-header{
+        text-align: center;
+    }
+
+
+    .popup-login-modal .popup-body{
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    .popup-login-modal .popup-text{
+        text-align: center;
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d20a89;
+    }
+
+
+    .popup-login-modal .popup-text a{
+        color: #d20a89;
+        text-decoration: underline;
+    }
+
+
+    .popup-login-modal .input-group{
+        margin-top: 15px;
+    }
+
+
+    .popup-login-modal .ymo-input{
+        border-radius: 0px;
+        /*
+         -webkit-box-shadow: none;
+         box-shadow: inset none;
+         -webkit-transition: none;
+         transition: none;*/
+    }
+
+
+    .popup-login-modal .popup-footer{
+        border: none;
+        margin: 0px;
+        padding: 10px;
+    }
+    /*
+    End login modal
+    */

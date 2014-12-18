@@ -1,0 +1,11 @@
+/*Reset styles*/
+@import url("reset-ymobiz.css");
+
+/*Load external styles*/
+@import url("theme-ymobiz.css");
+
+/*Load custom styles bootstrap*/
+@import url("custom-bootstrap.css");
+
+/*Global styles */
+@import url("global-ymobiz.css");

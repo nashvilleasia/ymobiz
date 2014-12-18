@@ -1,0 +1,180 @@
+/*HEADER SETTINGS*/
+	.ymo-header-settings{
+		width: 940px;
+		float: left;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #aaaaaa;
+		outline: 1px solid #ff0;
+	}
+
+
+    .ymo-menu-settings{
+        height: 20px;
+        float: left;
+        padding: 0px 15px 0 26px;
+        position: relative;
+        top: 5px;
+        background: url(../img/icons/settings_off.png) no-repeat;
+        border-right: 1px solid #787878;
+        cursor: pointer;
+    }
+
+
+    .ymo-menu-settings:hover{
+        background: url(../img/icons/settings_on.png) no-repeat;
+        text-decoration: none;
+        color: #038dd5;
+    }
+
+
+    .ymo-menu-general{
+        height: 21px;
+        float: left;
+        padding: 1px 0 0 24px;
+        position: relative;
+        top: 4px;
+        margin: 0px 15px;
+        background: url(../img/icons/general_off.png) no-repeat;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+
+    .ymo-menu-general:hover{
+        color: #038dd5;
+        text-decoration: none;
+        background: url(../img/icons/general_on.png) no-repeat;
+    }
+
+
+    .ymo-header-settings .ymo-menu-network{
+        padding-right: 0px;
+        margin-right: 15px;
+        border-right: none;
+        top: 3px;
+    }
+
+
+	.ymo-header-settings .ymo-menu-marketing{
+        padding-right: 0px;
+        margin-right: 15px;
+        border-right: none;
+        top: 4px;
+    }
+
+
+    .ymo-header-settings .ymo-menu-business{
+        padding-right: 0px;
+        margin-right: 15px;
+        border-right: none;
+        top: 4px;
+    }
+	
+	
+	.ymo-header-settings .ymo-dropdown-menu ul{
+		left: 20px;
+		top: 30px;
+	}
+
+/* content */
+    .ymo-table-personal{
+        margin-bottom: 0px;
+    }
+
+
+    .ymo-table-personal tbody > tr {
+        width: 98%;
+        border-bottom: 1px solid #aaaaaa;
+        margin: 0 auto;
+        display: table;
+    }
+
+
+    .ymo-table-personal tbody > tr:last-child{
+        border-bottom: none;
+    }
+
+
+    .ymo-table-personal tbody > tr > td{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+    }
+
+
+    .ymo-table-personal tbody .ymo-settings-item{
+        padding: 10px;
+        display: flex;
+    }
+
+
+    .ymo-table-personal tbody .ymo-settings-input{
+        padding: 5px 0px 5px 10px;
+    }
+
+
+    .ymo-table-personal .ymo-icon-paypal,
+    .ymo-table-personal .ymo-icon-ymopay{
+        width: 64px;
+        height: 20px;
+    }
+
+
+    .ymo-table-personal .ymo-settings-input .ymo-blue-gradient{
+        padding: 6px 24px 7px 24px;
+    }
+
+
+    .ymo-table-personal .ymo-settings-input .ymo-code{
+        width: 15%;
+        float: left;
+        margin-right: 10px;
+    }
+
+
+    .ymo-table-personal .ymo-settings-input .ymo-number{
+        width: 81%;
+        float: right;
+    }
+
+
+    .ymo-table-personal .ymo-nav-right li{
+        width: 100px;
+        padding: 0px;
+        margin-right: 10px;
+    }
+
+
+    .ymo-table-personal .ymo-nav-right li:last-child{
+        margin-right: 0px;
+    }
+
+
+    .ymo-table-personal .ymo-nav-right label img{
+        width: 64px;
+        height: 20px;
+    }
+
+
+    .ymo-table-personal .checkbox-group{
+		float: right;
+		margin: 3px 0 0px 0;
+    }
+
+
+    .ymo-settings .ymo-icon-save{
+        float: right;
+        padding: 2px 15px 0 23px;
+    }
+
+
+    .ymo-table-personal .ymo-settings-item .ymo-view{
+        margin: -2px 5px 0 5px;
+    }
+
+
+    .ymo-table-personal .ymo-settings-item .ymo-btn-pink{
+        padding: 4px 12px;
+        top: -6px;
+        position: relative;
+    }

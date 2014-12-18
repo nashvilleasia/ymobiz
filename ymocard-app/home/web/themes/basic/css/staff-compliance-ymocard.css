@@ -1,0 +1,22 @@
+    /*ymo-card-details*/
+    .ymo-staff-compliance .ymo-card-details{
+        border-bottom: none;
+    }
+    /*ymo-card-details*/
+
+
+    /*ymo-card-documents*/
+    .ymo-staff-compliance .ymo-card-documents{
+        margin-top: 10px;
+    }
+
+
+    .ymo-staff-compliance .ymo-card-documents ul{
+        padding-left: 15px;
+    }
+
+
+    .ymo-staff-compliance .ymo-card-documents .ymo-see-more{
+        margin-left: 140px;
+    }
+    /*ymo-card-documents*/

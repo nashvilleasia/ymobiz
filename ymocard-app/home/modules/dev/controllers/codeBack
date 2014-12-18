@@ -1,0 +1,271 @@
+
+
+    public function actionTimezones()
+    {
+
+        echo '<pre>';
+
+        /*$timezones = \DateTimeZone::listAbbreviations();
+        $cities = array();
+        foreach( $timezones as $key => $zones )
+        {
+            foreach( $zones as $id => $zone )
+            {
+
+                if ( preg_match( '/^(America|Antartica|Arctic|Asia|Atlantic|Europe|Indian|Pacific)\//', $zone['timezone_id'] ) )
+                    $cities[$zone['timezone_id']][] = $key;
+            }
+        }
+
+        // For each city, have a comma separated list of all possible timezones for that city.
+        foreach( $cities as $key => $value )
+            $cities[$key] = join( ', ', $value);
+
+        // Only keep one city (the first and also most important) for each set of possibilities.
+        $cities = array_unique( $cities );
+
+        // Sort by area/city name.
+        ksort( $cities );*/
+
+        /*$timeZones = \DateTimeZone::listIdentifiers(\DateTimeZone::ALL);
+        foreach ( $timeZones as $key => $zoneName )
+        {
+            $tz = new \DateTimeZone($zoneName);
+            $loc = $tz->getLocation();
+            print($zoneName . " = " . $loc['comments'] . "<br>");
+        }*/
+
+        $list = \DateTimeZone::listAbbreviations();
+        $idents = \DateTimeZone::listIdentifiers();
+
+        $data = $offset = $added = array();
+        foreach ($list as $abbr => $info) {
+            foreach ($info as $zone) {
+                if ( ! empty($zone['timezone_id'])
+                    AND
+                    ! in_array($zone['timezone_id'], $added)
+                    AND
+                    in_array($zone['timezone_id'], $idents)) {
+                    $z = new \DateTimeZone($zone['timezone_id']);
+                    $c = new \DateTime(null, $z);
+                    $zone['time'] = $c->format('H:i a');
+                    $data[] = $zone;
+                    $offset[] = $z->getOffset($c);
+                    $added[] = $zone['timezone_id'];
+                }
+            }
+        }
+
+        array_multisort($offset, SORT_ASC, $data);
+        $options = array();
+        foreach ($data as $key => $row) {
+            $options[$row['timezone_id']] = $row['time'] . ' - '
+                . $this->formatOffset($row['offset'])
+                . ' ' . $row['timezone_id'];
+        }
+
+        print_r($options);
+
+       /* $timeZones = \DateTimeZone::listIdentifiers(\DateTimeZone::ALL);
+        foreach ( $timeZones as $key => $zoneName )
+        {
+            $tz = new \DateTimeZone($zoneName);
+            $loc = $tz->getLocation();
+            $times[$zoneName] = $loc['comments'];
+            print($zoneName . " = " . $loc['comments'] . "<br>");
+        }*/
+
+        // $lang = 'pt';
+        /*$lang = 'en';
+
+        if (function_exists("timezone_identifiers_list"))
+        {
+            $arr_timez_id_lst2 = timezone_identifiers_list();
+
+            $pt = 'Lista dos identificadores: <br><br>';
+            $en = 'Timezone identifiers list: <br><br>';
+            echo $$lang;
+
+            echo '<form id="form2" name="form2" method="post" action=""><select name="select">';
+
+            foreach( $arr_timez_id_lst2 as $timez2)
+            {
+                echo '<option value="' . $timez2 . '">' . $timez2 . '</option>';
+            }
+            echo '</select></form>';
+        }
+        else
+        {
+            $en = 'FUNCTION NOT IMPLEMENTED ON THIS PLATFORM!';
+            $pt = 'FUNÇÃO NÃO DEFINIDA PARA ESTE AMBIENTE!';
+            echo '<span style="color:#039;font-size:18px;">' . $$lang . '</span>';
+        }*/
+
+    }
+
+
+    // now you can use $options;
+
+    public function formatOffset($offset) {
+        $hours = $offset / 3600;
+        $remainder = $offset % 3600;
+        $sign = $hours > 0 ? '+' : '-';
+        $hour = (int) abs($hours);
+        $minutes = (int) abs($remainder / 60);
+
+        if ($hour == 0 AND $minutes == 0) {
+            $sign = ' ';
+        }
+        return 'GMT' . $sign . str_pad($hour, 2, '0', STR_PAD_LEFT)
+        .':'. str_pad($minutes,2, '0');
+
+    }
+
+    public function generate_timezone_list() {
+        static $allRegions = array(
+            \DateTimeZone::AFRICA,
+            \DateTimeZone::AMERICA,
+            \DateTimeZone::ANTARCTICA,
+            \DateTimeZone::ASIA,
+            \DateTimeZone::ATLANTIC,
+            \DateTimeZone::AUSTRALIA,
+            \DateTimeZone::EUROPE,
+            \DateTimeZone::INDIAN,
+            \DateTimeZone::PACIFIC,
+        );
+
+        // Makes it easier to create option groups next
+        $list = array ('AFRICA','AMERICA','ANTARCTICA','ASIA','ATLANTIC','AUSTRALIA','EUROPE','INDIAN','PACIFIC');
+
+        // Make array holding the regions (continents), they are arrays w/ all their cities
+        $region = array();
+
+        foreach ($allRegions as $area){
+            array_push ($region,\DateTimeZone::listIdentifiers( $area ));
+        }
+
+        $count = count ($region); $i = 0; $holder = '';
+
+        // Go through each region one by one, sorting and formatting it's cities
+        while ($i < $count){
+            $chunck = $region[$i];
+
+        // Create the region (continents) option group
+            $holder .= '<optgroup label="---------- '.$list[$i].' ----------">';
+            $timezone_offsets = array();
+            foreach( $chunck as $timezone ){
+                $tz = new \DateTimeZone($timezone);
+                $timezone_offsets[$timezone] = $tz->getOffset(new \DateTime);
+            }
+            asort ($timezone_offsets);
+            $timezone_list = array();
+            foreach ($timezone_offsets as $timezone => $offset){
+                $offset_prefix = $offset < 0 ? '-' : '+';
+                $offset_formatted = gmdate( 'H:i', abs($offset) );
+                $pretty_offset = "UTC ${offset_prefix}${offset_formatted}";
+                $timezone_list[$timezone] = "(${pretty_offset}) $timezone";
+            }
+
+        // All the formatting is done, finish and move on to next region
+            foreach ($timezone_list as $key => $val){
+                $holder .= '<option value="'.$key.'">'.$val.'</option>';
+            }
+            $holder .= '</optgroup>';
+            ++$i;
+        }
+
+        return $holder;
+    }
+
+    public function timezone_menu($default = 'UTC', $class = "", $name = 'timezones')
+    {
+        if ($default == 'GMT')
+            $default = 'UTC';
+
+        $menu = '<select name="'.$name.'"';
+
+        if ($class != '')
+        {
+            $menu .= ' class="'.$class.'"';
+        }
+
+        $menu .= ">\n";
+
+        foreach ($this->timezones() as $key => $val)
+        {
+            $selected = ($default == $key) ? " selected='selected'" : '';
+            $menu .= "<option value='{$key}'{$selected}>".$key."</option>\n";
+        }
+
+        $menu .= "</select>";
+
+        return $menu;
+    }
+
+    public function timezones($tz = '')
+    {
+        // Note: Don't change the order of these even though
+        // some items appear to be in the wrong order
+
+        $zones = array(
+            'UM12'		=> -12,
+            'UM11'		=> -11,
+            'UM10'		=> -10,
+            'UM95'		=> -9.5,
+            'UM9'		=> -9,
+            'UM8'		=> -8,
+            'UM7'		=> -7,
+            'UM6'		=> -6,
+            'UM5'		=> -5,
+            'UM45'		=> -4.5,
+            'UM4'		=> -4,
+            'UM35'		=> -3.5,
+            'UM3'		=> -3,
+            'UM2'		=> -2,
+            'UM1'		=> -1,
+            'UTC'		=> 0,
+            'UP1'		=> +1,
+            'UP2'		=> +2,
+            'UP3'		=> +3,
+            'UP35'		=> +3.5,
+            'UP4'		=> +4,
+            'UP45'		=> +4.5,
+            'UP5'		=> +5,
+            'UP55'		=> +5.5,
+            'UP575'		=> +5.75,
+            'UP6'		=> +6,
+            'UP65'		=> +6.5,
+            'UP7'		=> +7,
+            'UP8'		=> +8,
+            'UP875'		=> +8.75,
+            'UP9'		=> +9,
+            'UP95'		=> +9.5,
+            'UP10'		=> +10,
+            'UP105'		=> +10.5,
+            'UP11'		=> +11,
+            'UP115'		=> +11.5,
+            'UP12'		=> +12,
+            'UP1275'	=> +12.75,
+            'UP13'		=> +13,
+            'UP14'		=> +14
+        );
+
+        if ($tz == '')
+        {
+            return $zones;
+        }
+
+        if ($tz == 'GMT')
+            $tz = 'UTC';
+
+        return ( ! isset($zones[$tz])) ? 0 : $zones[$tz];
+    }
+
+
+
+    public function base64_encode_image ($filename=string,$filetype=string) {
+        if ($filename) {
+            $imgbinary = fread(fopen($filename, "r"), filesize($filename));
+            return 'data:image/' . $filetype . ';base64,' . base64_encode($imgbinary);
+        }
+    }

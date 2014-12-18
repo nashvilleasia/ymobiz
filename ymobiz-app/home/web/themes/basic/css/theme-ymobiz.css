@@ -1,0 +1,3441 @@
+/* structure modal */
+	.modal-header {
+	    min-height: 16px;
+	    padding: 0px;
+	    margin-bottom: 10px;
+	    border-bottom: none;
+	}
+	
+	
+	.modal-body {
+	    position: relative;
+	    padding: 0px;
+	}
+	
+	
+	.modal-footer {
+	    padding: 0px;
+	    text-align: right;
+	    border-top: none;
+	}
+	
+
+	/*popups sm*/
+	.ymo-popups-alert{
+		width: 293px;
+	}
+	
+	
+	.ymo-popup-header{
+		/*outline: 1px solid #000;
+	*/}
+	
+	
+	.ymo-popup-header h4{
+		font-size: 1.50em;
+    	font-family: 'microsoft_tai_leregular';
+		color: #038dd5;
+		text-align: center;
+	}
+	
+	
+	.ymo-popup-container{
+		float: left;
+		margin-bottom: 15px;
+	}
+	
+	
+	.ymo-popup-container p{
+		font-size: 0.87em;
+    	font-family: 'microsoft_tai_leregular';
+		color: #d42596;
+		margin-bottom: 0px;
+		text-align: center;
+	}
+	
+	
+	.ymo-popup-footer{
+		text-align: center;
+	}
+	
+	
+	.ymo-blue-gradient{
+		/*width: 65px;*/
+	}
+	
+	
+	
+	/*popups md*/
+	.ymo-popups-md{
+		/* width: 600px; */
+	}
+
+
+	.ymo-popups-md h4{
+		/* font-size: 1.50em; */
+		text-align: left;
+	}
+	
+	
+	
+	.ymo-popups-md p{
+		text-align: left;
+	}
+	
+	
+	/*popups lg*/
+	.ymo-popups-lg{
+		/* width: 900px;
+		margin: 30px auto; */
+	}
+
+
+	.ymo-popups-lg h4,
+	.ymo-popups-lg p{
+		text-align: left;
+	}
+
+	
+	
+	/*register account*/
+	.ymo-popup-account .modal-content{
+		width: 660px;
+		margin: 0 auto;
+	}
+	
+	
+	.ymo-popup-account h4{
+		font-size: 1.50em;
+		text-align: left;
+	}
+	
+	
+	.ymo-popup-account .ymo-column-left{
+		width: 309px;
+		margin-right: 10px;
+	}
+	
+	
+	.ymo-popup-account .ymo-column-center{
+		width: 309px;
+	}
+		
+	
+	.ymo-popup-account label{
+		width: 100%;
+		font-size: 1.00em;
+		font-family: 'microsoft_tai_leregular';
+		color: #787878;
+		font-weight: normal;
+	}
+	
+	
+	.ymo-popup-account label span{
+		color: #cd3397;
+	}
+	
+	
+	.ymo-popup-account .ymo-column-left .ymo-input-left{
+		width: 150px;
+		margin-right: 10px;
+	}
+	
+	
+	.ymo-popup-account .ymo-column-left .ymo-input-right{
+		width: 149px;
+	}
+	
+	
+	.ymo-popup-account .ymo-column-center .radio-group{
+		width: 100%;
+		margin: 28px 0 14px 0;
+	}
+	
+	
+	.ymo-popup-account .radio-group li{
+		margin-right: 15px;
+	}
+	
+	
+	.ymo-popup-account .radio-group li:last-child{
+		margin-right: 0px;
+	}
+	
+	
+	.ymo-popup-account .ymo-day,
+	.ymo-popup-account .ymo-month{
+		width: 96px;
+		float: left;
+		margin-right: 10px;
+	}
+	
+	
+	.ymo-popup-account .ymo-year{
+		width: 97px;
+	}
+	
+	
+	.ymo-popup-account .ymo-column-right{
+		width: 100%;
+		margin: 15px 0;
+	}
+		
+	
+	.ymo-popup-account .ymo-required{
+		width: 100%;
+		text-align: right;
+	}
+	
+	
+	.ymo-popup-account .checkbox-group{
+		width: 250px;
+		margin: 10px 10px 0px 0;
+	}
+	
+	
+	.ymo-popup-account .checkbox-group a{
+		margin-left: 3px;
+	}
+	
+	
+	.ymo-popup-account .checkbox-group a:hover{
+		color: #038dd5;
+	}
+	
+	
+	.ymo-popup-account .ymo-column-right .radio-group{
+		margin-bottom: 0px;
+		float: right;
+	}
+		
+	
+	.ymo-popup-account .ymo-column-right p{
+		float: left;
+		padding: 13px 10px 0 18px;
+		margin-bottom: 0px;
+		color: #038dd5;
+	}
+	
+	
+	.ymo-popup-account .ymo-popup-footer{
+		text-align: right;
+	}
+	
+	
+	.ymo-popup-account hr{
+		margin-bottom: 10px;
+	}
+	
+	
+	.ymo-popup-account .ymo-blue-gradient{
+		width: 130px;
+	}
+	
+	
+	/*register company*/
+	.ymo-popup-company .modal-content{
+		width: 620px;
+		margin: 0 auto;
+	}
+	
+	
+	.ymo-popup-company .modal-content{
+		display: inline-block;
+	}
+	
+	
+	.ymo-popup-company h4{
+		font-size: 1.50em;
+		text-align: left;
+	}
+	
+	
+	.ymo-popup-company label{
+		width: 100%;
+		font-size: 1.00em;
+		font-family: 'microsoft_tai_leregular';
+		color: #787878;
+		font-weight: normal;
+	}
+	
+	
+	.ymo-popup-company label span{
+		color: #cd3397;
+	}
+	
+	
+	.ymo-popup-company .ymo-column-left{
+		width: 289px;
+		margin-right: 10px;
+	}
+	
+	
+	.ymo-popup-company .ymo-column-right{
+		width: 289px;
+	}
+	
+	
+	.ymo-popup-company .ymo-input-left{
+		width: 140px;
+		margin-right: 10px;
+	}
+	
+	
+	.ymo-popup-company .ymo-input-right{
+		width: 139px;
+		margin-right: 0px;
+	}
+	
+	
+	.ymo-popup-company .ymo-required{
+		float: right;
+		margin-bottom: 25px;
+	}
+	
+	
+	.ymo-popup-company .ymo-popup-footer{
+		border-top: 1px solid #aaaaaa;
+		text-align: right;
+	}
+	
+	
+	.ymo-popup-company .ymo-blue-gradient{
+		width: 130px;
+		margin-top: 15px;
+	}
+	
+	
+	/*register login*/
+	.ymo-popup-register .modal-content{
+		width: 325px;
+		margin: 0 auto;
+	}
+	
+	
+	.ymo-popup-register .modal-content,
+	.ymo-popup-login .modal-content{
+		display: inline-block;
+	}
+	
+	
+	.ymo-popup-register .ymo-popup-container,
+	.ymo-popup-login .ymo-popup-container{
+		padding-bottom: 0px;
+	}
+	
+	
+	.ymo-popup-login p{
+		margin-bottom: 10px;
+	}
+	
+	
+	.ymo-popup-login p a{
+		color: #cd3397;
+	}
+	
+	
+	.ymo-popup-login input{
+		margin: 0 20px 10px 20px;
+	}
+	
+	
+	.ymo-popup-register input{
+		margin: 15px 20px;
+	}
+	
+	
+	.ymo-popup-register .ymo-blue-gradient,
+	.ymo-popup-login .ymo-blue-gradient{
+		width: 100px;
+	}
+	
+	
+	
+	/*faqs*/
+	.ymo-popup-faqs .modal-content{
+		width: 660px;
+		margin: 0 auto;
+		display: inline-block;
+	}
+	
+	
+	.ymo-popup-faqs h4{
+		font-size: 1.50em;
+	}
+	
+	
+	.ymo-popup-faqs .ymo-popup-container{
+		height: 300px;
+		overflow-y: auto;
+		overflow-x: hidden; 
+	}
+	
+	
+	.ymo-popup-faqs .ymo-list-faqs{
+		width: 605px;
+	}
+	
+	
+	.ymo-popup-faqs ul{
+		margin-bottom: 0px;
+	}
+	
+	
+	.ymo-popup-faqs li a,
+	.ymo-popup-faqs li{
+		font-size: 0.87em;
+		font-family: 'microsoft_tai_leregular';
+		color: #787878;
+		padding: 3px 0;
+	}
+	
+	
+	.ymo-popup-faqs li a span,
+	.ymo-popup-faqs li span{
+		color: #038dd5;
+	}
+	
+	
+	.ymo-popup-faqs li p{
+		margin: 15px 0 10px 0;
+		color: #787878;
+	}
+	
+	
+	.ymo-popup-faqs hr{
+		margin: 30px 0;
+	}
+	
+	
+	
+	/*help*/
+	.ymo-popup-help .modal-content{
+		width: 940px;
+		margin: 0 auto;
+		display: inline-block;
+	}
+	
+	
+	.ymo-popup-help .ymo-popup-header h4{
+		font-size: 1.50em;
+		float: left;
+		margin: 0px;
+	}
+	
+	
+	.ymo-popup-help .ymo-popup-header a{
+		font-size: 0.87em;
+		font-family: 'microsoft_tai_leregular';
+		color: #d42596;
+		margin-bottom: 0px;
+		padding-top: 3px;
+		float: right;
+	}
+	
+	
+	.ymo-popup-help .ymo-popup-header span{
+		font-size: 0.87em;
+		font-family: 'microsoft_tai_leregular';
+		color: #787878;
+		margin-bottom: 0px;
+		padding: 3px 0 0 10px;
+	}
+	
+	
+	.ymo-popup-help .ymo-popup-header .ymo-left{
+		width: 335px;
+		margin-right: 26px;
+		border: none;
+	}
+	
+	
+	.ymo-popup-help .ymo-popup-header .ymo-right{
+		width: 480px;
+		border: none;
+	}
+	
+	
+	.ymo-popup-help .ymo-column-left{
+		width: 354px;
+		height: 453px;
+		overflow-y: auto;
+		margin-right: 6px;
+	}
+	
+	
+	.ymo-popup-help ul{
+		width: 100%;
+		height: 452px;
+		float: left;
+		padding: 10px;
+		display: inline-table;
+		margin: 0 3px 0px 0;
+		border: 1px solid #aaaaaa;
+	}
+	
+	
+	.ymo-popup-help ul li{
+		width: 100%;
+		float: left;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #aaaaaa;
+	}
+	
+	
+	.ymo-popup-help ul li a{
+		font-size: 0.87em;
+		font-family: 'microsoft_tai_leregular';
+		color: #787878;
+	}
+	
+	
+	.ymo-popup-help ul li a:hover{
+		text-decoration: none;
+	}
+	
+	
+	.ymo-popup-help ul li:last-child{
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+		border-bottom: none;
+	}
+	
+	
+	.ymo-popup-help li a h6{
+		color: #038dd5;
+		float: left;
+		margin: 0px;
+		padding-top: 5px;
+	}
+	
+	
+	.ymo-popup-help .ymo-column-left span{
+		padding: 3px 0 0 10px;
+		float: left;
+	}
+	
+	
+	.ymo-popup-help .ymo-column-left img{
+		width: 119px;
+		height: 67px;
+		float: left;
+		margin: 5px 10px 0px 0;
+		
+	}
+	
+	
+	.ymo-popup-help .ymo-column-left p{
+		width: 185px;
+		float: right;
+		color: #787878;
+		line-height: 13px;
+		text-align: left;
+		margin: 5px 0 0px 0;
+	}
+	
+	
+	.ymo-popup-help .ymo-column-right{
+		width: 508px;
+		padding: 10px;
+		border: 1px solid #aaaaaa;
+	}
+	
+	
+	.ymo-popup-help .ymo-column-right img{
+		width: 486px;
+		height: 308px;
+		float: left;
+		
+	}
+	
+	
+	.ymo-popup-help .ymo-column-right p{
+		color: #787878;
+		text-align: left;
+	}
+	
+	
+	.ymo-popup-help .ymo-column-right hr{
+		margin: 10px 0px;
+	}
+	
+	
+	.ymo-popup-help .ymo-column-footer{
+		width: 335px;
+		margin-top: 10px;
+	}
+	
+	
+	.ymo-popup-help .ymo-column-footer .ymo-search{
+		float: right;
+	}
+	
+	
+	.ymo-popup-help .ymo-column-footer .ymo-search input{
+		height: 26px;
+	}
+	
+	
+	.ymo-popup-help .ymo-column-footer .ymo-search input[name=magnifier] {
+		top: 3px;
+	}
+	
+	
+	.ymo-popup-help .ymo-column-footer .ymo-most-recent{
+		font-size: 0.87em;
+		font-family: 'microsoft_tai_leregular';
+		color: #787878;
+	}
+	
+	
+	.ymo-popup-help .ymo-column-footer .ymo-most-recent:hover{
+		color: #787878;
+	}
+	
+	
+	/*order*/
+	.ymo-popup-order .modal-content{
+		width: 660px;
+		margin: 0 auto;
+	}
+	
+	
+	.ymo-popup-order h4{
+		font-size: 1.50em;
+		text-align: left;
+	}
+	
+	
+	.ymo-popup-order hr{
+		margin-bottom: 10px;
+	}
+	
+	
+	.ymo-popup-order .ymo-blue-gradient{
+		margin-left: 10px;
+	}
+	
+	
+	/*payment method*/	
+	.ymo-payment-method .modal-content{
+		display: inline-block;
+	}
+	
+	
+	.ymo-payment-method .ymo-popup-container {
+		padding-bottom: 0px;
+	}
+	
+	
+	.ymo-payment-method h4{
+		font-size: 1.50em;
+	}
+	
+	
+	.ymo-payment-method ul{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	
+	
+	.ymo-payment-method li{
+		margin-right: 35px;
+	}
+	
+	
+	.ymo-payment-method li:last-child{
+		margin-right: 0px;
+	}
+	
+	
+	.ymo-payment-method .ymo-blue-gradient{
+		width: 60px;
+	}
+	
+	
+	/*pricing*/
+	.ymo-popup-pricing .modal-content{
+		width: 660px;
+		margin: 0 auto;
+	}
+	
+	
+	.ymo-popup-pricing h4{
+		font-size: 1.50em;
+	}
+	
+	
+	.ymo-popup-pricing p{
+		float: left;
+		padding: 3px 15px 0 0;
+		font-weight: normal;
+	}
+	
+	
+	.ymo-popup-pricing ul{
+		float: right;
+		margin: 0 60px 0px 0;
+	}
+	
+	
+	.ymo-popup-pricing li{
+		width: 100px;
+		text-align: center;
+		margin-right: 47px;
+	}
+	
+	
+	.ymo-popup-pricing li:last-child{
+		margin-right: 0px;
+	}
+	
+	
+	.ymo-popup-pricing li label{
+		font-size: 1.12em;
+		color: #038dd5;
+	}
+	
+	
+	.ymo-popup-pricing hr{
+		float: left;
+		margin: 5px 0px;
+	}
+	
+	
+	.ymo-popup-pricing .ymo-table-pricing{
+		height: 225px;
+		overflow-y: auto;
+	}
+	
+	
+	.ymo-popup-pricing table{
+		margin: 0 5px 0px 0;
+		float: right;
+	}
+	
+	
+	.ymo-popup-pricing thead{
+		width: 100%;
+	}
+	
+	
+	.ymo-popup-pricing thead > tr{
+		border-bottom: 1px solid #aaaaaa;
+	}
+	
+	
+	.ymo-popup-pricing thead > tr > th{
+		font-size: 1.12em;
+		font-family: 'microsoft_tai_leregular';
+		color: #038dd5;
+		padding: 5px 10px;
+		font-weight: normal;
+	}
+	
+	
+	.ymo-popup-pricing tbody{
+		width: 100%;
+	}
+	
+	
+	.ymo-popup-pricing tbody > tr{
+		border-bottom: 1px solid #aaaaaa;
+	}
+	
+	
+	.ymo-popup-pricing tbody > tr > td{
+		font-size: 0.87em;
+		font-family: 'microsoft_tai_leregular';
+		color: #787878;
+		padding: 5px 10px;
+	}
+	
+	
+	.ymo-popup-pricing tbody .ymo-pricing-description{
+		width: 130px;
+	}
+	
+	
+	.ymo-popup-pricing tbody .ymo-pricing-free,
+	.ymo-popup-pricing tbody .ymo-pricing-basic,
+	.ymo-popup-pricing tbody .ymo-pricing-premium{
+		width: 100px;
+		text-align: center;
+	}
+	
+	
+	.ymo-popup-pricing .ymo-popup-footer{
+		margin-top: 20px;
+		text-align: right;
+	}
+	
+	
+	.ymo-popup-pricing .ymo-blue-gradient{
+		width: 130px;
+	}
+	
+	
+	/*refer*/
+	.ymo-popup-refer .modal-content{
+		width: 660px;
+		margin: 0 auto;
+	}
+	
+	
+	.ymo-popup-refer h4{
+		font-size: 1.50em;
+	}
+	
+	
+	.ymo-popup-refer .ymo-column-left,
+	.ymo-popup-refer .ymo-column-center{
+		margin-top: 20px;
+	}
+	
+	
+	.ymo-popup-refer p{
+		font-size: 1.00em;
+	}
+	
+	
+	.ymo-popup-refer .ymo-column-right{
+		margin-top: 30px;
+	}
+	
+	
+	.ymo-popup-refer .ymo-icon-gmail{
+		width: 31px;
+		height: 22px;
+		margin-right: 10px;
+	}
+	
+	
+	.ymo-popup-refer .ymo-icon-outlook{
+		width: 22px;
+		height: 22px;
+	}
+	
+	
+	.ymo-popup-refer .ymo-popup-footer{
+		text-align: right;
+	}
+	
+	
+	.ymo-popup-refer hr{
+		margin-bottom: 10px;
+	}
+	
+	
+	.ymo-popup-refer .ymo-blue-gradient{
+		width: 130px;
+	}	
+	
+	
+	/*terms*/	
+	.ymo-popup-terms .modal-content{
+		display: inline-block;
+	}
+	
+	
+	.ymo-popup-terms h4{
+		font-size: 1.50em;
+		text-align: left;
+	}
+	
+	
+	.ymo-popup-terms .ymo-popup-container{
+		height: 354px;
+		overflow-y: auto;
+		margin: 15px 0px;
+	}
+	
+	
+	.ymo-popup-terms .ymo-popup-container p{
+		color: #787878;
+		margin-right: 10px;
+		text-align: left;
+	} 
+	
+	
+	/*video*/	
+	.ymo-popup-video .modal-content{
+		display: inline-block;
+	}
+	
+	
+	.ymo-popup-video .ymo-popup-container{
+		margin: 0 15px 15px 15px;
+	}
+	
+	
+	.ymo-popup-video .ymo-popup-container img{
+		width: auto;
+		height: 315px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.popup-header{
+    width: 100%;
+    float: left;
+}
+
+
+.popup-header h4{
+    font-size: 1.5em;
+    font-family: 'microsoft_tai_leregular';
+    color: #0f94d9;
+    border: none;
+}
+
+
+.popup-padding{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.ymo-popup{
+    border-radius: 0px;
+}
+
+
+.popup-btn-left{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.popup-btn-right{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.popup-btn-right-left{
+    padding: 0px 15px 0px 0px;
+}
+
+
+.popup-footer button,
+.popup-footer a,
+.ymo-btn-gradient{
+    font-size: 0.87em;
+    font-family: 'microsoft_tai_leregular';
+    color: #ffffff;
+    padding: 7px 9px;
+    border: none;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: inset none;
+    -webkit-transition: none;
+    transition: none;
+    background: #54bbf5; /* Old browsers */
+    background: -moz-linear-gradient(top, #54bbf5 0%, #51baf4 8%, #47b4ed 20%, #3fb3ee 36%, #34afeb 48%, #2faae6 60%, #2ca3e5 68%, #1b9be4 88%, #189be3 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#54bbf5), color-stop(8%,#51baf4), color-stop(20%,#47b4ed), color-stop(36%,#3fb3ee), color-stop(48%,#34afeb), color-stop(60%,#2faae6), color-stop(68%,#2ca3e5), color-stop(88%,#1b9be4), color-stop(100%,#189be3)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #54bbf5 0%,#51baf4 8%,#47b4ed 20%,#3fb3ee 36%,#34afeb 48%,#2faae6 60%,#2ca3e5 68%,#1b9be4 88%,#189be3 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #54bbf5 0%,#51baf4 8%,#47b4ed 20%,#3fb3ee 36%,#34afeb 48%,#2faae6 60%,#2ca3e5 68%,#1b9be4 88%,#189be3 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #54bbf5 0%,#51baf4 8%,#47b4ed 20%,#3fb3ee 36%,#34afeb 48%,#2faae6 60%,#2ca3e5 68%,#1b9be4 88%,#189be3 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #54bbf5 0%,#51baf4 8%,#47b4ed 20%,#3fb3ee 36%,#34afeb 48%,#2faae6 60%,#2ca3e5 68%,#1b9be4 88%,#189be3 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54bbf5', endColorstr='#189be3',GradientType=0 ); /* IE6-9 */
+}
+
+
+.popup-footer button:hover,
+.popup-footer a:hover,
+.ymo-btn-gradient:hover{
+    color: #ffffff;
+    cursor: pointer;
+    background: #1097d9; /* Old browsers */
+    background: -moz-linear-gradient(top, #1097d9 0%, #1095d6 12%, #24a0e0 32%, #35a8e7 56%, #3aacea 68%, #4bb4eb 88%, #4eb8ec 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1097d9), color-stop(12%,#1095d6), color-stop(32%,#24a0e0), color-stop(56%,#35a8e7), color-stop(68%,#3aacea), color-stop(88%,#4bb4eb), color-stop(100%,#4eb8ec)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #1097d9 0%,#1095d6 12%,#24a0e0 32%,#35a8e7 56%,#3aacea 68%,#4bb4eb 88%,#4eb8ec 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #1097d9 0%,#1095d6 12%,#24a0e0 32%,#35a8e7 56%,#3aacea 68%,#4bb4eb 88%,#4eb8ec 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #1097d9 0%,#1095d6 12%,#24a0e0 32%,#35a8e7 56%,#3aacea 68%,#4bb4eb 88%,#4eb8ec 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #1097d9 0%,#1095d6 12%,#24a0e0 32%,#35a8e7 56%,#3aacea 68%,#4bb4eb 88%,#4eb8ec 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1097d9', endColorstr='#4eb8ec',GradientType=0 ); /* IE6-9 */
+}
+
+
+.popup-footer button:focus{
+    border: none;
+    outline: none;
+}
+
+
+.popup-footer .ymo-buttons{
+    margin-left: 0px;
+    float: left;
+}
+
+
+.popup-footer .ymo-remindme{
+    float: left;
+    padding-right: 15px;
+    margin-top: 3px;
+
+}
+
+
+/*
+ Start filter
+ */
+.ymo-remindme label {
+    font-size: 0.87em;
+    font-family: 'microsoft_tai_leregular';
+    color: #787878;
+    padding: 0px;
+    position: relative;
+    top: -4px;
+    cursor: pointer;
+}
+
+
+.ymo-remindme .ymo-term {
+    position: relative;
+    top: 10px;
+}
+
+
+.popup-body h4{
+    font-size: 1.46em;
+    font-family: 'microsoft_tai_leregular';
+    color: #038dd5;
+    margin: 0px;
+}
+
+
+.popup-body .ymo-btn-gradient{
+    margin-top: 20px;
+}
+/*
+End filter
+ */
+
+
+/*
+Start new note
+ */
+.ymo-popup-group{
+    font-size: 0.75em;
+    font-family: 'microsoft_tai_leregular';
+    padding: 0 0 10px 0;
+}
+
+
+.ymo-popup-note select{
+    padding: 5px;
+    color: #aaaaaa;
+}
+
+
+.ymo-popup-note .popup-text{
+    margin-top: 5px;
+}
+
+
+.ymo-popup-note  .popup-text p{
+    font-size: 0.87em;
+    font-family: 'microsoft_tai_leregular';
+    color: #038dd5;
+}
+
+
+.ymo-popup-note .ymo-remindme a{
+    font-size: 0.87em;
+    font-family: 'microsoft_tai_leregular';
+    color: #038dd5;
+}
+
+
+.ymo-popup-note .ymo-required p{
+    font-family: 'microsoft_tai_leregular';
+    color: #d42596;
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+
+.ymo-popup-note .ymo-city{
+    width: 48%;
+    float: left;
+}
+
+
+.ymo-popup-note .ymo-zip{
+    width: 48%;
+    float: right;
+}
+
+
+.popup-body .popup-footer{
+    border: none;
+}
+
+
+.ymo-popup-note .ymo-search input[name=search]{
+    height: 34px;
+    margin-top: 10px;
+}
+
+
+.ymo-popup-note .ymo-search input[name=magnifier] {
+    top: 15px;
+}
+.popup-contact .ymo-popup-note {
+    float: left;
+}
+
+.ymo-popup-note .ymo-date{
+    width: 30.4%;
+    margin-right: 10px;
+}
+
+
+.ymo-popup-note .ymo-date:last-child{
+    width: 30.4%;
+    margin-right: 0px;
+}
+
+.ymo-popup-note .ymo-time {
+    margin-left: 7px;
+}
+
+.ymo-popup-note .ymo-time p {
+    color: #038dd5;
+    padding-top: 8px;
+}
+
+.ymo-popup-note .ymo-hours {
+    margin-right: 10px;
+}
+
+
+.ymo-popup-note select {
+    font-size: 1.20em;
+    font-family: 'microsoft_tai_leregular';
+    color: #9b9b9b;
+    padding: 5px;
+}
+
+
+.ymo-popup-note .ymo-remind p {
+    float: left;
+    color: #038dd5;
+    padding-top: 8px;
+    margin-top: 5px;
+}
+
+
+.ymo-popup-note .ymo-remind ul{
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+
+.ymo-popup-note .ymo-remind ul li{
+    float: left;
+    margin-top: 8px;
+    padding: 0px 4px;
+}
+
+
+.ymo-popup-note .ymo-remind ul label{
+    position: relative;
+    top: -5px;
+    cursor: pointer;
+}
+
+
+.ymo-popup-note .ymo-remind select {
+    float: left;
+    margin-left: 5px;
+}
+
+
+.ymo-popup-note .ymo-btn-new button:first-child{
+    margin-top: 12px;
+    margin-right: 5px;
+}
+
+
+.ymo-popup-note .ymo-btn-new button{
+    margin-top: 12px;
+}
+
+
+.ymo-popup-note .ymo-btn-gradient{
+    margin-top: 27px;
+}
+/*
+End new note
+ */
+
+
+
+/*
+Start new task
+ */
+.ymo-popup-task{
+    float: left;
+}
+
+
+.ymo-list-task{
+    float: left;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+
+.ymo-list-task li {
+    float: left;
+}
+
+
+.ymo-list-task .checkbox input{
+    float: left;
+}
+
+
+.ymo-list-task label{
+    font-size: 0.87em;
+    font-family: 'microsoft_tai_leregular';
+    color: #d42596;
+    position: relative;
+    top: -3px;
+    cursor: pointer;
+}
+
+
+.ymo-popup-task .ymo-form-task{
+    padding: 15px 15px 0px 15px;
+}
+
+
+.ymo-form-task .ymo-popup-group{
+    padding-bottom: 10px;
+}
+
+
+.ymo-form-task .ymo-search input[name=search]{
+    height: auto;
+}
+
+
+.ymo-form-task .ymo-search input[name=magnifier]{
+    top: 6px;
+}
+
+
+.ymo-form-task .ymo-day{
+    width: 25%;
+    margin-right: 10px;
+}
+
+
+.ymo-form-task .ymo-month{
+    width: 33%;
+    margin-right: 10px;
+}
+
+
+.ymo-form-task .ymo-time{
+    width: 211px;
+    float: right;
+}
+
+
+.ymo-form-task .ymo-time p{
+    font-family: 'microsoft_tai_leregular';
+    color: #038dd5;
+    float: left;
+    margin: 10px 10px 0px 0;
+}
+
+
+.ymo-form-task .ymo-time select{
+    width: 70px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+.ymo-form-task .ymo-time select:last-child{
+    margin-right: 0px;
+}
+
+
+.ymo-form-task .ymo-remind p{
+    font-family: 'microsoft_tai_leregular';
+    color: #038dd5;
+    float: left;
+    margin: 6px 8px 0px 0
+}
+
+
+.ymo-form-task .ymo-remind ul{
+    width: 252px;
+    margin: 3px 10px 0 0;
+}
+
+
+.ymo-form-task .ymo-remind .ymo-checkbox label{
+    font-size: 0.87em;
+    top: -5px;
+    position: relative;
+}
+
+
+.ymo-form-task .ymo-remind select{
+    width: 218px;
+    float: left;
+}
+
+
+.ymo-form-task .ymo-remind .ymo-btn-gradient{
+    margin-top: 2px;
+    float: right;
+}
+/*
+End new task
+ */
+
+
+
+/*
+ Start dialog
+ */
+	.popup-dialog .popup-header{
+		text-align: center;
+	}
+
+
+	.popup-dialog .popup-body{
+		margin: 0px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+
+    .popup-dialog .popup-text{
+		text-align: center;
+		font-size: 0.7em;
+		font-family: 'microsoft_tai_leregular';
+		color: #d20a89;
+	}
+	
+	
+	.popup-dialog .popup-footer{
+		border: none;
+		margin: 0px;
+		padding: 10px;
+	}
+
+
+    .popup-dialog .ymo-image-user{
+        margin-right: 5px;
+    }
+/*
+End dialog
+ */
+
+
+/*
+ Start login
+ */
+	/* .popup-login .popup-header{
+		text-align: center;
+	}
+
+
+	.popup-login .popup-body{
+		margin: 0px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+
+	.popup-login .popup-text{
+		text-align: center;
+		font-size: 0.7em;
+		font-family: 'microsoft_tai_leregular';
+		color: #d20a89;
+	}
+
+
+	.popup-login .ymo-input{
+		margin: 0 auto;
+		margin-top: 20px;
+		border-radius: 0px;
+	}
+
+
+	.popup-login .popup-footer{
+		border: none;
+		margin: 0px;
+		padding: 0px;
+	} */
+/*
+ End login
+ 
+ 
+ /*
+ Start password recovery
+ */
+	.popup-password .popup-header{
+		text-align: center;
+	}
+
+
+	.popup-password .popup-body{
+		margin: 0px;
+		padding-top: 10px;
+	}
+
+
+	.popup-password .popup-text{
+		text-align: center;
+		font-size: 0.7em;
+		font-family: 'microsoft_tai_leregular';
+		color: #d20a89;
+	}
+
+
+	.popup-password .ymo-radio{
+		margin-top: 25px;
+	}
+	
+	
+	.popup-password .ymo-radio input[type=radio].css-checkbox {
+		display:none;
+	}
+	
+	
+	.popup-password .ymo-radio input[type=radio].css-checkbox + label.css-label {
+		padding-left:26px;
+		height:21px; 
+		display:inline-block;
+		line-height:21px;
+		background-repeat:no-repeat;
+		background-position: 0 0;
+		font-size: 0.7em;
+		font-family: 'microsoft_tai_leregular';
+		color: #787878;
+		vertical-align:middle;
+		cursor:pointer;
+		padding-right: 20px;
+	}
+
+
+	.popup-password .ymo-radio input[type=radio].css-checkbox:checked + label.css-label {
+		background-position: 0 -21px;
+	}
+	
+	
+	.popup-password .ymo-radio label.css-label {
+		background-image:url(../img/radio.png);
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+	
+	
+	.popup-password .input-group{
+		margin-top: 15px;
+	}
+	
+	
+	.popup-password .ymo-input{
+		border-radius: 0px;
+		/*
+		-webkit-box-shadow: none;
+		box-shadow: inset none;
+		-webkit-transition: none;
+		transition: none;*/
+	}
+
+	.popup-password .input-group-btn button{
+		color: #ffffff;
+		padding: 7px 15px;
+		margin-right: 41px;
+        font-weight: normal;
+		border: none;
+		border-radius: 0px;
+		-webkit-box-shadow: none;
+		box-shadow: inset none;
+		-webkit-transition: none;
+		transition: none;
+		background: #54bbf5; /* Old browsers */
+		background: -moz-linear-gradient(top, #54bbf5 0%, #51baf4 8%, #47b4ed 20%, #3fb3ee 36%, #34afeb 48%, #2faae6 60%, #2ca3e5 68%, #1b9be4 88%, #189be3 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#54bbf5), color-stop(8%,#51baf4), color-stop(20%,#47b4ed), color-stop(36%,#3fb3ee), color-stop(48%,#34afeb), color-stop(60%,#2faae6), color-stop(68%,#2ca3e5), color-stop(88%,#1b9be4), color-stop(100%,#189be3)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #54bbf5 0%,#51baf4 8%,#47b4ed 20%,#3fb3ee 36%,#34afeb 48%,#2faae6 60%,#2ca3e5 68%,#1b9be4 88%,#189be3 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #54bbf5 0%,#51baf4 8%,#47b4ed 20%,#3fb3ee 36%,#34afeb 48%,#2faae6 60%,#2ca3e5 68%,#1b9be4 88%,#189be3 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #54bbf5 0%,#51baf4 8%,#47b4ed 20%,#3fb3ee 36%,#34afeb 48%,#2faae6 60%,#2ca3e5 68%,#1b9be4 88%,#189be3 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #54bbf5 0%,#51baf4 8%,#47b4ed 20%,#3fb3ee 36%,#34afeb 48%,#2faae6 60%,#2ca3e5 68%,#1b9be4 88%,#189be3 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54bbf5', endColorstr='#189be3',GradientType=0 ); /* IE6-9 */
+	}
+
+
+	.popup-password .input-group-btn button:hover{
+		cursor: pointer;
+		background: #1097d9; /* Old browsers */
+		background: -moz-linear-gradient(top, #1097d9 0%, #1095d6 12%, #24a0e0 32%, #35a8e7 56%, #3aacea 68%, #4bb4eb 88%, #4eb8ec 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1097d9), color-stop(12%,#1095d6), color-stop(32%,#24a0e0), color-stop(56%,#35a8e7), color-stop(68%,#3aacea), color-stop(88%,#4bb4eb), color-stop(100%,#4eb8ec)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #1097d9 0%,#1095d6 12%,#24a0e0 32%,#35a8e7 56%,#3aacea 68%,#4bb4eb 88%,#4eb8ec 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #1097d9 0%,#1095d6 12%,#24a0e0 32%,#35a8e7 56%,#3aacea 68%,#4bb4eb 88%,#4eb8ec 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #1097d9 0%,#1095d6 12%,#24a0e0 32%,#35a8e7 56%,#3aacea 68%,#4bb4eb 88%,#4eb8ec 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #1097d9 0%,#1095d6 12%,#24a0e0 32%,#35a8e7 56%,#3aacea 68%,#4bb4eb 88%,#4eb8ec 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1097d9', endColorstr='#4eb8ec',GradientType=0 ); /* IE6-9 */
+	}
+
+
+	.popup-password .input-group-btn button:focus{
+		border: none;
+		outline: none;
+	}
+/*
+ End password recovery
+ */
+
+
+ /*
+ Start payment method
+ */
+	.popup-payment .popup-header{
+		text-align: center;
+	}
+
+
+	.popup-payment .popup-body{
+		margin: 0px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+
+	.popup-payment .popup-text{
+		text-align: center;
+		font-size: 0.7em;
+		font-family: 'microsoft_tai_leregular';
+		color: #d20a89;
+	}
+
+
+	.popup-payment .ymo-radio{
+		margin-top: 0px;
+	}
+	
+	
+	.popup-payment .ymo-radio input[type=radio].css-checkbox {
+		display:none;
+	}
+	
+	
+	.popup-payment .ymo-radio input[type=radio].css-checkbox + label.css-label {
+		padding-left:26px;
+		height:21px; 
+		display:inline-block;
+		line-height:21px;
+		background-repeat:no-repeat;
+		background-position: 0 0;
+		font-size: 0.7em;
+		font-family: 'microsoft_tai_leregular';
+		color: #787878;
+		vertical-align:middle;
+		cursor:pointer;
+		padding-right: 20px;
+	}
+
+
+	.popup-payment .ymo-radio input[type=radio].css-checkbox:checked + label.css-label {
+		background-position: 0 -21px;
+	}
+	
+	
+	.popup-payment .ymo-radio label.css-label {
+		background-image:url(../img/radio.png);
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+	
+	
+	.popup-payment .popup-footer{
+		border: none;
+		margin: 0px;
+		padding: 10px;
+	}
+	
+	
+	.popup-payment .paypal-btn{
+		margin-left: 60px;
+	}
+/*
+ End paypal method
+ */
+
+
+ /*
+ Start video
+ */
+	/* .popup-video .popup-header{
+		text-align: center;
+	}
+
+
+	.popup-video .popup-body{
+		margin: 0px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	} */
+
+/*
+ End video
+ */
+
+
+ /*
+ Start register account
+ */
+	.popup-register .popup-body{
+		margin: 0px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+
+	.popup-register .popup-form{
+		padding: 0px;
+	}
+	
+	
+	.popup-register .popup-group{
+		padding: 0px;
+	}
+	
+	
+	.popup-register .popup-group label{
+		font-size: 0.9em;
+		font-family: 'microsoft_tai_leregular';
+		color: #787878;
+		margin-top: 0px;
+		margin-bottom: 0px;
+        font-weight: normal;
+	}
+	
+	
+	.popup-register .popup-group label span{
+		color: #d73e9e;
+	}
+	
+	
+	.popup-register .popup-input{
+		border: 1px solid #aaaaaa;
+		border-radius: 0px;
+		-webkit-box-shadow: none;
+		box-shadow: inset none;
+		-webkit-transition: none;
+		transition: none;
+	}
+
+
+    .popup-register .popup-gender{
+        margin-top: 25px;
+    }
+
+
+    .popup-register .popup-gender input[type=radio].css-checkbox {
+        display:none;
+    }
+
+
+    .popup-register .popup-gender input[type=radio].css-checkbox + label.css-label {
+        padding-left:26px;
+        height:21px;
+        display:inline-block;
+        line-height:21px;
+        background-repeat:no-repeat;
+        background-position: 0 0;
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        vertical-align:middle;
+        cursor:pointer;
+        padding-right: 20px;
+    }
+
+
+    .popup-register .popup-gender input[type=radio].css-checkbox:checked + label.css-label {
+        background-position: 0 -21px;
+    }
+
+
+    .popup-register .popup-gender label.css-label {
+        background-image:url(../img/radio.png);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+
+    .popup-register .popup-email{
+        margin-top: 6px;
+    }
+
+
+    .popup-register .popup-text{
+        padding: 0px;
+        margin-bottom: 1px;
+    }
+
+
+    .popup-register select{
+        border: 1px solid #aaaaaa;
+        border-radius: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: inset none;
+        -webkit-transition: none;
+        transition: none;
+        margin-top: 2px;
+    }
+
+
+    .popup-register .popup-required{
+        padding: 0px;
+        margin-bottom: 0px;
+        text-align: right;
+    }
+
+
+    .popup-register .popup-required label{
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d73e9e;
+        font-weight: normal;
+    }
+
+
+    .popup-register .popup-checkbox{
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-bottom: 10px;
+    }
+
+
+    .popup-register .input-group{
+        margin-top: 2px;
+    }
+
+
+    .popup-register input[type=checkbox].css-checkbox {
+        display:none;
+    }
+
+
+    .popup-register input[type=checkbox].css-checkbox + label.css-label {
+        padding-left:24px;
+        height:19px;
+        display:inline-block;
+        line-height:19px;
+        margin-bottom: 3px;
+        margin-left: -20px;
+        background-repeat:no-repeat;
+        background-position: 0 0;
+        vertical-align:middle;
+        cursor:pointer;
+    }
+
+
+    .popup-register input[type=checkbox].css-checkbox:checked + label.css-label {
+        background-position: 0 -19px;
+    }
+
+
+    .popup-register label.css-label {
+        background-image: url(../img/checkbox.png);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+
+    .popup-register .checkbox{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .popup-register .checkbox label{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+    }
+
+
+    .popup-register .checkbox label a{
+        font-size: 0.8em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0f94d9;
+        text-decoration: underline;
+    }
+
+
+    .popup-register .popup-news{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+
+    .popup-register .popup-news label{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0f94d9;
+        padding-right: 8px;
+        padding-left: 24px;
+    }
+
+
+    .popup-register .popup-news input[type=radio].css-checkbox {
+        display:none;
+    }
+
+
+    .popup-register .popup-news input[type=radio].css-checkbox + label.css-label {
+        padding-left:26px;
+        height:21px;
+        display:inline-block;
+        line-height:21px;
+        background-repeat:no-repeat;
+        background-position: 0 0;
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        vertical-align:middle;
+        cursor:pointer;
+    }
+
+
+    .popup-register .popup-news input[type=radio].css-checkbox:checked + label.css-label {
+        background-position: 0 -21px;
+    }
+
+
+    .popup-register .popup-news label.css-label {
+        background-image:url(../img/radio.png);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+
+     .popup-register .popup-footer{
+         border-top: 1px solid #aaaaaa;
+         margin-left: 10px;
+         margin-right: 10px;
+         padding: 10px 0px;
+    }
+/*
+ End register account
+ */
+
+
+/*
+Start refer
+*/
+    /* .popup-refer .popup-body{
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    .popup-refer .popup-form{
+        padding: 0px;
+    }
+
+
+    .popup-refer .popup-group{
+        padding: 0px;
+    }
+
+
+    .popup-refer .popup-input{
+        border: 1px solid #aaaaaa;
+        border-radius: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: inset none;
+        -webkit-transition: none;
+        transition: none;
+    }
+
+
+    .popup-refer .popup-text{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d73e9e;
+        padding: 0px;
+    }
+
+
+    .popup-refer .popup-social{
+        padding-top: 10px;
+        padding-bottom: 5px;
+        margin-bottom: 0px;
+    }
+
+
+    .popup-refer .popup-footer{
+        border-top: 1px solid #aaaaaa;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px 0px;
+    } */
+/*
+ End refer
+ */
+
+
+/*
+Start register company
+*/
+   /*  .popup-company .popup-body{
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    .popup-company .popup-form{
+        padding: 0px;
+    }
+
+
+    .popup-company .popup-group{
+        padding: 0px;
+    }
+
+
+    .popup-company .popup-group label{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: normal;
+    }
+
+
+    .popup-company .popup-group label span{
+        color: #d73e9e;
+    }
+
+
+    .popup-company .popup-input{
+        border: 1px solid #aaaaaa;
+        border-radius: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: inset none;
+        -webkit-transition: none;
+        transition: none;
+    }
+
+
+    .popup-company .popup-text{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d73e9e;
+        padding: 0px;
+    }
+
+
+    .popup-company select{
+         border: 1px solid #aaaaaa;
+         border-radius: 0px;
+         padding-left: 0px;
+         padding-right: 0px;
+         -webkit-box-shadow: none;
+         box-shadow: inset none;
+         -webkit-transition: none;
+         transition: none;
+     }
+
+
+    .popup-company .popup-required{
+        padding: 0px;
+        margin-bottom: 0px;
+        text-align: right;
+    }
+
+
+    .popup-company .popup-required label{
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d73e9e;
+        font-weight: normal;
+    }
+
+
+    .popup-company .popup-footer{
+        border-top: 1px solid #aaaaaa;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px 0px;
+    }
+
+
+    .popup-company .popup-footer .popup-btn-left{
+        float: left;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .popup-company .popup-footer .popup-btn-right{
+        float: right;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .popup-company .popup-footer .popup-btn-right-left{
+        padding: 0px 15px 0px 0px;
+    } */
+/*
+End register company
+*/
+
+
+/*
+Start contact
+*/
+    .popup-contact .popup-body{
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    .popup-contact .popup-form{
+        padding: 0px;
+    }
+
+
+    .popup-contact .popup-group{
+        padding: 0px;
+    }
+
+
+    .popup-contact .popup-group label{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: normal;
+    }
+
+
+    .popup-contact .popup-group label span{
+        color: #d73e9e;
+    }
+
+
+    .popup-contact .popup-input{
+        border: 1px solid #aaaaaa;
+        border-radius: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: inset none;
+        -webkit-transition: none;
+        transition: none;
+    }
+
+
+    .popup-contact textarea[name=message]{
+         width: 100%;
+         height: 160px;
+         position: relative;
+         padding: 0px 5px 0px 5px;
+         border: 1px solid #aaaaaa;
+         border-radius: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: inset none;
+        -webkit-transition: none;
+         margin:0px;
+         resize: none;
+     }
+
+
+    .popup-contact .popup-text{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        padding-top: 5px;
+        margin-bottom: 5px;
+    }
+
+
+    .popup-contact .popup-text span{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0f94d9;
+        padding: 0px;
+    }
+
+
+    .popup-contact .popup-required{
+        padding: 0px;
+        margin-top: 50px;
+        text-align: right;
+    }
+
+
+    .popup-contact .popup-required label{
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d73e9e;
+        font-weight: normal;
+    }
+
+
+    .popup-contact .popup-footer{
+        border-top: 1px solid #aaaaaa;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px 0px;
+    }
+/*
+End contact
+*/
+
+
+/*
+ Start terms
+ */
+   /*  .popup-terms .popup-body{
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-right: 7px;
+    }
+
+
+    .popup-terms .popup-text{
+        height: 260px;
+        text-align: left;
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        overflow-x: auto;
+    } */
+/*
+End terms
+ */
+
+
+/*
+ Start faqs
+ */
+   /*  .popup-faqs .popup-body{
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-right: 7px;
+    }
+
+
+    .popup-faqs .popup-list{
+        height: 250px;
+        text-align: left;
+        padding: 0px;
+        overflow-x: auto;
+    }
+
+
+    .popup-faqs .popup-list .popup-faqs-list{
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    .popup-faqs .popup-list .popup-faqs-list li{
+        list-style: none;
+    }
+
+
+    .popup-faqs .popup-list .popup-faqs-list span{
+        color: #0f94d9;
+    }
+
+
+    .popup-faqs .popup-list .popup-faqs-list a{
+        list-style: none;
+        padding-left: 15px;
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+    }
+
+
+    .popup-faqs .popup-list hr{
+        background-color: #b2b2b2;
+        width: auto;
+        height: 1px;
+        border: none;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+    .popup-faqs .popup-list .popup-text{
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    .popup-faqs .popup-list .popup-text li{
+        list-style: none;
+    }
+
+
+    .popup-faqs .popup-list .popup-text span{
+        color: #0f94d9;
+    }
+
+
+    .popup-faqs .popup-list .popup-text{
+        list-style: none;
+        padding-left: 15px;
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+    } */
+/*
+End faqs
+ */
+
+
+
+/*
+Start order
+*/
+   /*  .popup-order .popup-body{
+        margin-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    .popup-order .popup-nopadding{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+     .popup-order .popup-text{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+        padding: 0px;
+     }
+
+
+    .popup-order .popup-text strong{
+        color: #777777;
+        font-weight: normal;
+    }
+
+
+    .popup-order .popup-text span{
+        color: #d73e9e;
+        font-weight: bold;
+    }
+
+
+    .popup-order .popup-table{
+        margin-top: 10px;
+    }
+
+
+    .popup-order table.popup-table > tbody > tr.table-item{
+        border: 1px solid #aaaaaa;
+    }
+
+
+    .popup-order table.popup-table > tbody > tr.table-item > td{
+        padding-bottom: 8px;
+        padding-top: 8px;
+    }
+
+
+    .popup-order .table-body{
+        border: 1px solid #aaaaaa;
+    }
+
+
+    .popup-order table.popup-table > tbody > tr > td,
+    .popup-order table.popup-table > thead > tr > th {
+        border: none;
+    }
+
+
+    .popup-order .title-table{
+        border: 0;
+        padding: 10px;
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+        font-weight: normal;
+    }
+
+
+    .popup-order .table-body td{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+    }
+
+
+    .popup-order .table-body td span{
+        color: #d73e9e;
+        font-weight: bold;
+    }
+
+
+    .popup-order .table-body td strong{
+        color: #787878;
+        font-weight: normal;
+    }
+
+
+    .popup-order .table-body .table-qty .form-control {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        font-size: 1em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        line-height: normal;
+        background-color: #ffffff;
+        background-image: none;
+        border: none;
+        border-radius: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-transition: none;
+        transition: none;
+    }
+
+
+    .popup-order .popup-footer{
+        width: 97%;
+        float: left;
+        border-top: 1px solid #aaaaaa;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px 0px;
+    } */
+/*
+End order
+*/
+
+
+
+/*
+Start pricing
+*/
+   /*  .popup-pricing .popup-body{
+        height: 305px;
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        overflow: auto;
+        margin-right: 5px;
+    }
+
+    .popup-pricing .popup-padding{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    .popup-pricing .popup-text{
+        font-size: 0.9em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d73e9e;
+        padding-top: 5px;
+        margin-bottom: 5px;
+    }
+
+
+    .popup-pricing .popup-radio{
+        margin-top: 5px;
+    }
+
+
+	.popup-pricing .popup-radio .radio-inline .radio-name{
+		position: relative;
+		top: -3px;
+		display:inline-block;
+		line-height:21px;
+		font-size: 0.8em;
+		font-family: 'microsoft_tai_leregular';
+		color: #0f94d9;
+		font-weight: bold;
+		cursor:pointer;
+	}
+
+
+    .popup-pricing .popup-table{
+         margin-top: 0px;
+    }
+
+
+    .popup-pricing .title-table{
+        font-size: 1.0em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0f94d9;
+        padding-left: 7px;
+    }
+
+
+    .popup-pricing .title-table > th{
+        padding-left: 0px;
+    }
+
+
+    .popup-pricing .table-body{
+        border: none;
+    }
+
+
+    .popup-pricing table.popup-table > tbody > tr.table-item > td{
+        font-size: 0.8em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-bottom: 1px solid #aaaaaa;
+        border-top: 1px solid #aaaaaa;
+    }
+
+
+    .popup-pricing table.popup-table > tbody > tr > td,
+    .popup-pricing table.popup-table > thead > tr > th {
+        border: none;
+    }
+
+
+    .popup-pricing .popup-footer{
+        border-top: none;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px 0px;
+    }
+
+
+    .popup-pricing .popup-footer .popup-btn{
+        float: left;
+    } */
+/*
+End pricing
+*/
+
+
+/*
+ Start help
+ */
+   /*  .popup-help{
+        width: 100%;
+        position: relative;
+        display: block;
+        line-height: normal;
+    }
+
+
+    .popup-help .popup-body{
+        height: 545px;
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    .popup-help .popup-padding{
+        padding-left: 0px;
+        padding-right: 15px;
+    }
+
+
+    .popup-help .popup-text{
+        font-size: 1.5em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0f94d9;
+        margin-top: 8px;
+        margin-bottom: 5px;
+    }
+
+
+    .popup-help .popup-text h4{
+        margin: 0px;
+    }
+
+
+    .popup-help .popup-text-faqs{
+        text-align: right;
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d31c92;
+        padding-top: 5px;
+        margin-top: 8px;
+    }
+
+
+    .popup-help .popup-video{
+        height: 440px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        padding-right: 15px;
+    }
+
+
+    .popup-help .popup-video-thumb{
+        margin-top: 7px;
+    }
+
+
+    .popup-help .popup-list{
+        text-align: left;
+        border: 1px solid #aaaaaa;
+        float: left;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+
+    .popup-help .popup-list li{
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 0.1em;
+        margin-bottom: 0px;
+        border-bottom: 1px solid #aaaaaa;
+        float: left;
+    }
+
+
+
+    .popup-help .popup-list li:last-child{
+        border: none;
+    }
+
+
+
+    .popup-help .popup-list li .popup-list-title{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0f94d9;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .popup-help .popup-list li .popup-list-title strong{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        font-weight: normal;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+
+    .popup-help .popup-list li .popup-list-text{
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        margin: 0px;
+        padding-top: 5px;
+        padding-bottom: 0.17em;
+        padding-left: 5px;
+        padding-right: 0px;
+        line-height: 1.42857143;
+    }
+
+
+    .popup-help .popup-video-player{
+        border: 1px solid #aaaaaa;
+        float: left;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+
+    .popup-help .popup-title-player{
+        font-size: 1.5em;
+        font-family: 'microsoft_tai_leregular';
+        color: #0f94d9;
+        margin-top: 10px;
+    }
+
+
+    .popup-help .popup-title-player strong{
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        font-weight: normal;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+
+    .popup-help .popup-text-player{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        margin: 0px;
+        padding-top: 15px;
+        padding-left: 5px;
+        padding-right: 0px;
+        text-align: left;
+    }
+
+
+
+    .popup-help .popup-text-player hr{
+        margin: -5px 5px 10px 5px;
+    }
+
+
+
+    .popup-help .popup-video-player{
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+
+    .popup-help .popup-video-player iframe{
+        margin-top: 10px;
+    }
+
+
+    .popup-help .popup-help-form{
+        margin-top: 0px;
+    }
+
+
+    .popup-help .popup-help-form select{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        border: none;
+        border-radius: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: inset none;
+        -webkit-transition: none;
+        transition: none;
+    }
+
+
+    .popup-help .popup-help-form input[name=search-help]{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        border: 1px solid #aaaaaa;
+        border-radius: 0px;
+        padding-left: 5px;
+        padding-right: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: inset none;
+        -webkit-transition: none;
+        transition: none;
+        float: left;
+    }
+
+
+    .popup-help .popup-help-form input[name=submit]{
+        width: 18px;
+        height: 20px;
+        float: left;
+        position: relative;
+        margin: 5px 0 0 -25px;
+        z-index: 10;
+    }
+
+
+    .popup-help .popup-footer{
+        border: none;
+        margin: 0px;
+        padding: 10px;
+    } */
+/*
+End help
+ */
+
+
+/*
+ Start login modal
+ */
+.popup-login-modal .popup-header{
+    text-align: center;
+}
+
+
+    .popup-login-modal .popup-body{
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    .popup-login-modal .popup-text{
+        text-align: center;
+        font-size: 0.7em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d20a89;
+    }
+
+
+    .popup-login-modal .popup-text a{
+        color: #d20a89;
+        text-decoration: underline;
+    }
+
+
+    .popup-login-modal .input-group{
+        margin-top: 15px;
+    }
+
+
+    .popup-login-modal .ymo-input{
+	    border-radius: 0px;
+       /*
+        -webkit-box-shadow: none;
+        box-shadow: inset none;
+        -webkit-transition: none;
+        transition: none;*/
+    }
+
+
+    .popup-login-modal .popup-footer{
+        border: none;
+        margin: 0px;
+        padding: 10px;
+    }
+/*
+End login modal
+ */
+
+
+/*
+Start album
+ */
+    .popup-album{
+        width: 602px;
+        margin-left: 135px;
+        margin-bottom: 30px;
+    }
+
+
+    .popup-album img{
+        width: 602px;
+        border: 1px solid #aaaaaa;
+    }
+
+
+    .popup-slider{
+        margin-bottom: 0px;
+    }
+
+
+    .popup-slider .slick-list {
+        position: relative;
+        overflow: hidden;
+        display: block;
+        width: 800px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+
+    .popup-slider img{
+        width: 110px;
+        margin: 0 auto;
+        border: 1px solid #aaaaaa;
+    }
+
+ /*
+End album
+ */
+
+
+/*
+Start search
+ */
+    .popup-search{
+        margin-left: 40px;
+    }
+
+
+    .popup-left hr{
+        width: 92.5%;
+        margin: 0px;
+    }
+
+
+    .popup-list-search{
+        margin-bottom: 0px;
+        padding: 0px;
+        float: left;
+        height: 430px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+
+    .popup-list-search li{
+        list-style: none;
+        float: left;
+        padding-right: 10px;
+        margin-bottom: 40px;
+    }
+
+
+    .popup-list-search img{
+        width: 75px;
+        float: left;
+        margin-right: 10px;
+    }
+
+
+    .popup-list-search h3{
+        width: 250px;
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #038dd5;
+        float: left;
+        margin-top: 3px;
+        margin-bottom: 0px;
+    }
+
+
+    .popup-list-search span{
+        width: 100px;
+        font-size: 1.50em;
+        font-family: 'microsoft_tai_leregular';
+        color: #038dd5;
+        float: left;
+        text-align: right;
+        margin-top: 0px;
+        line-height: 12px;
+        padding-top: 5px;
+    }
+
+
+    .popup-list-search hr{
+        width: 79%;
+        float: left;
+        margin: 5px 0px;
+    }
+
+
+    .popup-list-search hr:last-child{
+        margin-top: 4px;
+        margin-bottom: 0px;
+    }
+
+
+    .popup-list-search p{
+        width: 350px;
+        font-size: 0.68em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        float: left;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+
+    .popup-view-more a{
+        font-size: 0.75em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+        margin-left: 150px
+    }
+
+
+    .popup-view-more a:hover{
+        color: #787878;
+    }
+
+
+/*
+End search
+*/
+
+/*insert-token*/
+    .popup-token{
+        margin-top: 20px;
+    }
+
+
+    .popup-token .ymo-btn-gradient{
+        margin-top: 0px;
+        padding: 9px 20px 8px 20px;
+    }
+/*insert-token*/
+
+
+/*new-transaction*/
+
+    /*global*/
+    .ymo-popup-left,
+    .ymo-popup-center{
+        width: 32%;
+        float: left;
+        margin-right: 10px;
+    }
+
+
+    .ymo-popup-right{
+        width: 32%;
+        float: left;
+    }
+
+
+    .ymo-popup-city{
+        width: 48%;
+        float: left;
+    }
+
+
+    .ymo-popup-zip{
+        width: 48%;
+        float: right;
+    }
+
+
+    .ymo-popup-date{
+        width: 30%;
+        margin-right: 10px;
+    }
+
+
+    .ymo-popup-date:last-child{
+        width: 30%;
+        margin-right: 0px;
+    }
+
+
+    .ymo-list-invoice > tfoot{
+        border: 1px solid #aaaaaa;
+    }
+
+
+    .ymo-list-invoice > tfoot > tr > td:first-child{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #aaaaaa;
+    }
+
+
+    .ymo-list-invoice > tfoot > tr > td{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #787878;
+    }
+
+
+    .ymo-list-invoice > tfoot > tr .ymo-value{
+        font-family: 'microsoft_tai_lebold';
+        color: #d10b89;
+    }
+
+
+    .ymo-required{
+        font-size: 0.75em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d42596;
+        margin-bottom: 0px;
+        padding: 3px 25px 0 0;
+        text-align: right;
+    }
+    /*global*/
+
+    .ymo-popup-transaction .custom-checkbox{
+        top: 6px;
+    }
+
+
+    .ymo-popup-transaction .ymo-list-task label{
+        color: #038dd5;
+    }
+
+
+    .ymo-popup-transaction .ymo-popup-center{
+        margin-top: 15px;
+    }
+
+
+    .ymo-popup-transaction .ymo-search{
+        margin-top: 23px;
+    }
+
+
+    .ymo-popup-transaction .ymo-search input[name=search]{
+        height: 34px;
+    }
+
+
+    .ymo-popup-transaction .ymo-search input[name=magnifier]{
+        top: 27px;
+    }
+
+
+    .ymo-popup-transaction hr{
+        float: left;
+    }
+
+
+    .ymo-popup-item .ymo-popup-group{
+       margin-right: 10px;
+    }
+
+
+    .ymo-popup-item .ymo-btn-gradient{
+        width: 186px;
+       margin-top: 1px;
+    }
+
+
+    .ymo-popup-transaction .ymo-list-invoice > tbody{
+        border: 1px solid #aaaaaa;
+    }
+/*new-transaction*/
+
+
+/*ymobiz-transfer*/
+    .ymo-popup-transfer .ymo-popup-left{
+        width: 49%;
+        float: left;
+        margin-right: 10px;
+    }
+
+
+    .ymo-popup-transfer .ymo-popup-right{
+        width: 49%;
+        float: left;
+    }
+
+
+    .ymo-popup-transfer label{
+        font-size: 1.0em;
+    }
+
+
+    .ymo-popup-transfer label span{
+        color: #d42596;
+    }
+
+
+    .ymo-popup-transfer hr{
+        float: left;
+        margin-top: 10px;
+    }
+
+
+    .ymo-popup-transfer a{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        color: #d42596;
+        text-decoration: underline;
+        position: relative;
+        top: 20px;
+    }
+/*ymobiz-transfer*/
+
+
+/*manage-blocked*/
+    .ymo-table-popup{
+        width: 305px;
+        height: 361px;
+        margin-left: -17px;
+        overflow-y: auto;
+    }
+
+
+    .ymo-table-manage{
+        width: 284px;
+        min-height: 360px;
+        background: #ffffff;
+        border: 1px solid #aaaaaa;
+    }
+
+
+    .ymo-table-manage .ymo-table-list tbody > tr {
+        padding-right: 0px;
+    }
+
+
+    .popup-manage .ymo-table-footer {
+        margin: 12px 0px 20px -4px;
+    }
+
+
+    .popup-manage .ymo-table-footer .ymo-search {
+        float: left;
+        margin: 0px;
+    }
+
+
+    .popup-manage .ymo-right-list{
+        margin-top: 5px;
+    }
+
+
+    .popup-manage .ymo-icon-new {
+        margin-right: 0px;
+    }
+
+
+    .popup-manage .popup-footer {
+        margin-left: 12px;
+    }
+
+
+    .ymo-table-manage .ymo-image{
+        float: right;
+        margin: 4px 5px 0 0;
+    }
+
+
+    .ymo-table-manage .ymo-icon-marketing{
+        height: 16px;
+        float: left;
+        margin-right: 5px;
+    }
+
+
+    .ymo-table-manage .ymo-icon-business{
+        height: 19px;
+        float: left;
+        margin-right: 5px;
+    }
+
+
+    .ymo-table-manage .ymo-icon-network{
+        height: 16px;
+        float: left;
+        margin-right: 5px;
+    }
+
+
+    .ymo-table-manage span{
+        float: right;
+        margin-top: 10px;
+        color: #787878;
+    }
+
+
+    .popup-manage-staff .ymo-select {
+        float: right;
+        margin-right: 5px;
+    }
+
+
+    .popup-manage-staff .ymo-list-show > tr:hover{
+        background: none;
+    }
+
+
+    .popup-manage-staff .ymo-list-show > tr > td {
+        padding: 5px 0px 8px 0px;
+    }
+
+
+    .popup-manage-staff .ymo-list-show ul li:first-child{
+        padding-left: 0px;
+        width: 114px;
+    }
+
+
+    .popup-manage-staff .ymo-list-show ul li{
+        padding-left: 0px;
+        width: 88px;
+        padding-right: 0px;
+        display: -webkit-inline-box;
+    }
+
+
+    .popup-manage-staff .checkbox .custom-checkbox{
+        float: left;
+        margin: 0px;
+    }
+
+
+    .popup-manage-staff .checkbox label{
+        padding-left: 2px;
+    }
+
+
+    .popup-manage-staff .ymo-table-footer .ymo-link{
+        font-size: 0.87em;
+        font-family: 'microsoft_tai_leregular';
+        float: left;
+        color: #d42596;
+        padding: 5px 18px 0 0;
+    }
+
+
+    .popup-manage-staff .ymo-table-footer .ymo-search {
+        float: left;
+        margin-left: -5px;
+    }
+
+
+    .popup-manage-staff .ymo-table-footer .ymo-icon-delete{
+        float: right;
+        top: 5px;
+        position: relative;
+        padding-right: 7px;
+    }
+
+
+    .popup-manage-staff .popup-footer {
+        margin-left: 12px;
+    }
+
+
+    .popup-manage-staff .ymo-table-footer {
+        margin: 12px 0px 20px 0px;
+    }
+
+
+
+    .ymo-tour .modal-content {
+        padding: 5px;
+    }
+
+
+    .ymo-tour .modal-header{
+        padding-bottom: 0px;
+    }
+
+
+    .ymo-tour .modal-title{
+        color: #038dd5;
+        text-align: left;
+    }
+
+
+    .ymo-select-list .ymo-group-list{
+        padding: 10px 0px 0px 0px;
+    }
+
+
+/* 
+.ymo-popups-alert{
+    width: auto;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0px;
+    padding: 15px;
+    outline: 0;
+    -webkit-box-shadow: none);
+    box-shadow: none;
+}
+
+
+.modal-header {
+    min-height: 16px;
+    padding: 0px;
+    margin-bottom: 10px;
+    border-bottom: none;
+}
+
+
+.modal-body {
+    position: relative;
+    padding: 0px;
+}
+
+
+.modal-footer {
+    padding: 0px;
+    text-align: right;
+    border-top: none;
+}
+
+.ymo-popups-alert .ymo-popup-header h4{
+    font-size: 1.12em;
+    font-family: 'microsoft_tai_leregular';
+    color: #038dd5;
+    text-align: center;
+}
+
+
+.ymo-popups-alert .ymo-popup-container{
+    float: left;
+    padding-bottom: 15px;
+}
+
+
+.ymo-popups-alert .ymo-popup-container p{
+    font-size: 0.87em;
+    font-family: 'microsoft_tai_leregular';
+    color: #d42596;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+
+.ymo-popups-alert .ymo-popup-footer{
+    text-align: center;
+}
+
+
+buttons
+.ymo-blue-gradient{
+    font-size: 0.87em;
+    font-family: 'microsoft_tai_leregular';
+    color: #ffffff;
+    border: none;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: inset none;
+    -webkit-transition: none;
+    transition: none;
+    background: #54bbf5; Old browsers
+    background: -moz-linear-gradient(top, #54bbf5 0%, #51baf4 8%, #47b4ed 20%, #3fb3ee 36%, #34afeb 48%, #2faae6 60%, #2ca3e5 68%, #1b9be4 88%, #189be3 100%); FF3.6+
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#54bbf5), color-stop(8%,#51baf4), color-stop(20%,#47b4ed), color-stop(36%,#3fb3ee), color-stop(48%,#34afeb), color-stop(60%,#2faae6), color-stop(68%,#2ca3e5), color-stop(88%,#1b9be4), color-stop(100%,#189be3)); Chrome,Safari4+
+    background: -webkit-linear-gradient(top, #54bbf5 0%,#51baf4 8%,#47b4ed 20%,#3fb3ee 36%,#34afeb 48%,#2faae6 60%,#2ca3e5 68%,#1b9be4 88%,#189be3 100%); Chrome10+,Safari5.1+
+    background: -o-linear-gradient(top, #54bbf5 0%,#51baf4 8%,#47b4ed 20%,#3fb3ee 36%,#34afeb 48%,#2faae6 60%,#2ca3e5 68%,#1b9be4 88%,#189be3 100%); Opera 11.10+
+    background: -ms-linear-gradient(top, #54bbf5 0%,#51baf4 8%,#47b4ed 20%,#3fb3ee 36%,#34afeb 48%,#2faae6 60%,#2ca3e5 68%,#1b9be4 88%,#189be3 100%); IE10+
+    background: linear-gradient(to bottom, #54bbf5 0%,#51baf4 8%,#47b4ed 20%,#3fb3ee 36%,#34afeb 48%,#2faae6 60%,#2ca3e5 68%,#1b9be4 88%,#189be3 100%); W3C
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54bbf5', endColorstr='#189be3',GradientType=0 ); IE6-9
+}
+
+
+.ymo-blue-gradient:hover,
+.ymo-blue-gradient:focus{
+    color: #ffffff;
+    cursor: pointer;
+    background: #1097d9; Old browsers
+    background: -moz-linear-gradient(top, #1097d9 0%, #1095d6 12%, #24a0e0 32%, #35a8e7 56%, #3aacea 68%, #4bb4eb 88%, #4eb8ec 100%); FF3.6+
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1097d9), color-stop(12%,#1095d6), color-stop(32%,#24a0e0), color-stop(56%,#35a8e7), color-stop(68%,#3aacea), color-stop(88%,#4bb4eb), color-stop(100%,#4eb8ec)); Chrome,Safari4+
+    background: -webkit-linear-gradient(top, #1097d9 0%,#1095d6 12%,#24a0e0 32%,#35a8e7 56%,#3aacea 68%,#4bb4eb 88%,#4eb8ec 100%); Chrome10+,Safari5.1+
+    background: -o-linear-gradient(top, #1097d9 0%,#1095d6 12%,#24a0e0 32%,#35a8e7 56%,#3aacea 68%,#4bb4eb 88%,#4eb8ec 100%); Opera 11.10+
+    background: -ms-linear-gradient(top, #1097d9 0%,#1095d6 12%,#24a0e0 32%,#35a8e7 56%,#3aacea 68%,#4bb4eb 88%,#4eb8ec 100%); IE10+
+    background: linear-gradient(to bottom, #1097d9 0%,#1095d6 12%,#24a0e0 32%,#35a8e7 56%,#3aacea 68%,#4bb4eb 88%,#4eb8ec 100%); W3C
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1097d9', endColorstr='#4eb8ec',GradientType=0 ); IE6-9
+} */

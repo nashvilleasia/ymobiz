@@ -1,0 +1,120 @@
+    /*ymo-card-details*/
+    .ymo-partner-supervisor .ymo-card-details{
+        margin-top: 37px;
+    }
+    /*ymo-card-details*/
+
+
+    /*ymo-card-list*/
+    .ymo-partner-supervisor .ymo-card-list > h2{
+        margin-top: 37px;
+    }
+
+
+    .ymo-partner-supervisor .ymo-card-list .ymo-btn-light-pink{
+        font-size: 0.87em;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+
+    .ymo-partner-supervisor .ymo-members .ymo-btn-light-pink{
+        padding: 5px 7px;
+    }
+    /*ymo-card-list*/
+
+
+    /*ymo-card*/
+    .ymo-partner-supervisor .ymo-card{
+        margin-top: 50px;
+        padding-left: 50px;
+    }
+
+
+    .ymo-partner-supervisor .ymo-card-form{
+        margin-top: 0px;
+        padding-left: 50px;
+    }
+
+
+    .ymo-partner-supervisor .checkbox {
+        margin-top: 5px;
+        padding-left: 0px;
+    }
+    /*ymo-card*/
+
+
+    /*ymo-card-form*/
+    .ymo-partner-supervisor .ymo-card-form{
+        margin-top: 20px;
+    }
+    /*ymo-card-form*/
+
+
+    /*ymo-partner-order*/
+    .ymo-partner-order .ymo-card-form{
+        margin-top: 36px;
+    }
+
+
+    .ymo-partner-order .ymo-card-form h2{
+        font-family: 'microsoft_tai_leregular';
+    }
+    /*ymo-partner-order*/
+
+
+    /*ymo-add-members*/
+    .ymo-add-members .ymo-card-form{
+        margin-top: 0px;
+    }
+
+
+    .ymo-add-members .ymo-card-form > h2{
+        font-family: 'microsoft_tai_leregular';
+    }
+
+
+    .ymo-add-members .ymo-card-form .ymo-group{
+        margin-left: 10px;
+    }
+
+
+    .ymo-add-members .ymo-card-documents hr{
+        width: 100%;
+        margin: 20px 0px;
+    }
+    /*ymo-add-members*/
+
+
+    /*ymo-order-card*/
+    .ymo-order-card .ymo-card-form{
+        margin-top: 40px;
+    }
+
+
+    .ymo-order-card .ymo-card-form h2{
+        font-family: 'microsoft_tai_leregular';
+    }
+
+
+    .ymo-order-card .ymo-group .ymo-btn-upload{
+        float: left;
+        margin-bottom: 10px;
+    }
+
+
+    .ymo-order-card .ymo-group .link-upload{
+        font-size: 0.75em;
+        font-family: 'microsoft_tai_leregular';
+        position: relative;
+        top: 17px;
+        left: 10px;
+    }
+
+
+    .ymo-order-card .ymo-group .close{
+        font-size: 0.75em;
+        position: relative;
+        top: 24px;
+    }
+    /*ymo-order-card*/
